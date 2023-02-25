@@ -1,0 +1,2214 @@
+2023-02-02 19:37:44 -- OrganizePDV start -- 
+2023-02-02 19:37:44 INFO: Iniciando 'Server' as 19:37:44
+2023-02-02 19:37:45 INFO: Tabela USUARIO criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela ARMAZEM criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela MUNICIPIO criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela TIPODEPESSOA criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela PESSOA criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela PESSOAXTIPOPESSOA criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela TIPODEMATERIAL criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela PARAMETRO criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela CSTDEICMS criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela CSTDEPIS criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela CSTDECOFINS criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela CSTDEIPI criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela CFOP criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela CEST criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela NCM criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela TABELADEPRECO criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela UNIDADEDEMEDIDA criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela TES criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela TIPODEPRODUTO criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela PRODUTO criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela PRODUTOXTIPOPRODUTO criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela SALDO criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela MOVIMENTACAO criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela UF criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela FORMADEPAGAMENTO criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela CAIXA criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela NATUREZAOPERACAO criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela PRECOS criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela PRECOSINDICADOS criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela INDICADORDEPRECO criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela TEF criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela TEFREQ criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela TEFRESP criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela VEICULO criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela PEDIDO criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela FATURAPEDIDO criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela ITEMPEDIDO criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela NFEPEDIDO criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela PGTOPEDIDO criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela TEFPEDIDO criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela MNFCE criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela DNFCE criada com sucesso!
+2023-02-02 19:37:45 INFO: Tabela PNFCE criada com sucesso!
+2023-02-02 19:37:46 INFO: Tabela MNFE criada com sucesso!
+2023-02-02 19:37:46 INFO: Tabela DNFE criada com sucesso!
+2023-02-02 19:37:46 INFO: Tabela PNFE criada com sucesso!
+2023-02-02 19:37:46 INFO: Tabela PRODUTOSNOFORNECEDOR criada com sucesso!
+2023-02-02 19:37:46 INFO: Tabela NOTA criada com sucesso!
+2023-02-02 19:37:46 INFO: Tabela FATURANOTA criada com sucesso!
+2023-02-02 19:37:46 INFO: Tabela ITEMNOTA criada com sucesso!
+2023-02-02 19:37:46 INFO: Tabela VENDEDOR criada com sucesso!
+2023-02-02 19:37:46 INFO: Tabela NUMERACAO criada com sucesso!
+2023-02-02 19:37:46 INFO: Tabela TRANSFERENCIA criada com sucesso!
+2023-02-02 19:37:46 INFO: Tabela ICMSMESTRE criada com sucesso!
+2023-02-02 19:37:46 INFO: Tabela ICMSE111 criada com sucesso!
+2023-02-02 19:37:46 INFO: Tabela ICMSE112 criada com sucesso!
+2023-02-02 19:37:46 INFO: Tabela ICMSE115 criada com sucesso!
+2023-02-02 19:37:46 INFO: Tabela ICMSE116 criada com sucesso!
+2023-02-02 19:37:46 INFO: Tabela SPED1MESTRE criada com sucesso!
+2023-02-02 19:37:46 INFO: Tabela SPED1LINHA criada com sucesso!
+2023-02-02 19:37:46 INFO: Tabela SPED1DETALHE criada com sucesso!
+2023-02-02 19:37:46 INFO: Tabela IT criada com sucesso!
+2023-02-02 19:37:46 INFO: Tabela INVENTARIO criada com sucesso!
+2023-02-02 19:37:46 INFO: Tabela INVENTARIODETALHE criada com sucesso!
+2023-02-02 19:37:50 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1822) Failed to add the foreign key constraint. Missing index for constraint 'OINDICADORFK_PRECOSINDICADOS' in the referenced table 'indicadordepreco' - Failed to add the foreign key constraint. Missing index for constraint 'OINDICADORFK_PRECOSINDICADOS' in the referenced table 'indicadordepreco'
+Command sent to database : 
+ALTER TABLE `precosindicados` ADD CONSTRAINT OINDICADORFK_PRECOSINDICADOS FOREIGN KEY (`nid_oindicador`) REFERENCES `indicadordepreco` (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1822
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:37:52 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1822) Failed to add the foreign key constraint. Missing index for constraint 'ONOTAFK_NFEPEDIDO' in the referenced table 'nota' - Failed to add the foreign key constraint. Missing index for constraint 'ONOTAFK_NFEPEDIDO' in the referenced table 'nota'
+Command sent to database : 
+ALTER TABLE `nfepedido` ADD CONSTRAINT ONOTAFK_NFEPEDIDO FOREIGN KEY (`nid_onota`) REFERENCES `nota` (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1822
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:37:57 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1822) Failed to add the foreign key constraint. Missing index for constraint 'OINVENTARIOFK_ICMSMESTRE' in the referenced table 'inventario' - Failed to add the foreign key constraint. Missing index for constraint 'OINVENTARIOFK_ICMSMESTRE' in the referenced table 'inventario'
+Command sent to database : 
+ALTER TABLE `icmsmestre` ADD CONSTRAINT OINVENTARIOFK_ICMSMESTRE FOREIGN KEY (`nid_oinventario`) REFERENCES `inventario` (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1822
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:37:57 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1822) Failed to add the foreign key constraint. Missing index for constraint 'OSPEDFK_ICMSMESTRE' in the referenced table 'sped1mestre' - Failed to add the foreign key constraint. Missing index for constraint 'OSPEDFK_ICMSMESTRE' in the referenced table 'sped1mestre'
+Command sent to database : 
+ALTER TABLE `icmsmestre` ADD CONSTRAINT OSPEDFK_ICMSMESTRE FOREIGN KEY (`nid_osped`) REFERENCES `sped1mestre` (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1822
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:38:02 INFO: IncluirAdmin
+2023-02-02 19:38:02 INFO: ImportarCFOP: C:\Paulo\Matheus\OrganizePDV-main\csv\cfop_1.csv
+2023-02-02 19:38:02 INFO: ImportarCOFINS: C:\Paulo\Matheus\OrganizePDV-main\csv\cofins_1.csv
+2023-02-02 19:38:02 INFO: ImportarPIS: C:\Paulo\Matheus\OrganizePDV-main\csv\pis_1.csv
+2023-02-02 19:38:02 INFO: ImportarIPI: C:\Paulo\Matheus\OrganizePDV-main\csv\ipi_1.csv
+2023-02-02 19:38:02 INFO: ImportarMunicipio: C:\Paulo\Matheus\OrganizePDV-main\csv\municipio_1.csv
+2023-02-02 19:38:03 INFO: ImportarNCM: C:\Paulo\Matheus\OrganizePDV-main\csv\ncm_1.csv
+2023-02-02 19:38:03 INFO: ImportarICMS: C:\Paulo\Matheus\OrganizePDV-main\csv\icms_1.csv
+2023-02-02 19:38:03 INFO: ImportarCEST: C:\Paulo\Matheus\OrganizePDV-main\csv\cest_1.csv
+2023-02-02 19:38:03 INFO: ImportarUM: C:\Paulo\Matheus\OrganizePDV-main\csv\unidade_1.csv
+2023-02-02 19:38:03 INFO: ImportarUF: C:\Paulo\Matheus\OrganizePDV-main\csv\uf_1.csv
+2023-02-02 19:38:03 INFO: ImportarTblPreco
+2023-02-02 19:38:03 INFO: Erro ao cadastrar empresa demonstração: Informe o município/cidade
+
+2023-02-02 19:38:03 INFO: Erro ao cadastrar consumidor final padrao: Informe o município/cidade
+
+2023-02-02 19:38:03 INFO: ERRORDIALOG
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1452) Cannot add or update a child row: a foreign key constraint fails (`pdv`.`formadepagamento`, CONSTRAINT `OPAGADORFK_FORMADEPAGAMENTO` FOREIGN KEY (`nid_opagador`) REFERENCES `pessoa` (`NID`)) - Cannot add or update a child row: a foreign key constraint fails (`pdv`.`formadepagamento`, CONSTRAINT `OPAGADORFK_FORMADEPAGAMENTO` FOREIGN KEY (`nid_opagador`) REFERENCES `pessoa` (`NID`))
+Command : UPDATE `formadepagamento` SET `cdescricao` = 'A VISTA' , `ctipo` = '01' , `ddataatu` = '20230202' , `ddatareg` = '20230202' , `hhoraatu` = '19:38:03' , `hhorareg` = '19:38:03' , `nid_opagador` = 11111111111111110000  WHERE `sr_recno` = 1
+hStmt   :
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1452
+ - RollBack executed.
+Operation = 
+
+2023-02-02 19:53:25 -- OrganizePDV start -- 
+2023-02-02 19:53:25 INFO: Iniciando 'Server' as 19:53:25
+2023-02-02 19:53:32 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `usuario` ADD CONSTRAINT USUARIOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:32 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `armazem` ADD CONSTRAINT ARMAZEMPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:32 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `municipio` ADD CONSTRAINT MUNICIPIOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:32 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tipodepessoa` ADD CONSTRAINT TIPODEPESSOAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:32 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `pessoa` ADD CONSTRAINT PESSOAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:33 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `pessoaxtipopessoa` ADD CONSTRAINT PESSOAXTIPOPESSOAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:33 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tipodematerial` ADD CONSTRAINT TIPODEMATERIALPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:33 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `parametro` ADD CONSTRAINT PARAMETROPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:33 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `cstdeicms` ADD CONSTRAINT CSTDEICMSPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:33 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `cstdepis` ADD CONSTRAINT CSTDEPISPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:33 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `cstdecofins` ADD CONSTRAINT CSTDECOFINSPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:33 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `cstdeipi` ADD CONSTRAINT CSTDEIPIPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:33 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `cfop` ADD CONSTRAINT CFOPPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:34 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `cest` ADD CONSTRAINT CESTPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:34 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `ncm` ADD CONSTRAINT NCMPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:35 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tabeladepreco` ADD CONSTRAINT TABELADEPRECOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:35 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `unidadedemedida` ADD CONSTRAINT UNIDADEDEMEDIDAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:36 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tes` ADD CONSTRAINT TESPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:36 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tipodeproduto` ADD CONSTRAINT TIPODEPRODUTOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:37 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `produto` ADD CONSTRAINT PRODUTOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:37 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `produtoxtipoproduto` ADD CONSTRAINT PRODUTOXTIPOPRODUTOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:37 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `saldo` ADD CONSTRAINT SALDOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:38 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `movimentacao` ADD CONSTRAINT MOVIMENTACAOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:38 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `uf` ADD CONSTRAINT UFPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:38 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `formadepagamento` ADD CONSTRAINT FORMADEPAGAMENTOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:38 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `caixa` ADD CONSTRAINT CAIXAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:38 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `naturezaoperacao` ADD CONSTRAINT NATUREZAOPERACAOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:38 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `precos` ADD CONSTRAINT PRECOSPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:39 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `precosindicados` ADD CONSTRAINT PRECOSINDICADOSPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:39 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `indicadordepreco` ADD CONSTRAINT INDICADORDEPRECOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:39 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tef` ADD CONSTRAINT TEFPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:39 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tefreq` ADD CONSTRAINT TEFREQPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:40 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tefresp` ADD CONSTRAINT TEFRESPPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:40 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `veiculo` ADD CONSTRAINT VEICULOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:41 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `pedido` ADD CONSTRAINT PEDIDOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:41 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `faturapedido` ADD CONSTRAINT FATURAPEDIDOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:41 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `itempedido` ADD CONSTRAINT ITEMPEDIDOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:42 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `nfepedido` ADD CONSTRAINT NFEPEDIDOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:42 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `pgtopedido` ADD CONSTRAINT PGTOPEDIDOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:42 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tefpedido` ADD CONSTRAINT TEFPEDIDOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:42 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `mnfce` ADD CONSTRAINT MNFCEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:42 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `dnfce` ADD CONSTRAINT DNFCEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:43 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `pnfce` ADD CONSTRAINT PNFCEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:43 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `mnfe` ADD CONSTRAINT MNFEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:43 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `dnfe` ADD CONSTRAINT DNFEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:43 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `pnfe` ADD CONSTRAINT PNFEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:44 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `produtosnofornecedor` ADD CONSTRAINT PRODUTOSNOFORNECEDORPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:44 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `nota` ADD CONSTRAINT NOTAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:45 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `faturanota` ADD CONSTRAINT FATURANOTAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:45 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `itemnota` ADD CONSTRAINT ITEMNOTAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:46 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `vendedor` ADD CONSTRAINT VENDEDORPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:46 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `numeracao` ADD CONSTRAINT NUMERACAOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:46 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `transferencia` ADD CONSTRAINT TRANSFERENCIAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:47 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `icmsmestre` ADD CONSTRAINT ICMSMESTREPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:47 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `icmse111` ADD CONSTRAINT ICMSE111PK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:47 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `icmse112` ADD CONSTRAINT ICMSE112PK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:47 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `icmse115` ADD CONSTRAINT ICMSE115PK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:47 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `icmse116` ADD CONSTRAINT ICMSE116PK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:47 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `sped1mestre` ADD CONSTRAINT SPED1MESTREPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:47 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `sped1linha` ADD CONSTRAINT SPED1LINHAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:47 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `sped1detalhe` ADD CONSTRAINT SPED1DETALHEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:48 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `it` ADD CONSTRAINT ITPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:48 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `inventario` ADD CONSTRAINT INVENTARIOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:48 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `inventariodetalhe` ADD CONSTRAINT INVENTARIODETALHEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-02 19:53:49 INFO: Termiando 'Server' as 19:53:49 duração de 00:00:24
+2023-02-14 19:57:39 -- OrganizePDV start -- 
+2023-02-14 19:57:39 INFO: Iniciando 'Server' as 19:57:39
+2023-02-14 19:57:43 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `usuario` ADD CONSTRAINT USUARIOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:43 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `armazem` ADD CONSTRAINT ARMAZEMPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:43 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `municipio` ADD CONSTRAINT MUNICIPIOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:44 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tipodepessoa` ADD CONSTRAINT TIPODEPESSOAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:44 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `pessoa` ADD CONSTRAINT PESSOAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:44 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `pessoaxtipopessoa` ADD CONSTRAINT PESSOAXTIPOPESSOAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:44 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tipodematerial` ADD CONSTRAINT TIPODEMATERIALPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:45 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `parametro` ADD CONSTRAINT PARAMETROPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:45 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `cstdeicms` ADD CONSTRAINT CSTDEICMSPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:45 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `cstdepis` ADD CONSTRAINT CSTDEPISPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:45 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `cstdecofins` ADD CONSTRAINT CSTDECOFINSPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:45 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `cstdeipi` ADD CONSTRAINT CSTDEIPIPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:46 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `cfop` ADD CONSTRAINT CFOPPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:46 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `cest` ADD CONSTRAINT CESTPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:47 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `ncm` ADD CONSTRAINT NCMPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:48 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tabeladepreco` ADD CONSTRAINT TABELADEPRECOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:48 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `unidadedemedida` ADD CONSTRAINT UNIDADEDEMEDIDAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:49 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tes` ADD CONSTRAINT TESPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:49 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tipodeproduto` ADD CONSTRAINT TIPODEPRODUTOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:50 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `produto` ADD CONSTRAINT PRODUTOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:50 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `produtoxtipoproduto` ADD CONSTRAINT PRODUTOXTIPOPRODUTOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:51 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `saldo` ADD CONSTRAINT SALDOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:51 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `movimentacao` ADD CONSTRAINT MOVIMENTACAOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:51 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `uf` ADD CONSTRAINT UFPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:51 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `formadepagamento` ADD CONSTRAINT FORMADEPAGAMENTOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:51 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `caixa` ADD CONSTRAINT CAIXAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:51 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `naturezaoperacao` ADD CONSTRAINT NATUREZAOPERACAOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:52 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `precos` ADD CONSTRAINT PRECOSPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:52 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `precosindicados` ADD CONSTRAINT PRECOSINDICADOSPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:53 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `indicadordepreco` ADD CONSTRAINT INDICADORDEPRECOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:53 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tef` ADD CONSTRAINT TEFPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:53 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tefreq` ADD CONSTRAINT TEFREQPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:54 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tefresp` ADD CONSTRAINT TEFRESPPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:55 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `veiculo` ADD CONSTRAINT VEICULOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:55 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `pedido` ADD CONSTRAINT PEDIDOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:56 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `faturapedido` ADD CONSTRAINT FATURAPEDIDOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:56 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `itempedido` ADD CONSTRAINT ITEMPEDIDOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:57 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `nfepedido` ADD CONSTRAINT NFEPEDIDOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:57 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `pgtopedido` ADD CONSTRAINT PGTOPEDIDOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:57 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tefpedido` ADD CONSTRAINT TEFPEDIDOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:58 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `mnfce` ADD CONSTRAINT MNFCEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:58 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `dnfce` ADD CONSTRAINT DNFCEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:58 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `pnfce` ADD CONSTRAINT PNFCEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:58 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `mnfe` ADD CONSTRAINT MNFEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:59 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `dnfe` ADD CONSTRAINT DNFEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:59 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `pnfe` ADD CONSTRAINT PNFEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:57:59 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `produtosnofornecedor` ADD CONSTRAINT PRODUTOSNOFORNECEDORPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:58:00 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `nota` ADD CONSTRAINT NOTAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:58:01 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `faturanota` ADD CONSTRAINT FATURANOTAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:58:02 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `itemnota` ADD CONSTRAINT ITEMNOTAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:58:03 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `vendedor` ADD CONSTRAINT VENDEDORPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:58:03 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `numeracao` ADD CONSTRAINT NUMERACAOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:58:04 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `transferencia` ADD CONSTRAINT TRANSFERENCIAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:58:04 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `icmsmestre` ADD CONSTRAINT ICMSMESTREPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:58:05 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `icmse111` ADD CONSTRAINT ICMSE111PK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:58:05 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `icmse112` ADD CONSTRAINT ICMSE112PK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:58:05 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `icmse115` ADD CONSTRAINT ICMSE115PK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:58:05 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `icmse116` ADD CONSTRAINT ICMSE116PK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:58:05 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `sped1mestre` ADD CONSTRAINT SPED1MESTREPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:58:05 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `sped1linha` ADD CONSTRAINT SPED1LINHAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:58:05 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `sped1detalhe` ADD CONSTRAINT SPED1DETALHEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:58:06 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `it` ADD CONSTRAINT ITPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:58:06 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `inventario` ADD CONSTRAINT INVENTARIOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:58:06 INFO: TABELA:MANTERINDICE
+SubSystem = SR_MYSQL
+SubCode = 0
+Severity = 2
+Description = SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `inventariodetalhe` ADD CONSTRAINT INVENTARIODETALHEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+ - RollBack executed.
+Operation = 
+Stack = 
+
+
+2023-02-14 19:58:07 INFO: Termiando 'Server' as 19:58:07 duração de 00:00:28

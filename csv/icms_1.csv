@@ -1,0 +1,22 @@
+CST;Descrição;CRT;Tributável
+101;Tributada pelo Simples Nacional com permissão de crédito;1;Sim
+102;Tributada pelo Simples Nacional sem permissão de crédito;1;Sim
+103;Isenção do ICMS no Simples Nacional para faixa de receita bruta;1;Sim
+300;Imune;1;Nao
+400;Não tributada pelo Simples Nacional;1;Nao
+201;Tributada pelo Simples Nacional com permissão de crédito e com cobrança do ICMS por Substituição Tributária;1;Sim
+202;Tributada pelo Simples Nacional sem permissão de crédito e com cobrança do ICMS por Substituição Tributária;1;Sim
+203;Isenção do ICMS nos Simples Nacional para faixa de receita bruta e com cobrança do ICMS por Substituição Tributária;1;Nao
+500;ICMS cobrado anteriormente por substituição tributária (substituído) ou por antecipação;1;Nao
+900;Outros;1;Sim
+00;Tributada integralmente;0;Sim
+10;Tributada e com cobrança do ICMS por substituição tributária;0;Sim
+20;Com redução de base de cálculo;0;Sim
+30;Isenta ou não tributada e com cobrança do ICMS por substituição tributária;0;Sim
+40;Isenta;0;Nao
+41;Não tributada;0;Nao
+50;Suspensão;0;Nao
+51;Diferimento;0;Nao
+60;ICMS cobrado anteriormente por substituição tributária;0;Nao
+70;Com redução de base de cálculo e cobrança do ICMS por substituição tributária;0;Sim
+90;Outros;0;Sim

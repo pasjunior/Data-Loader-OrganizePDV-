@@ -1,0 +1,998 @@
+﻿Anexo;Segmento;item;CEST;NCM;Descrição
+II;AUTOPEÇAS;10;100100;3815.12.10 3815.12.90;Catalisadores em colmeia cerâmica ou metálica para conversão catalítica de gases de escape de veículos e outros catalisadores
+II;AUTOPEÇAS;20;100200;3917;Tubos e seus acessórios (por exemplo, juntas, cotovelos, flanges, uniões), de plásticos
+II;AUTOPEÇAS;30;100300;3918.10.00;Protetores de caçamba
+II;AUTOPEÇAS;40;100400;3923.30.00;Reservatórios de óleo
+II;AUTOPEÇAS;50;100500;3926.30.00;Frisos, decalques, molduras e acabamentos
+II;AUTOPEÇAS;60;100600;4010.3 5910.00.00;Correias de transmissão de borracha vulcanizada, de matérias têxteis, mesmo impregnadas, revestidas ou recobertas, de plástico, ou estratificadas com plástico ou reforçadas com metal ou com outras matérias
+II;AUTOPEÇAS;70;100700;4016.93.00 4823.90.9;Juntas, gaxetas e outros elementos com função semelhante de vedação
+II;AUTOPEÇAS;80;100800;4016.10.10;Partes de veículos automóveis, tratores e máquinas autopropulsadas
+II;AUTOPEÇAS;90;100900;4016.99.90 5705.00.00;Tapetes, revestimentos, mesmo confeccionados, batentes, buchas e coxins
+II;AUTOPEÇAS;100;101000;5903.90.00;Tecidos impregnados, revestidos, recobertos ou estratificados, com plástico
+II;AUTOPEÇAS;110;101100;5909.00.00;Mangueiras e tubos semelhantes, de matérias têxteis, mesmo com reforço ou acessórios de outras matérias
+II;AUTOPEÇAS;120;101200;6306.1;Encerados e toldos
+II;AUTOPEÇAS;130;101300;6506.10.00;Capacetes e artefatos de uso semelhante, de proteção, para uso em motocicletas, incluídos ciclomotores
+II;AUTOPEÇAS;140;101400;6813;Guarnições de fricção (por exemplo, placas, rolos, tiras, segmentos, discos, anéis, pastilhas), não montadas, para freios, embreagens ou qualquer outro mecanismo de fricção, à base de amianto, de outras substâncias minerais ou de celulose, mesmo combinadas com têxteis ou outras matérias
+II;AUTOPEÇAS;150;101500;7007.11.00 7007.21.00;Vidros de dimensões e formatos que permitam aplicação automotiva
+II;AUTOPEÇAS;160;101600;7009.10.00;Espelhos retrovisores
+II;AUTOPEÇAS;170;101700;7014.00.00;Lentes de faróis, lanternas e outros utensílios
+II;AUTOPEÇAS;180;101800;7311.00.00;Cilindro de aço para GNV (gás natural veicular)
+II;AUTOPEÇAS;190;101900;7311.00.00;Recipientes para gases comprimidos ou liquefeitos, de ferro fundido, ferro ou aço, exceto o descrito no item 18.0
+II;AUTOPEÇAS;200;102000;7320;Molas e folhas de molas, de ferro ou aço
+II;AUTOPEÇAS;210;102100;7325;Obras moldadas, de ferro fundido, ferro ou aço, exceto as do código 7325.91.00
+II;AUTOPEÇAS;220;102200;7806.00;Peso de chumbo para balanceamento de roda
+II;AUTOPEÇAS;230;102300;8007.00.90;Peso para balanceamento de roda e outros utensílios de estanho
+II;AUTOPEÇAS;240;102400;8301.20 8301.60;Fechaduras e partes de fechaduras
+II;AUTOPEÇAS;250;102500;8301.70;Chaves apresentadas isoladamente
+II;AUTOPEÇAS;260;102600;8302.10.00 8302.30.00;Dobradiças, guarnições, ferragens e artigos semelhantes de metais comuns
+II;AUTOPEÇAS;270;102700;8310.00;Triângulo de segurança
+II;AUTOPEÇAS;280;102800;8407.3;Motores de pistão alternativo dos tipos utilizados para propulsão de veículos do Capítulo 87
+II;AUTOPEÇAS;290;102900;8408.20;Motores dos tipos utilizados para propulsão de veículos automotores
+II;AUTOPEÇAS;300;103000;8409.9;Partes reconhecíveis como exclusiva ou principalmente destinadas aos motores das posições 8407 ou 8408
+II;AUTOPEÇAS;310;103100;8412.2;Motores hidráulicos
+II;AUTOPEÇAS;320;103200;8413.30;Bombas para combustíveis, lubrificantes ou líquidos de arrefecimento, próprias para motores de ignição por centelha ou por compressão
+II;AUTOPEÇAS;330;103300;8414.10.00;Bombas de vácuo
+II;AUTOPEÇAS;340;103400;8414.80.1 8414.80.2;Compressores e turbocompressores de ar
+II;AUTOPEÇAS;350;103500;8413.91.90 8414.90.10 8414.90.3 8414.90.39;Partes das bombas, compressores e turbocompressores dos CEST 01.032.00, 01.033.00 e 01.034.00
+II;AUTOPEÇAS;360;103600;8415.20;Máquinas e aparelhos de ar condicionado
+II;AUTOPEÇAS;370;103700;8421.23.00;Aparelhos para filtrar óleos minerais nos motores de ignição por centelha ou por compressão
+II;AUTOPEÇAS;380;103800;8421.29.90;Filtros a vácuo
+II;AUTOPEÇAS;390;103900;8421.9;Partes dos aparelhos para filtrar ou depurar líquidos ou gases
+II;AUTOPEÇAS;400;104000;8424.10.00;Extintores, mesmo carregados
+II;AUTOPEÇAS;410;104100;8421.31.00;Filtros de entrada de ar para motores de ignição por centelha ou por compressão
+II;AUTOPEÇAS;420;104200;8421.39.20;Depuradores por conversão catalítica de gases de escape
+II;AUTOPEÇAS;430;104300;8425.42.00;Macacos
+II;AUTOPEÇAS;440;104400;8431.10.10;Partes para macacos do CEST 01.043.00
+II;AUTOPEÇAS;450;104500;8431.49.2;Partes reconhecíveis como exclusiva ou principalmente destinadas às máquinas agrícolas ou rodoviárias
+II;AUTOPEÇAS;451;104501;8433.90.90;Partes reconhecíveis como exclusiva ou principalmente destinadas às máquinas agrícolas ou rodoviárias
+II;AUTOPEÇAS;460;104600;8481.10.00;Válvulas redutoras de pressão
+II;AUTOPEÇAS;470;104700;8481.2;Válvulas para transmissão óleo-hidráulicas ou pneumáticas
+II;AUTOPEÇAS;480;104800;8481.80.92;Válvulas solenoides
+II;AUTOPEÇAS;490;104900;8482;Rolamentos
+II;AUTOPEÇAS;500;105000;8483;Árvores de transmissão (incluídas as árvores de “cames” e virabrequins) e manivelas mancais e “bronzes” engrenagens e rodas de fricção eixos de esferas ou de roletes redutores, multiplicadores, caixas de transmissão e variadores de velocidade, incluídos os conversores de torque volantes e polias, incluídas as polias para cadernais embreagens e dispositivos de acoplamento, incluídas as juntas de articulação
+II;AUTOPEÇAS;510;105100;8484;Juntas metaloplásticas jogos ou sortidos de juntas de composições diferentes, apresentados em bolsas, envelopes ou embalagens semelhantes juntas de vedação mecânicas (selos mecânicos)
+II;AUTOPEÇAS;520;105200;8505.20;Acoplamentos, embreagens, variadores de velocidade e freios, eletromagnéticos
+II;AUTOPEÇAS;530;105300;8507.10;Acumuladores elétricos de chumbo, do tipo utilizado para o arranque dos motores de pistão, exceto os classificados no CEST 01.053.01
+II;AUTOPEÇAS;531;105301;8507.10.10;Acumuladores elétricos de chumbo, do tipo utilizado para o arranque dos motores de pistão e de capacidade inferior ou igual a 20 Ah e tensão inferior ou igual a 12 V
+II;AUTOPEÇAS;540;105400;8511;Aparelhos e dispositivos elétricos de ignição ou de arranque para motores de ignição por centelha ou por compressão (por exemplo, magnetos, dínamos-magnetos, bobinas de ignição, velas de ignição ou de aquecimento, motores de arranque) geradores (dínamos e alternadores, por exemplo) e conjuntores-disjuntores utilizados com estes motores
+II;AUTOPEÇAS;550;105500;8512.20 8512.40 8512.90.00;Aparelhos elétricos de iluminação ou de sinalização (exceto os da posição 8539), limpadores de para-brisas, degeladores e desembaçadores (desembaciadores) elétricos e suas partes
+II;AUTOPEÇAS;560;105600;8517.12.13;Telefones móveis do tipo dos utilizados em veículos automóveis.
+II;AUTOPEÇAS;570;105700;8518;Alto-falantes, amplificadores elétricos de audiofrequência e partes
+II;AUTOPEÇAS;580;105800;8518.50.00;Aparelhos elétricos de amplificação de som para veículos automotores
+II;AUTOPEÇAS;590;105900;8519.81;Aparelhos de reprodução de som
+II;AUTOPEÇAS;600;106000;8525.50.1 8525.60.10;Aparelhos transmissores (emissores) de radiotelefonia ou radiotelegrafia (rádio receptor/transmissor)
+II;AUTOPEÇAS;610;106100;8527.21.00;Aparelhos receptores de radiodifusão que só funcionem com fonte externa de energia combinados com um aparelho de gravação ou de reprodução de som, do tipo utilizado em veículos automóveis
+II;AUTOPEÇAS;620;106200;8527.29.00;Outros aparelhos receptores de radiodifusão que só funcionem com fonte externa de energia, do tipo utilizado em veículos automóveis
+II;AUTOPEÇAS;621;106201;8521.90.90;Outros aparelhos videofônicos de gravação ou de reprodução, mesmo incorporando um receptor de sinais videofônicos, dos tipos utilizados exclusivamente em veículos automotores
+II;AUTOPEÇAS;630;106300;8529.10.90;Antenas
+II;AUTOPEÇAS;640;106400;8534.00;Circuitos impressos
+II;AUTOPEÇAS;650;106500;8535.30 8536.50;Interruptores e seccionadores e comutadores
+II;AUTOPEÇAS;660;106600;8536.10.00;Fusíveis e corta-circuitos de fusíveis
+II;AUTOPEÇAS;670;106700;8536.20.00;Disjuntores
+II;AUTOPEÇAS;680;106800;8536.4;Relés
+II;AUTOPEÇAS;690;106900;8538;Partes reconhecíveis como exclusivas ou principalmente destinados aos aparelhos dos CEST 01.065.00, 01.066.00, 01.067.00 e 01.068.00
+II;AUTOPEÇAS;700;107000;8539.10;Faróis e projetores, em unidades seladas
+II;AUTOPEÇAS;710;107100;8539.2;Lâmpadas e tubos de incandescência, exceto de raios ultravioleta ou infravermelhos
+II;AUTOPEÇAS;720;107200;8544.20.00;Cabos coaxiais e outros condutores elétricos coaxiais
+II;AUTOPEÇAS;730;107300;8544.30.00;Jogos de fios para velas de ignição e outros jogos de fios
+II;AUTOPEÇAS;740;107400;8707;Carroçarias para os veículos automóveis das posições 8701 a 8705, incluídas as cabinas
+II;AUTOPEÇAS;750;107500;8708;Partes e acessórios dos veículos automóveis das posições 8701 a 8705
+II;AUTOPEÇAS;760;107600;8714.1;Parte e acessórios de motocicletas (incluídos os ciclomotores)
+II;AUTOPEÇAS;770;107700;8716.90.90;Engates para reboques e semirreboques
+II;AUTOPEÇAS;780;107800;9026.10;Medidores de nível Medidores de vazão
+II;AUTOPEÇAS;790;107900;9026.20;Aparelhos para medida ou controle da pressão
+II;AUTOPEÇAS;800;108000;9029;Contadores, indicadores de velocidade e tacômetros, suas partes e acessórios
+II;AUTOPEÇAS;810;108100;9030.33.21;Amperímetros
+II;AUTOPEÇAS;820;108200;9031.80.40;Aparelhos digitais, de uso em veículos automóveis, para medida e indicação de múltiplas grandezas tais como: velocidade média, consumos instantâneo e médio e autonomia (computador de bordo)
+II;AUTOPEÇAS;830;108300;9032.89.2;Controladores eletrônicos
+II;AUTOPEÇAS;840;108400;9104.00.00;Relógios para painéis de instrumentos e relógios semelhantes
+II;AUTOPEÇAS;850;108500;9401.20.00 9401.90.90;Assentos e partes de assentos
+II;AUTOPEÇAS;860;108600;9613.80.00;Acendedores
+II;AUTOPEÇAS;870;108700;4009;Tubos de borracha vulcanizada não endurecida, mesmo providos de seus acessórios
+II;AUTOPEÇAS;880;108800;4504.90.00 6812.99.10;Juntas de vedação de cortiça natural e de amianto
+II;AUTOPEÇAS;890;108900;4823.40.00;Papel-diagrama para tacógrafo, em disco
+II;AUTOPEÇAS;900;109000;3919.10.00 3919.90.00 8708.29.99;Fitas, tiras, adesivos, autocolantes, de plástico, refletores, mesmo em rolos placas metálicas com película de plástico refletora, próprias para colocação em carrocerias, para-choques de veículos de carga, motocicletas, ciclomotores, capacetes, bonés de agentes de trânsito e de condutores de veículos, atuando como dispositivos refletivos de segurança rodoviários
+II;AUTOPEÇAS;910;109100;8412.31.10;Cilindros pneumáticos
+II;AUTOPEÇAS;920;109200;8413.19.00 8413.50.90 8413.81.00;Bomba elétrica de lavador de para-brisa
+II;AUTOPEÇAS;930;109300;8413.60.19 8413.70.10;Bomba de assistência de direção hidráulica
+II;AUTOPEÇAS;940;109400;8414.59.10 8414.59.90;Motoventiladores
+II;AUTOPEÇAS;950;109500;8421.39.90;Filtros de pólen do ar-condicionado
+II;AUTOPEÇAS;960;109600;8501.10.19;“Máquina” de vidro elétrico de porta
+II;AUTOPEÇAS;970;109700;8501.31.10;Motor de limpador de para-brisa
+II;AUTOPEÇAS;980;109800;8504.50.00;Bobinas de reatância e de autoindução
+II;AUTOPEÇAS;990;109900;8507.20 8507.30;Baterias de chumbo e de níquel-cádmio
+II;AUTOPEÇAS;1000;110000;8512.30.00;Aparelhos de sinalização acústica (buzina)
+II;AUTOPEÇAS;1010;110100;9032.89.8 9032.89.9;Instrumentos para regulação de grandezas não elétricas
+II;AUTOPEÇAS;1020;110200;9027.10.00;Analisadores de gases ou de fumaça (sonda lambda)
+II;AUTOPEÇAS;1030;110300;4008.11.00;Perfilados de borracha vulcanizada não endurecida
+II;AUTOPEÇAS;1040;110400;5601.22.19;Artefatos de pasta de fibra de uso automotivo
+II;AUTOPEÇAS;1050;110500;5703.20.00;Tapetes/carpetes - nailón
+II;AUTOPEÇAS;1060;110600;5703.30.00;Tapetes de matérias têxteis sintéticas
+II;AUTOPEÇAS;1070;110700;5911.90.00;Forração interior capacete
+II;AUTOPEÇAS;1080;110800;6903.90.99;Outros para-brisas
+II;AUTOPEÇAS;1090;110900;7007.29.00;Moldura com espelho
+II;AUTOPEÇAS;1100;111000;7314.50.00;REVOGADO
+II;AUTOPEÇAS;1110;111100;7315.11.00;Corrente transmissão
+II;AUTOPEÇAS;1120;111200;7315.12.10;Outras correntes de transmissão
+II;AUTOPEÇAS;1130;111300;8418.99.00;Condensador tubular metálico
+II;AUTOPEÇAS;1140;111400;8419.50;Trocadores de calor
+II;AUTOPEÇAS;1150;111500;8424.90.90;Partes de aparelhos mecânicos de pulverizar ou dispersar
+II;AUTOPEÇAS;1160;111600;8425.49.10;Macacos manuais para veículos
+II;AUTOPEÇAS;1170;111700;8431.41.00;Caçambas, pás, ganchos e tenazes para máquinas rodoviárias
+II;AUTOPEÇAS;1180;111800;8501.61.00;Geradores de corrente alternada de potência não superior a 75 kva
+II;AUTOPEÇAS;1190;111900;8531.10.90;Aparelhos elétricos para alarme de uso automotivo
+II;AUTOPEÇAS;1200;112000;9014.10.00;Bússolas
+II;AUTOPEÇAS;1210;112100;9025.19.90;Indicadores de temperatura
+II;AUTOPEÇAS;1220;112200;9025.90.10;Partes de indicadores de temperatura
+II;AUTOPEÇAS;1230;112300;9026.90;Partes de aparelhos de medida ou controle
+II;AUTOPEÇAS;1240;112400;9032.10.10;Termostatos
+II;AUTOPEÇAS;1250;112500;9032.10.90;Instrumentos e aparelhos para regulação
+II;AUTOPEÇAS;1260;112600;9032.20.00;Pressostatos
+II;AUTOPEÇAS;1270;112700;8716.90;Peças para reboques e semirreboques, exceto os itens classificados no CEST 01.077.00
+II;AUTOPEÇAS;1280;112800;7322.90.10;Geradores de ar quente a combustível líquido, com capacidade superior ou igual a 1.500 kcal/h, mas inferior ou igual a 10.400 kcal/h, do tipo dos utilizados em veículos automóveis
+II;AUTOPEÇAS;9990;199900; ;"Outras peças, partes e acessórios para veículos automotores não relacionados nos demais itens deste anexo "
+III;BEBIDAS ALCOÓLICAS, EXCETO CERVEJA E CHOPE;10;200100;"22052208.90.00";Aperitivos, amargos, bitter e similares
+III;BEBIDAS ALCOÓLICAS, EXCETO CERVEJA E CHOPE;20;200200;2208.90.00;Batida e similares
+III;BEBIDAS ALCOÓLICAS, EXCETO CERVEJA E CHOPE;30;200300;2208.90.00;Bebida ice
+III;BEBIDAS ALCOÓLICAS, EXCETO CERVEJA E CHOPE;40;200400;"2207.202208.40.00";Cachaça e aguardentes
+III;BEBIDAS ALCOÓLICAS, EXCETO CERVEJA E CHOPE;50;200500;"22052206.00.902208.90.00";Catuaba e similares
+III;BEBIDAS ALCOÓLICAS, EXCETO CERVEJA E CHOPE;60;200600;2208.20.00;Conhaque, brandy e similares
+III;BEBIDAS ALCOÓLICAS, EXCETO CERVEJA E CHOPE;70;200700;"2206.00.902208.90.00";Cooler
+III;BEBIDAS ALCOÓLICAS, EXCETO CERVEJA E CHOPE;80;200800;2208.50.00;Gim (gin) e genebra
+III;BEBIDAS ALCOÓLICAS, EXCETO CERVEJA E CHOPE;90;200900;"22052206.00.902208.90.00";Jurubeba e similares
+III;BEBIDAS ALCOÓLICAS, EXCETO CERVEJA E CHOPE;100;201000;2208.70.00;Licores e similares
+III;BEBIDAS ALCOÓLICAS, EXCETO CERVEJA E CHOPE;110;201100;2208.20.00;Pisco
+III;BEBIDAS ALCOÓLICAS, EXCETO CERVEJA E CHOPE;120;201200;2208.40.00;Rum
+III;BEBIDAS ALCOÓLICAS, EXCETO CERVEJA E CHOPE;130;201300;2206.00.90;Saquê
+III;BEBIDAS ALCOÓLICAS, EXCETO CERVEJA E CHOPE;140;201400;2208.90.00;Steinhaeger
+III;BEBIDAS ALCOÓLICAS, EXCETO CERVEJA E CHOPE;150;201500;2208.90.00;Tequila
+III;BEBIDAS ALCOÓLICAS, EXCETO CERVEJA E CHOPE;160;201600;2208.30;Uísque
+III;BEBIDAS ALCOÓLICAS, EXCETO CERVEJA E CHOPE;170;201700;2205;Vermute e similares
+III;BEBIDAS ALCOÓLICAS, EXCETO CERVEJA E CHOPE;180;201800;2208.60.00;Vodka
+III;BEBIDAS ALCOÓLICAS, EXCETO CERVEJA E CHOPE;190;201900;2208.90.00;Derivados de vodka
+III;BEBIDAS ALCOÓLICAS, EXCETO CERVEJA E CHOPE;200;202000;2208.90.00;Arak
+III;BEBIDAS ALCOÓLICAS, EXCETO CERVEJA E CHOPE;210;202100;2208.20.00;Aguardente vínica / grappa
+III;BEBIDAS ALCOÓLICAS, EXCETO CERVEJA E CHOPE;220;202200;2206.00.10;Sidra e similares
+III;BEBIDAS ALCOÓLICAS, EXCETO CERVEJA E CHOPE;230;202300;"22052206.00.902208.90.00";Sangrias e coquetéis
+III;BEBIDAS ALCOÓLICAS, EXCETO CERVEJA E CHOPE;240;202400;2204;Vinhos de uvas frescas, incluindo os vinhos enriquecidos com álcool mostos de uvas.
+III;BEBIDAS ALCOÓLICAS, EXCETO CERVEJA E CHOPE;9990;299900;"2205220622072208";"Outras bebidas alcoólicas não especificadas nos itens anteriores "
+IV;CERVEJAS, CHOPES, REFRIGERANTES, ÁGUAS E OUTRAS BEBIDAS;10;300100;2201.10.00;Água mineral, gasosa ou não, ou potável, naturais, em garrafa de vidro, retornável ou não, com capacidade de até 500 ml
+IV;CERVEJAS, CHOPES, REFRIGERANTES, ÁGUAS E OUTRAS BEBIDAS;20;300200;2201.10.00;Água mineral, gasosa ou não, ou potável, naturais, em embalagem com capacidade igual ou superior a 5.000 ml exceto as classificadas no CEST 03.024.00 e 03.025.00
+IV;CERVEJAS, CHOPES, REFRIGERANTES, ÁGUAS E OUTRAS BEBIDAS;30;300300;2201.10.00;Água mineral, gasosa ou não, ou potável, naturais, em embalagem de vidro, não retornável, com capacidade de até 300 ml
+IV;CERVEJAS, CHOPES, REFRIGERANTES, ÁGUAS E OUTRAS BEBIDAS;40;300400;2201.10.00;Água mineral, gasosa ou não, ou potável, naturais, em garrafa plástica de 1.500 ml
+IV;CERVEJAS, CHOPES, REFRIGERANTES, ÁGUAS E OUTRAS BEBIDAS;50;300500;2201.10.00;Água mineral, gasosa ou não, ou potável, naturais, em copos plásticos e embalagem plástica com capacidade de até 500 ml
+IV;CERVEJAS, CHOPES, REFRIGERANTES, ÁGUAS E OUTRAS BEBIDAS;60;300600;2201.10.00;Outras águas minerais, potáveis ou naturais, gasosas ou não, inclusive gaseificadas exceto as classificadas no CEST 03.024.00 e 03.025.00
+IV;CERVEJAS, CHOPES, REFRIGERANTES, ÁGUAS E OUTRAS BEBIDAS;70;300700;2202.10.00;Águas minerais, potáveis ou naturais, gasosas ou não, inclusive gaseificadas ou aromatizadas artificialmente, exceto os refrescos e refrigerantes
+IV;CERVEJAS, CHOPES, REFRIGERANTES, ÁGUAS E OUTRAS BEBIDAS;80;300800;2202.99.00;Outras águas minerais, potáveis ou naturais, gasosas ou não, inclusive gaseificadas ou aromatizadas artificialmente
+IV;CERVEJAS, CHOPES, REFRIGERANTES, ÁGUAS E OUTRAS BEBIDAS;100;301000;2202;Refrigerantes em garrafa com capacidade igual ou superior a 600 ml, exceto os classificados no CEST 03.011.01
+IV;CERVEJAS, CHOPES, REFRIGERANTES, ÁGUAS E OUTRAS BEBIDAS;110;301100;2202;Demais refrigerantes, exceto os classificados no CEST 03.010.00 e 03.011.01
+IV;CERVEJAS, CHOPES, REFRIGERANTES, ÁGUAS E OUTRAS BEBIDAS;111;301101;2202;Espumantes sem álcool
+IV;CERVEJAS, CHOPES, REFRIGERANTES, ÁGUAS E OUTRAS BEBIDAS;120;301200;2106.90.10;Xarope ou extrato concentrado destinados ao preparo de refrigerante em máquina “pré-mix” ou “post-mix”
+IV;CERVEJAS, CHOPES, REFRIGERANTES, ÁGUAS E OUTRAS BEBIDAS;130;301300;"2106.90 2202.99.00";Bebidas energéticas em embalagem com capacidade inferior a 600ml
+IV;CERVEJAS, CHOPES, REFRIGERANTES, ÁGUAS E OUTRAS BEBIDAS;140;301400;"2106.902202.99.00";Bebidas energéticas em embalagem com capacidade igual ou superior a 600ml
+IV;CERVEJAS, CHOPES, REFRIGERANTES, ÁGUAS E OUTRAS BEBIDAS;150;301500;"2106.902202.99.00";Bebidas hidroeletrolíticas (isotônicas) em embalagem com capacidade inferior a 600ml
+IV;CERVEJAS, CHOPES, REFRIGERANTES, ÁGUAS E OUTRAS BEBIDAS;160;301600;"2106.902202.99.00";Bebidas hidroeletrolíticas (isotônicas) em embalagem com capacidade igual ou superior a 600ml
+IV;CERVEJAS, CHOPES, REFRIGERANTES, ÁGUAS E OUTRAS BEBIDAS;210;302100;2203.00.00;Cerveja
+IV;CERVEJAS, CHOPES, REFRIGERANTES, ÁGUAS E OUTRAS BEBIDAS;220;302200;2202.91.00;Cerveja sem álcool
+IV;CERVEJAS, CHOPES, REFRIGERANTES, ÁGUAS E OUTRAS BEBIDAS;230;302300;2203.00.00;Chope
+IV;CERVEJAS, CHOPES, REFRIGERANTES, ÁGUAS E OUTRAS BEBIDAS;240;302400;2201.10.00;Água mineral em embalagens retornáveis com capacidade igual ou superior a 10 (dez) e inferior a 20 (vinte) litros
+IV;CERVEJAS, CHOPES, REFRIGERANTES, ÁGUAS E OUTRAS BEBIDAS;250;302500;2201.10.00;"Água mineral em embalagens retornáveis com capacidade igual ou superior a 20 (vinte) litros "
+V;CIGARROS E OUTROS PRODUTOS DERIVADOS DO FUMO;10;400100;2402;Charutos, cigarrilhas e cigarros, de tabaco ou dos seus sucedâneos
+V;CIGARROS E OUTROS PRODUTOS DERIVADOS DO FUMO;20;400200;2403.1;"Tabaco para fumar, mesmo contendo sucedâneos de tabaco em qualquer proporção "
+VI;CIMENTOS;10;500100;2523;"Cimento "
+VII;COMBUSTÍVEIS E LUBRIFICANTES;10;600100;2207.10.10;Álcool etílico não desnaturado, com um teor alcoólico em volume igual ou superior a 80% vol - Com um teor de água igual ou inferior a 1 % vol (álcool etílico anidro combustível)
+VII;COMBUSTÍVEIS E LUBRIFICANTES;11;600101;2207.10.90;Álcool etílico não desnaturado, com um teor alcoólico em volume igual ou superior a 80% vol - Outros (álcool etílico hidratado combustível)
+VII;COMBUSTÍVEIS E LUBRIFICANTES;20;600200;2710.12.59;Gasolina automotiva A, exceto Premium
+VII;COMBUSTÍVEIS E LUBRIFICANTES;21;600201;2710.12.59;Gasolina automotiva C, exceto Premium
+VII;COMBUSTÍVEIS E LUBRIFICANTES;22;600202;2710.12.59;Gasolina automotiva A Premium
+VII;COMBUSTÍVEIS E LUBRIFICANTES;23;600203;2710.12.59;Gasolina automotiva C Premium
+VII;COMBUSTÍVEIS E LUBRIFICANTES;30;600300;2710.12.51;Gasolina de aviação
+VII;COMBUSTÍVEIS E LUBRIFICANTES;40;600400;2710.19.19;Querosenes, exceto de aviação
+VII;COMBUSTÍVEIS E LUBRIFICANTES;50;600500;2710.19.11;Querosene de aviação
+VII;COMBUSTÍVEIS E LUBRIFICANTES;60;600600;2710.19.2;Óleo diesel A, exceto S10 e Marítimo
+VII;COMBUSTÍVEIS E LUBRIFICANTES;61;600601;2710.19.2;Óleo diesel B, exceto S10 (mistura obrigatória)
+VII;COMBUSTÍVEIS E LUBRIFICANTES;62;600602;2710.19.2;Óleo diesel B, exceto S10 (misturas autorizativas)
+VII;COMBUSTÍVEIS E LUBRIFICANTES;63;600603;2710.19.2;Óleo diesel B, exceto S10 (misturas experimentais)
+VII;COMBUSTÍVEIS E LUBRIFICANTES;64;600604;2710.19.2;Óleo diesel A S10
+VII;COMBUSTÍVEIS E LUBRIFICANTES;65;600605;2710.19.2;Óleo diesel B S10 (mistura obrigatória)
+VII;COMBUSTÍVEIS E LUBRIFICANTES;66;600606;2710.19.2;Óleo diesel B S10 (misturas autorizativas)
+VII;COMBUSTÍVEIS E LUBRIFICANTES;67;600607;2710.19.2;Óleo diesel B S10 (misturas experimentais)
+VII;COMBUSTÍVEIS E LUBRIFICANTES;68;600608;2710.19.2;Óleo Diesel Marítimo
+VII;COMBUSTÍVEIS E LUBRIFICANTES;69;600609;2710.19.2;Outros óleos combustíveis, exceto os classificados no CEST 06.006.10 e 06.006.11
+VII;COMBUSTÍVEIS E LUBRIFICANTES;610;600610;2710.19.2;Óleo combustível derivado de xisto
+VII;COMBUSTÍVEIS E LUBRIFICANTES;611;600611;2710.19.22;Óleo combustível pesado
+VII;COMBUSTÍVEIS E LUBRIFICANTES;70;600700;2710.19.3;Óleos lubrificantes
+VII;COMBUSTÍVEIS E LUBRIFICANTES;80;600800;2710.19.9;Outros óleos de petróleo ou de minerais betuminosos (exceto óleos brutos) e preparações não especificadas nem compreendidas noutras posições, que contenham, como constituintes básicos, 70% ou mais, em peso, de óleos de petróleo ou de minerais betuminosos, exceto os que contenham biodiesel, exceto os resíduos de óleos e exceto as graxas lubrificantes
+VII;COMBUSTÍVEIS E LUBRIFICANTES;81;600801;2710.19.9;Graxa lubrificante
+VII;COMBUSTÍVEIS E LUBRIFICANTES;90;600900;2710.9;Resíduos de óleos
+VII;COMBUSTÍVEIS E LUBRIFICANTES;100;601000;2711;Gás de petróleo e outros hidrocarbonetos gasosos, exceto GLP, GLGN, Gás Natural e Gás de xisto.
+VII;COMBUSTÍVEIS E LUBRIFICANTES;110;601100;2711.19.10;Gás liquefeito de petróleo em botijão de 13 Kg (GLP)
+VII;COMBUSTÍVEIS E LUBRIFICANTES;111;601101;2711.19.10;Gás liquefeito de petróleo (GLP), exceto em botijão de 13 Kg
+VII;COMBUSTÍVEIS E LUBRIFICANTES;112;601102;2711.19.10;Gás liquefeito de petróleo em botijão de 13 Kg (GLGNn)
+VII;COMBUSTÍVEIS E LUBRIFICANTES;113;601103;2711.19.10;Gás liquefeito de petróleo (GLGNn), exceto em botijão de 13 Kg
+VII;COMBUSTÍVEIS E LUBRIFICANTES;114;601104;2711.19.10;Gás liquefeito de petróleo em botijão de 13 Kg (GLGNi)
+VII;COMBUSTÍVEIS E LUBRIFICANTES;115;601105;2711.19.10;Gás liquefeito de petróleo (GLGNi), exceto em botijão de 13 Kg
+VII;COMBUSTÍVEIS E LUBRIFICANTES;116;601106;2711.19.10;Gás liquefeito de petróleo em botijão de 13 kg (Misturas)
+VII;COMBUSTÍVEIS E LUBRIFICANTES;117;601107;2711.19.10;Gás liquefeito de petróleo (Misturas), exceto em botijão de 13 Kg
+VII;COMBUSTÍVEIS E LUBRIFICANTES;120;601200;2711.11.00;Gás Natural Liquefeito
+VII;COMBUSTÍVEIS E LUBRIFICANTES;130;601300;2711.21.00;Gás Natural Gasoso
+VII;COMBUSTÍVEIS E LUBRIFICANTES;140;601400;2711.29.90;Gás de xisto
+VII;COMBUSTÍVEIS E LUBRIFICANTES;150;601500;2713;Coque de petróleo e outros resíduos de óleo de petróleo ou de minerais betuminosos
+VII;COMBUSTÍVEIS E LUBRIFICANTES;160;601600;3826.00.00;Biodiesel e suas misturas, que não contenham ou que contenham menos de 70%, em peso, de óleos de petróleo ou de óleos minerais betuminosos
+VII;COMBUSTÍVEIS E LUBRIFICANTES;170;601700;3403;Preparações lubrificantes, exceto as contendo, como constituintes de base, 70% ou mais, em peso, de óleos de petróleo ou de minerais betuminosos
+VII;COMBUSTÍVEIS E LUBRIFICANTES;180;601800;2710.20.00;"Óleos de petróleo ou de minerais betuminosos (exceto óleos brutos) e preparações não especificadas nem compreendidas noutras posições, que contenham, como constituintes básicos, 70% ou mais, em peso, de óleos de petróleo ou de minerais betuminosos, que contenham biodiesel, exceto os resíduos de óleos "
+VIII;ENERGIA ELÉTRICA;10;700100;2716.00.00;"Energia elétrica "
+IX;FERRAMENTAS;10;800100;4016.99.90;Ferramentas de borracha vulcanizada não endurecida
+IX;FERRAMENTAS;20;800200;4417.00.10 4417.00.90;Ferramentas, armações e cabos de ferramentas, de madeira
+IX;FERRAMENTAS;30;800300;6804;Mós e artefatos semelhantes, sem armação, para moer, desfibrar, triturar, amolar, polir, retificar ou cortar pedras para amolar ou para polir, manualmente, e suas partes, de pedras naturais, de abrasivos naturais ou artificiais aglomerados ou de cerâmica, mesmo com partes de outras matérias
+IX;FERRAMENTAS;40;800400;8201;Pás, alviões, picaretas, enxadas, sachos, forcados e forquilhas, ancinhos e raspadeiras machados, podões e ferramentas semelhantes com gume tesouras de podar de todos os tipos foices e foicinhas, facas para feno ou para palha, tesouras para sebes, cunhas e outras ferramentas manuais para agricultura, horticultura ou silvicultura
+IX;FERRAMENTAS;50;800500;8202.20.00;Folhas de serras de fita
+IX;FERRAMENTAS;60;800600;8202.91.00;Lâminas de serras máquinas
+IX;FERRAMENTAS;70;800700;8202;Serras manuais e outras folhas de serras (incluídas as fresas-serras e as folhas não dentadas para serrar), exceto as classificadas nos CEST 08.005.00 e 08.006.00
+IX;FERRAMENTAS;80;800800;8203;Limas, grosas, alicates (mesmo cortantes), tenazes, pinças, cisalhas para metais, corta-tubos, corta-pinos, saca-bocados e ferramentas semelhantes, manuais, exceto as pinças para sobrancelhas classificadas na posição 8203.20.90
+IX;FERRAMENTAS;90;800900;8204;Chaves de porcas, manuais (incluídas as chaves dinamométricas) chaves de caixa intercambiáveis, mesmo com cabos
+IX;FERRAMENTAS;100;801000;8205;Ferramentas manuais (incluídos os diamantes de vidraceiro) não especificadas nem compreendidas em outras posições, lamparinas ou lâmpadas de soldar (maçaricos) e semelhantes tornos de apertar, sargentos e semelhantes, exceto os acessórios ou partes de máquinas-ferramentas bigornas forjas-portáteis mós com armação, manuais ou de pedal
+IX;FERRAMENTAS;110;801100;8206.00.00;Ferramentas de pelo menos duas das posições 8202 a 8205, acondicionadas em sortidos para venda a retalho
+IX;FERRAMENTAS;120;801200;8207.40 8207.60 8207.70;Ferramentas de roscar interior ou exteriormente de mandrilar ou de brochar e de fresar
+IX;FERRAMENTAS;130;801300;8207;Outras ferramentas intercambiáveis para ferramentas manuais, mesmo mecânicas, ou para máquinas-ferramentas (por exemplo, de embutir, estampar, puncionar, furar, tornear, aparafusar), incluídas as fieiras de estiragem ou de extrusão, para metais, e as ferramentas de perfuração ou de sondagem, exceto forma ou gabarito de produtos em epoxy e as classificadas no CEST 08.012.00
+IX;FERRAMENTAS;140;801400;8208;Facas e lâminas cortantes, para máquinas ou para aparelhos mecânicos
+IX;FERRAMENTAS;150;801500;8209.00.11;Plaquetas ou pastilhas intercambiáveis
+IX;FERRAMENTAS;160;801600;8209.00;Outras plaquetas, varetas, pontas e objetos semelhantes para ferramentas, não montados, de ceramais (“cermets”), exceto as classificadas no CEST 08.015.00
+IX;FERRAMENTAS;170;801700;8211;Facas de lâmina cortante ou serrilhada, incluídas as podadeiras de lâmina móvel, e suas lâminas, exceto as de uso doméstico
+IX;FERRAMENTAS;180;801800;8213;Tesouras e suas lâminas
+IX;FERRAMENTAS;190;801900;8467;Ferramentas pneumáticas, hidráulicas ou com motor (elétrico ou não elétrico) incorporado, de uso manual, exceto o descrito no CEST 08.019.01
+IX;FERRAMENTAS;191;801901;8467.81.00;Moto-serras portáteis de corrente, com motor incorporado, não elétrico, de uso agrícola
+IX;FERRAMENTAS;200;802000;9015;Instrumentos e aparelhos de geodesia, topografia, agrimensura, nivelamento, fotogrametria, hidrografia, oceanografia, hidrologia, meteorologia ou de geofísica, exceto bussolas telêmetros
+IX;FERRAMENTAS;210;802100;"9017.20.009017.309017.809017.90.90";Instrumentos de desenho, de traçado ou de cálculo metros, micrômetros, paquímetros, calibres e semelhantes partes e acessórios
+IX;FERRAMENTAS;220;802200;"9025.11.909025.90.10";Termômetros, suas partes e acessórios
+IX;FERRAMENTAS;230;802300;"9025.199025.90.90";"Pirômetros, suas partes e acessórios "
+X;LÂMPADAS, REATORES E “STARTER”;10;900100;8539;Lâmpadas elétricas
+X;LÂMPADAS, REATORES E “STARTER”;20;900200;8540;Lâmpadas eletrônicas
+X;LÂMPADAS, REATORES E “STARTER”;30;900300;8504.10.00;Reatores para lâmpadas ou tubos de descargas
+X;LÂMPADAS, REATORES E “STARTER”;40;900400;8536.50;“Starter”
+X;LÂMPADAS, REATORES E “STARTER”;50;900500;8539.50.00;"Lâmpadas de LED (Diodos Emissores de Luz) "
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;10;1000100;2522;Cal
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;20;1000200;"3816.00.13824.50.00";Argamassas
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;30;1000300;3214.90.00;Outras argamassas
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;40;1000400;3910.00;Silicones em formas primárias, para uso na construção
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;50;1000500;3916;Revestimentos de PVC e outros plásticos forro, sancas e afins de PVC, para uso na construção
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;60;1000600;3917;Tubos, e seus acessórios (por exemplo, juntas, cotovelos, flanges, uniões), de plásticos, para uso na construção
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;70;1000700;3918;Revestimento de pavimento de PVC e outros plásticos
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;80;1000800;3919;Chapas, folhas, tiras, fitas, películas e outras formas planas, autoadesivas, de plásticos, mesmo em rolos, para uso na construção
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;90;1000900;"391939203921";Veda rosca, lona plástica para uso na construção, fitas isolantes e afins
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;100;1001000;3921;Telha de plástico, mesmo reforçada com fibra de vidro
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;110;1001100;3921;Cumeeira de plástico, mesmo reforçada com fibra de vidro
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;120;1001200;3921;Chapas, laminados plásticos em bobina, para uso na construção, exceto os descritos no CEST 10.010.00 e 10.011.00
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;130;1001300;3922;Banheiras, boxes para chuveiros, pias, lavatórios, bidês, sanitários e seus assentos e tampas, caixas de descarga e artigos semelhantes para usos sanitários ou higiênicos, de plásticos
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;140;1001400;3924;Artefatos de higiene/toucador de plástico, para uso na construção
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;150;1001500;3925.10.00;Caixa d’água, inclusive sua tampa, de plástico, mesmo reforçadas com fibra de vidro
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;160;1001600;3925.90;Outras telhas, cumeeira e caixa d’água, inclusive sua tampa, de plástico, mesmo reforçadas com fibra de vidro
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;170;1001700;"3925.10.003925.90";Artefatos para apetrechamento de construções, de plásticos, não especificados nem compreendidos em outras posições, incluindo persianas, sancas, molduras, apliques e rosetas, caixilhos de polietileno e outros plásticos, exceto os descritos nos CEST 10.015.00 e 10.016.00
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;180;1001800;3925.20.00;Portas, janelas e seus caixilhos, alizares e soleiras
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;190;1001900;3925.30.00;Postigos, estores (incluídas as venezianas) e artefatos semelhantes e suas partes
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;200;1002000;3926.90;Outras obras de plástico, para uso na construção
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;210;1002100;4814;Papel de parede e revestimentos de parede semelhantes papel para vitrais
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;220;1002200;6810.19.00;Telhas de concreto
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;230;1002300;6811;REVOGADO
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;240;1002400;6811;Caixas d’água, tanques e reservatórios e suas tampas, telhas, calhas, cumeeiras e afins, de fibrocimento, cimento-celulose ou semelhantes, contendo ou não amianto.
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;250;1002500;6901.00.00;Tijolos, placas (lajes), ladrilhos e outras peças cerâmicas de farinhas siliciosas fósseis (“kieselghur”, tripolita, diatomita, por exemplo) ou de terras siliciosas semelhantes
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;260;1002600;6902;Tijolos, placas (lajes), ladrilhos e peças cerâmicas semelhantes, para uso na construção, refratários, que não sejam de farinhas siliciosas fósseis nem de terras siliciosas semelhantes
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;270;1002700;6904;Tijolos para construção, tijoleiras, tapa-vigas e produtos semelhantes, de cerâmica
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;280;1002800;6905;Telhas, elementos de chaminés, condutores de fumaça, ornamentos arquitetônicos, de cerâmica, e outros produtos cerâmicos para uso na construção
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;290;1002900;6906.00.00;Tubos, calhas ou algerozes e acessórios para canalizações, de cerâmica
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;300;1003000;6907;Ladrilhos e placas de cerâmica, exclusivamente para pavimentação ou revestimento
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;301;1003001;6907;Cubos, pastilhas e artigos semelhantes de cerâmica, mesmo com suporte, exceto os descritos CEST 10.030.00
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;310;1003100;6910;Pias, lavatórios, colunas para lavatórios, banheiras, bidês, sanitários, caixas de descarga, mictórios e aparelhos fixos semelhantes para usos sanitários, de cerâmica
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;320;1003200;6912.00.00;Artefatos de higiene/toucador de cerâmica
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;330;1003300;7003;Vidro vazado ou laminado, em chapas, folhas ou perfis, mesmo com camada absorvente, refletora ou não, mas sem qualquer outro trabalho
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;340;1003400;7004;Vidro estirado ou soprado, em folhas, mesmo com camada absorvente, refletora ou não, mas sem qualquer outro trabalho
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;350;1003500;7005;Vidro flotado e vidro desbastado ou polido em uma ou em ambas as faces, em chapas ou em folhas, mesmo com camada absorvente, refletora ou não, mas sem qualquer outro trabalho
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;360;1003600;7007.19.00;Vidros temperados
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;370;1003700;7007.29.00;Vidros laminados
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;380;1003800;7008;Vidros isolantes de paredes múltiplas
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;390;1003900;7016;Blocos, placas, tijolos, ladrilhos, telhas e outros artefatos, de vidro prensado ou moldado, mesmo armado, para uso na construção cubos, pastilhas e outros artigos semelhantes
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;400;1004000;7214.20.00;Barras próprias para construções, exceto vergalhões
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;410;1004100;7308.90.10;Outras barras próprias para construções, exceto vergalhões
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;420;1004200;7214.20.00;Vergalhões
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;430;1004300;"72137308.90.10";Outros vergalhões
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;440;1004400;"7217.10.907312";Fios de ferro ou aço não ligados, não revestidos, mesmo polidos cordas, cabos, tranças (entrançados), lingas e artefatos semelhantes, de ferro ou aço, não isolados para usos elétricos
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;450;1004500;7217.20.10;Outros fios de ferro ou aço, não ligados, galvanizados com teor de carbono superior ou igual a 0,6%, em peso
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;451;1004501;7217.20.90;Outros fios de ferro ou aço, não ligados, galvanizados
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;460;1004600;7307;Acessórios para tubos (inclusive uniões, cotovelos, luvas ou mangas), de ferro fundido, ferro ou aço
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;470;1004700;7308.30.00;Portas e janelas, e seus caixilhos, alizares e soleiras de ferro fundido, ferro ou aço
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;480;1004800;"7308.40.007308.90";Material para andaimes, para armações (cofragens) e para escoramentos, (inclusive armações prontas, para estruturas de concreto armado ou argamassa armada), eletrocalhas e perfilados de ferro fundido, ferro ou aço, próprios para construção, exceto treliças de aço
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;490;1004900;7308.40.00;Treliças de aço
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;500;1005000;7308.90.90;Telhas metálicas
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;510;1005100;7310;Caixas diversas (tais como caixa de correio, de entrada de água, de energia, de instalação) de ferro fundido, ferro ou aço próprias para a construção
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;520;1005200;7313.00.00;Arame farpado, de ferro ou aço, arames ou tiras, retorcidos, mesmo farpados, de ferro ou aço, dos tipos utilizados em cercas
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;530;1005300;7314;Telas metálicas, grades e redes, de fios de ferro ou aço
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;540;1005400;7315.11.00;Correntes de rolos, de ferro fundido, ferro ou aço
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;550;1005500;7315.12.90;Outras correntes de elos articulados, de ferro fundido, ferro ou aço
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;560;1005600;7315.82.00;Correntes de elos soldados, de ferro fundido, de ferro ou aço
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;570;1005700;7317.00;Tachas, pregos, percevejos, escápulas, grampos ondulados ou biselados e artefatos semelhantes, de ferro fundido, ferro ou aço, mesmo com a cabeça de outra matéria, exceto cobre
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;580;1005800;7318;Parafusos, pinos ou pernos, roscados, porcas, tira-fundos, ganchos roscados, rebites, chavetas, cavilhas, contrapinos, arruelas (incluídas as de pressão) e artefatos semelhantes, de ferro fundido, ferro ou aço
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;590;1005900;7323;Palha de ferro ou aço, exceto os de uso doméstico classificados na posição NCM 7323.10.00
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;591;1005901;7323;Esponjas, esfregões, luvas e artefatos semelhantes para limpeza, polimento e usos semelhantes, de ferro ou aço, exceto os de uso doméstico classificados na posição NCM 7323.10.00
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;600;1006000;7324;Artefatos de higiene ou de toucador, e suas partes, de ferro fundido, ferro ou aço, incluídas as pias, banheiras, lavatórios, cubas, mictórios, tanques e afins de ferro fundido, ferro ou aço, para uso na construção
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;610;1006100;7325;Outras obras moldadas, de ferro fundido, ferro ou aço, para uso na construção
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;620;1006200;7326;Abraçadeiras
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;630;1006300;7407;Barras de cobre
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;640;1006400;7411.10.10;Tubos de cobre e suas ligas, para instalações de água quente e gás, para uso na construção
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;650;1006500;7412;Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas) de cobre e suas ligas, para uso na construção
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;660;1006600;7415;Tachas, pregos, percevejos, escápulas e artefatos semelhantes, de cobre, ou de ferro ou aço com cabeça de cobre, parafusos, pinos ou pernos, roscados, porcas, ganchos roscados, rebites, chavetas, cavilhas, contrapinos, arruelas (incluídas as de pressão), e artefatos semelhantes, de cobre
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;670;1006700;7418.20.00;Artefatos de higiene/toucador de cobre, para uso na construção
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;680;1006800;7607.19.90;Manta de subcobertura aluminizada
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;690;1006900;7608;Tubos de alumínio e suas ligas, para refrigeração e ar condicionado, para uso na construção
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;700;1007000;7609.00.00;Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas), de alumínio, para uso na construção
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;710;1007100;7610;Construções e suas partes (por exemplo, pontes e elementos de pontes, torres, pórticos ou pilones, pilares, colunas, armações, estruturas para telhados, portas e janelas, e seus caixilhos, alizares e soleiras, balaustradas), de alumínio, exceto as construções pré-fabricadas da posição 9406 chapas, barras, perfis, tubos e semelhantes, de alumínio, próprios para construções
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;720;1007200;7615.20.00;Artefatos de higiene/toucador de alumínio, para uso na construção
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;730;1007300;7616;Outras obras de alumínio, próprias para construções, incluídas as persianas
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;740;1007400;8302.41.00;Outras guarnições, ferragens e artigos semelhantes de metais comuns, para construções, inclusive puxadores.
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;750;1007500;8301;Fechaduras e ferrolhos (de chave, de segredo ou elétricos), de metais comuns, incluídas as suas partes fechos e armações com fecho, com fechadura, de metais comuns chaves para estes artigos, de metais comuns exceto os de uso automotivo
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;760;1007600;8302.10.00;Dobradiças de metais comuns, de qualquer tipo
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;770;1007700;8307;Tubos flexíveis de metais comuns, mesmo com acessórios, para uso na construção
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;780;1007800;8311;Fios, varetas, tubos, chapas, eletrodos e artefatos semelhantes, de metais comuns ou de carbonetos metálicos, revestidos exterior ou interiormente de decapantes ou de fundentes, para soldagem (soldadura) ou depósito de metal ou de carbonetos metálicos fios e varetas de pós de metais comuns aglomerados, para metalização por projeção
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;790;1007900;8481;Torneiras, válvulas (incluídas as redutoras de pressão e as termostáticas) e dispositivos semelhantes, para canalizações, caldeiras, reservatórios, cubas e outros recipientes
+XI;MATERIAIS DE CONSTRUÇÃO E CONGÊNERES;800;1008000;7009;"Espelhos de vidro, mesmo emoldurados, exceto os de uso automotivo "
+XII;MATERIAIS DE LIMPEZA;10;1100100;"2828.90.112828.90.193206.41.003402.20.003808.94.19";Água sanitária, branqueador e outros alvejantes
+XII;MATERIAIS DE LIMPEZA;20;1100200;3401.20.90;Sabões em pó, flocos, palhetas, grânulos ou outras formas semelhantes, para lavar roupas
+XII;MATERIAIS DE LIMPEZA;30;1100300;3401.20.90;Sabões líquidos para lavar roupas
+XII;MATERIAIS DE LIMPEZA;40;1100400;3402.20.00;Detergentes em pó, flocos, palhetas, grânulos ou outras formas semelhantes
+XII;MATERIAIS DE LIMPEZA;50;1100500;3402.20.00;Detergentes líquidos, exceto para lavar roupa
+XII;MATERIAIS DE LIMPEZA;60;1100600;3402.20.00;Detergente líquido para lavar roupa
+XII;MATERIAIS DE LIMPEZA;70;1100700;3402;Outros agentes orgânicos de superfície (exceto sabões) preparações tensoativas, preparações para lavagem (incluídas as preparações auxiliares para lavagem) e preparações para limpeza (inclusive multiuso e limpadores), mesmo contendo sabão, exceto os produtos descritos nos CEST 11.001.00, 11.004.00, 11.005.00 e 11.006.00 em embalagem de conteúdo inferior ou igual a 50 litros ou 50 kg
+XII;MATERIAIS DE LIMPEZA;80;1100800;3809.91.90;Amaciante/suavizante
+XII;MATERIAIS DE LIMPEZA;90;1100900;"3924.10.003924.90.006805.30.106805.30.90";Esponjas para limpeza
+XII;MATERIAIS DE LIMPEZA;100;1101000;"22072208.90.00";Álcool etílico para limpeza
+XII;MATERIAIS DE LIMPEZA;110;1101100;7323.10.00;Esponjas e palhas de aço esponjas para limpeza, polimento ou uso semelhantes todas de uso doméstico
+XII;MATERIAIS DE LIMPEZA;120;1101200;3923.2;"Sacos de lixo de conteúdo igual ou inferior a 100 litros "
+XIII;MATERIAIS ELÉTRICOS;10;1200100;8504;Transformadores, bobinas de reatância e de auto indução, inclusive os transformadores de potência superior a 16 KVA, classificados nas posições 8504.33.00 e 8504.34.00 exceto os demais transformadores da subposição 8504.3, os reatores para lâmpadas elétricas de descarga classificados no código 8504.10.00, os carregadores de acumuladores do código 8504.40.10, os equipamentos de alimentação ininterrupta de energia (UPS ou “no break”), no código 8504.40.40 e os de uso automotivo
+XIII;MATERIAIS ELÉTRICOS;20;1200200;8516;Aquecedores elétricos de água, incluídos os de imersão, chuveiros ou duchas elétricos, torneiras elétricas, resistências de aquecimento, inclusive as de duchas e chuveiros elétricos e suas partes exceto outros fornos, fogareiros (incluídas as chapas de cocção), grelhas e assadeiras, classificados na posição 8516.60.00
+XIII;MATERIAIS ELÉTRICOS;30;1200300;8535;Aparelhos para interrupção, seccionamento, proteção, derivação, ligação ou conexão de circuitos elétricos (por exemplo, interruptores, comutadores, corta-circuitos, para-raios, limitadores de tensão, eliminadores de onda, tomadas de corrente e outros conectores, caixas de junção), para tensão superior a 1.000V, exceto os de uso automotivo
+XIII;MATERIAIS ELÉTRICOS;40;1200400;8536;Aparelhos para interrupção, seccionamento, proteção, derivação, ligação ou conexão de circuitos elétricos (por exemplo, interruptores, comutadores, relés, corta-circuitos, eliminadores de onda, plugues e tomadas de corrente, suportes para lâmpadas e outros conectores, caixas de junção), para uma tensão não superior a 1.000V conectores para fibras ópticas, feixes ou cabos de fibras ópticas exceto “starter” classificado na subposição 8536.50 e os de uso automotivo
+XIII;MATERIAIS ELÉTRICOS;50;1200500;8538;Partes reconhecíveis como exclusiva ou principalmente destinadas aos aparelhos das posições 8535 e 8536
+XIII;MATERIAIS ELÉTRICOS;60;1200600;7413.00.00;Cabos, tranças e semelhantes, de cobre, não isolados para usos elétricos, exceto os de uso automotivo
+XIII;MATERIAIS ELÉTRICOS;70;1200700;"854476057614";Fios, cabos (incluídos os cabos coaxiais) e outros condutores, isolados ou não, para usos elétricos (incluídos os de cobre ou alumínio, envernizados ou oxidados anodicamente), mesmo com peças de conexão, inclusive fios e cabos elétricos, para tensão não superior a 1000V, para uso na construção fios e cabos telefônicos e para transmissão de dados cabos de fibras ópticas, constituídos de fibras embainhadas individualmente, mesmo com condutores elétricos ou munidos de peças de conexão cordas, cabos, tranças e semelhantes, de alumínio, não isolados para uso elétricos exceto os de uso automotivo
+XIII;MATERIAIS ELÉTRICOS;80;1200800;8546;Isoladores de qualquer matéria, para usos elétricos
+XIII;MATERIAIS ELÉTRICOS;90;1200900;8547;"Peças isolantes inteiramente de matérias isolantes, ou com simples peças metálicas de montagem (suportes roscados, por exemplo) incorporadas na massa, para máquinas, aparelhos e instalações elétricas tubos isoladores e suas peças de ligação, de metais comuns, isolados interiormente "
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;10;1300100;"30033004";Medicamentos de referência - positiva, exceto para uso veterinário
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;11;1300101;"30033004";Medicamentos de referência - negativa, exceto para uso veterinário
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;12;1300102;"30033004";Medicamentos de referência - neutra, exceto para uso veterinário
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;20;1300200;"30033004";Medicamentos genérico - positiva, exceto para uso veterinário
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;21;1300201;"30033004";Medicamentos genérico - negativa, exceto para uso veterinário
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;22;1300202;"30033004";Medicamentos genérico - neutra, exceto para uso veterinário
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;30;1300300;"30033004";Medicamentos similar - positiva, exceto para uso veterinário
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;31;1300301;"30033004";Medicamentos similar - negativa, exceto para uso veterinário
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;32;1300302;"30033004";Medicamentos similar - neutra, exceto para uso veterinário
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;40;1300400;"30033004";Outros tipos de medicamentos - positiva, exceto para uso veterinário
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;41;1300401;"30033004";Outros tipos de medicamentos - negativa, exceto para uso veterinário
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;42;1300402;"30033004";Outros tipos de medicamentos - neutra, exceto para uso veterinário
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;50;1300500;3006.60.00;Preparações químicas contraceptivas de referência, à base de hormônios, de outros produtos da posição 29.37 ou de espermicidas - positiva.
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;51;1300501;3006.60.00;Preparações químicas contraceptivas de referência, à base de hormônios, de outros produtos da posição 29.37 ou de espermicidas - negativa.
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;52;1300502;3006.60.00;Preparações químicas contraceptivas genérico, à base de hormônios, de outros produtos da posição 29.37 ou de espermicidas – positiva.
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;53;1300503;3006.60.00;Preparações químicas contraceptivas genérico, à base de hormônios, de outros produtos da posição 29.37 ou de espermicidas – negativa.
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;54;1300504;3006.60.00;Preparações químicas contraceptivas similar, à base de hormônios, de outros produtos da posição 29.37 ou de espermicidas – positiva.
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;55;1300505;3006.60.00;Preparações químicas contraceptivas similar, à base de hormônios, de outros produtos da posição 29.37 ou de espermicidas – negativa.
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;60;1300600;2936;Provitaminas e vitaminas, naturais ou reproduzidas por síntese (incluídos os concentrados naturais), bem como os seus derivados utilizados principalmente como vitaminas, misturados ou não entre si, mesmo em quaisquer soluções - neutra
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;70;1300700;3006.30;Preparações opacificantes (contrastantes) para exames radiográficos e reagentes de diagnóstico concebidos para serem administrados ao paciente - positiva
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;71;1300701;3006.30;Preparações opacificantes (contrastantes) para exames radiográficos e reagentes de diagnóstico concebidos para serem administrados ao paciente - negativa
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;80;1300800;3002;Antissoro, outras frações do sangue, produtos imunológicos modificados, mesmo obtidos por via biotecnológica, exceto para uso veterinário - positiva
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;81;1300801;3002;Antissoro, outras frações do sangue, produtos imunológicos modificados, mesmo obtidos por via biotecnológica, exceto para uso veterinário - negativa
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;90;1300900;3002;Vacinas e produtos semelhantes, exceto para uso veterinário - positiva
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;91;1300901;3002;Vacinas e produtos semelhantes, exceto para uso veterinário - negativa
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;100;1301000;3005.10.10;Curativos (pensos) adesivos e outros artigos com uma camada adesiva, impregnados ou recobertos de substâncias farmacêuticas - Lista Positiva
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;101;1301001;3005.10.10;Curativos (pensos) adesivos e outros artigos com uma camada adesiva, impregnados ou recobertos de substâncias farmacêuticas - Lista Negativa
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;110;1301100;3005;Algodão, atadura, esparadrapo, gazes, pensos, sinapismos, e outros, acondicionados para venda a retalho para usos medicinais, cirúrgicos ou dentários, não impregnados ou recobertos de substâncias farmacêuticas - Lista Neutra
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;120;1301200;"4015.11.004015.19.00";Luvas cirúrgicas e luvas de procedimento - neutra
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;130;1301300;4014.10.00;Preservativo – neutra
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;140;1301400;9018.31;Seringas, mesmo com agulhas - neutra
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;150;1301500;9018.32.1;Agulhas para seringas - neutra
+XIV;MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS;160;1301600;"3926.90.90 9018.90.99";"Contraceptivos (dispositivos intrauterinos - DIU) - neutra "
+XV;PAPÉIS, PLÁSTICOS, PRODUTOS CERÂMICOS E VIDROS;10;1400100;7013;Objetos de vidro para serviço de mesa ou de cozinha
+XV;PAPÉIS, PLÁSTICOS, PRODUTOS CERÂMICOS E VIDROS;20;1400200;7013.37.00;Outros copos, exceto de vitrocerâmica
+XV;PAPÉIS, PLÁSTICOS, PRODUTOS CERÂMICOS E VIDROS;30;1400300;7013.42.90;Objetos para serviço de mesa (exceto copos) ou de cozinha, exceto de vitrocerâmica
+XV;PAPÉIS, PLÁSTICOS, PRODUTOS CERÂMICOS E VIDROS;40;1400400;"391939203921";Lonas plásticas, exceto as para uso na construção
+XV;PAPÉIS, PLÁSTICOS, PRODUTOS CERÂMICOS E VIDROS;50;1400500;3924;Artefatos de higiene/toucador de plástico, exceto os para uso na construção
+XV;PAPÉIS, PLÁSTICOS, PRODUTOS CERÂMICOS E VIDROS;60;1400600;3924.10.00;Serviços de mesa e outros utensílios de mesa ou de cozinha, de plástico, não descartáveis
+XV;PAPÉIS, PLÁSTICOS, PRODUTOS CERÂMICOS E VIDROS;61;1400601;3924.10.00;Serviços de mesa e outros utensílios de mesa ou de cozinha, de plástico, descartáveis
+XV;PAPÉIS, PLÁSTICOS, PRODUTOS CERÂMICOS E VIDROS;70;1400700;6911.10.10;Artigos para serviço de mesa ou de cozinha, de porcelana, inclusive os descartáveis - estojos
+XV;PAPÉIS, PLÁSTICOS, PRODUTOS CERÂMICOS E VIDROS;80;1400800;6911.10.90;Artigos para serviço de mesa ou de cozinha, de porcelana, inclusive os descartáveis - avulsos
+XV;PAPÉIS, PLÁSTICOS, PRODUTOS CERÂMICOS E VIDROS;90;1400900;6912.00.00;Artigos para serviço de mesa ou de cozinha, de cerâmica
+XV;PAPÉIS, PLÁSTICOS, PRODUTOS CERÂMICOS E VIDROS;100;1401000;6912.00.00;Velas para filtros
+XV;PAPÉIS, PLÁSTICOS, PRODUTOS CERÂMICOS E VIDROS;110;1401100;4823.20.9;Filtros descartáveis para coar café ou chá
+XV;PAPÉIS, PLÁSTICOS, PRODUTOS CERÂMICOS E VIDROS;120;1401200;4823.6;Bandejas, travessas, pratos, xícaras ou chávenas, taças, copos e artigos semelhantes, de papel ou cartão
+XV;PAPÉIS, PLÁSTICOS, PRODUTOS CERÂMICOS E VIDROS;130;1401300;4813.10.00;"Papel para cigarro "
+XVI;PNEUMÁTICOS, CÂMARAS DE AR E PROTETORES DE BORRACHA;10;1600100;4011.10.00;Pneus novos, dos tipos utilizados em automóveis de passageiros (incluídos os veículos de uso misto - camionetas e os automóveis de corrida)
+XVI;PNEUMÁTICOS, CÂMARAS DE AR E PROTETORES DE BORRACHA;20;1600200;4011;Pneus novos, dos tipos utilizados em caminhões (inclusive para os fora-de-estrada), ônibus, aviões, máquinas de terraplenagem, de construção e conservação de estradas, máquinas e tratores agrícolas, pá-carregadeira
+XVI;PNEUMÁTICOS, CÂMARAS DE AR E PROTETORES DE BORRACHA;30;1600300;4011.40.00;Pneus novos para motocicletas
+XVI;PNEUMÁTICOS, CÂMARAS DE AR E PROTETORES DE BORRACHA;40;1600400;4011;Outros tipos de pneus novos, exceto os itens classificados no CEST 16.005.00
+XVI;PNEUMÁTICOS, CÂMARAS DE AR E PROTETORES DE BORRACHA;50;1600500;4011.50.00;Pneus novos de borracha dos tipos utilizados em bicicletas
+XVI;PNEUMÁTICOS, CÂMARAS DE AR E PROTETORES DE BORRACHA;60;1600600;4012.1;Pneus recauchutados
+XVI;PNEUMÁTICOS, CÂMARAS DE AR E PROTETORES DE BORRACHA;70;1600700;4012.90;Protetores de borracha, exceto os itens classificados no CEST 16.007.01
+XVI;PNEUMÁTICOS, CÂMARAS DE AR E PROTETORES DE BORRACHA;71;1600701;4012.90;Protetores de borracha para bicicletas
+XVI;PNEUMÁTICOS, CÂMARAS DE AR E PROTETORES DE BORRACHA;80;1600800;4013;Câmaras de ar de borracha, exceto os itens classificados no CEST 16.009.00
+XVI;PNEUMÁTICOS, CÂMARAS DE AR E PROTETORES DE BORRACHA;90;1600900;4013.20.00;"Câmaras de ar de borracha dos tipos utilizados em bicicletas "
+XVII;PRODUTOS ALIMENTÍCIOS;10;1700100;1704.90.10;Chocolate branco, em embalagens de conteúdo inferior ou igual a 1 kg, excluídos os ovos de páscoa de chocolate.
+XVII;PRODUTOS ALIMENTÍCIOS;20;1700200;"1806.31.101806.31.20";Chocolates contendo cacau, em embalagens de conteúdo inferior ou igual a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;30;1700300;"1806.32.101806.32.20";Chocolate em barras, tabletes ou blocos ou no estado líquido, em pasta, em pó, grânulos ou formas semelhantes, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 2 kg
+XVII;PRODUTOS ALIMENTÍCIOS;40;1700400;1806.90.00;Chocolates e outras preparações alimentícias contendo cacau, em embalagens de conteúdo inferior ou igual a 1 kg, excluídos os achocolatados em pó e ovos de páscoa de chocolate.
+XVII;PRODUTOS ALIMENTÍCIOS;50;1700500;1704.90.10;Ovos de páscoa de chocolate branco
+XVII;PRODUTOS ALIMENTÍCIOS;51;1700501;1806.90.00;Ovos de páscoa de chocolate
+XVII;PRODUTOS ALIMENTÍCIOS;60;1700600;1806.90.00;Achocolatados em pó, em embalagens de conteúdo inferior ou igual a 1 kg, exceto os classificados no CEST 17.006.02
+XVII;PRODUTOS ALIMENTÍCIOS;61;1700601;1806.10.00;Cacau em pó, com adição de açúcar ou de outros edulcorantes, em embalagens de conteúdo inferior ou igual a 1kg
+XVII;PRODUTOS ALIMENTÍCIOS;62;1700602;1806.90.00;Achocolatados em pó, em cápsulas
+XVII;PRODUTOS ALIMENTÍCIOS;70;1700700;1806.90.00;Caixas de bombons contendo cacau, em embalagens de conteúdo inferior ou igual a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;80;1700800;1704.90.90;Bombons, inclusive à base de chocolate branco sem cacau
+XVII;PRODUTOS ALIMENTÍCIOS;90;1700900;1806.90.00;Bombons, balas, caramelos, confeitos, pastilhas e outros produtos de confeitaria, contendo cacau
+XVII;PRODUTOS ALIMENTÍCIOS;100;1701000;2009;Sucos de frutas ou de produtos hortícolas mistura de sucos
+XVII;PRODUTOS ALIMENTÍCIOS;110;1701100;2009.8;Água de coco
+XVII;PRODUTOS ALIMENTÍCIOS;120;1701200;"0402.10402.20402.9";Leite em pó, blocos ou grânulos, exceto creme de leite
+XVII;PRODUTOS ALIMENTÍCIOS;130;1701300;1901.10.20;Farinha láctea
+XVII;PRODUTOS ALIMENTÍCIOS;140;1701400;1901.10.10;Leite modificado para alimentação de crianças
+XVII;PRODUTOS ALIMENTÍCIOS;150;1701500;"1901.10.901901.10.30";Preparações para alimentação infantil à base de farinhas, grumos, sêmolas ou amidos e outros
+XVII;PRODUTOS ALIMENTÍCIOS;160;1701600;"0401.10.100401.20.10";Leite “longa vida” (UHT - “Ultra High Temperature”), em recipiente de conteúdo inferior ou igual a 2 litros
+XVII;PRODUTOS ALIMENTÍCIOS;161;1701601;"0401.10.100401.20.10";Leite “longa vida” (UHT - “Ultra High Temperature”), em recipiente de conteúdo superior a 2 litros e inferior ou igual a 5 litros
+XVII;PRODUTOS ALIMENTÍCIOS;170;1701700;"0401.40.100401.50.10";Leite em recipiente de conteúdo inferior ou igual a 1 litro
+XVII;PRODUTOS ALIMENTÍCIOS;171;1701701;"0401.40.100401.50.10";Leite em recipiente de conteúdo superior a 1 litro e inferior ou igual a 5 litros
+XVII;PRODUTOS ALIMENTÍCIOS;180;1701800;"0401.10.900401.20.90";Leite do tipo pasteurizado em recipiente de conteúdo inferior ou igual a 1 litro
+XVII;PRODUTOS ALIMENTÍCIOS;181;1701801;"0401.10.900401.20.90";Leite do tipo pasteurizado em recipiente de conteúdo superior a 1 litro e inferior ou igual a 5 litros
+XVII;PRODUTOS ALIMENTÍCIOS;190;1701900;"0401.40.20402.21.300402.29.300402.9";Creme de leite, em recipiente de conteúdo inferior ou igual a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;191;1701901;"0401.40.20402.21.300402.29.300402.9";Creme de leite, em recipiente de conteúdo superior a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;192;1701902;"0401.100401.200401.500402.100402.29.20";Outros cremes de leite, em recipiente de conteúdo inferior ou igual a 1kg
+XVII;PRODUTOS ALIMENTÍCIOS;200;1702000;0402.9;Leite condensado, em recipiente de conteúdo inferior ou igual a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;201;1702001;0402.9;Leite condensado, em recipiente de conteúdo superior a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;210;1702100;0403;Iogurte e leite fermentado em recipiente de conteúdo inferior ou igual a 2 litros, exceto o item classificado no CEST 17.022.00
+XVII;PRODUTOS ALIMENTÍCIOS;211;1702101;0403;Iogurte e leite fermentado em recipiente de conteúdo superior a 2 litros, exceto o item classificado no CEST 17.022.00
+XVII;PRODUTOS ALIMENTÍCIOS;220;1702200;0403.90.00;Coalhada
+XVII;PRODUTOS ALIMENTÍCIOS;230;1702300;0406;Requeijão e similares, em recipiente de conteúdo inferior ou igual a 1 kg, exceto as embalagens individuais de conteúdo inferior ou igual a 10 g
+XVII;PRODUTOS ALIMENTÍCIOS;231;1702301;0406;Requeijão e similares, em recipiente de conteúdo superior a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;240;1702400;0406;Queijos, exceto os dos CEST 17.024.01, 17.024.02, 17.024.03 e 17.024.04
+XVII;PRODUTOS ALIMENTÍCIOS;241;1702401;0406.10.10;Queijo muçarela
+XVII;PRODUTOS ALIMENTÍCIOS;242;1702402;0406.10.90;Queijo minas frescal
+XVII;PRODUTOS ALIMENTÍCIOS;243;1702403;0406.10.90;Queijo ricota
+XVII;PRODUTOS ALIMENTÍCIOS;244;1702404;0406.10.90;Queijo petitsuisse
+XVII;PRODUTOS ALIMENTÍCIOS;250;1702500;0405.10.00;Manteiga, em embalagem de conteúdo inferior ou igual a 1 kg, exceto as embalagens individuais de conteúdo inferior ou igual a 10 g
+XVII;PRODUTOS ALIMENTÍCIOS;251;1702501;0405.10.00;Manteiga, em embalagem de conteúdo superior a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;252;1702502;0405.90.90;Manteiga de garrafa
+XVII;PRODUTOS ALIMENTÍCIOS;260;1702600;1517.10.00;Margarina e creme vegetal em recipiente de conteúdo inferior ou igual a 500 g, exceto as embalagens individuais de conteúdo inferior ou igual a 10 g
+XVII;PRODUTOS ALIMENTÍCIOS;270;1702700;1517.10.00;Margarina e creme vegetal, em recipiente de conteúdo superior a 500 g e inferior ou igual a 1 kg, exceto as embalagens individuais de conteúdo inferior ou igual a 10 g
+XVII;PRODUTOS ALIMENTÍCIOS;271;1702701;1517.10.00;Margarina e creme vegetal, em recipiente de conteúdo superior a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;272;1702702;1517.90;Outras margarinas e cremes vegetais em recipiente de conteúdo inferior a 1 kg, exceto as embalagens individuais de conteúdo inferior ou igual a 10 g
+XVII;PRODUTOS ALIMENTÍCIOS;280;1702800;1516.20.00;Gorduras e óleos vegetais e respectivas frações, parcial ou totalmente hidrogenados, interesterificados, reesterificados ou elaidinizados, mesmo refinados, mas não preparados de outro modo, em recipiente de conteúdo inferior ou igual a 1 kg, exceto as embalagens individuais de conteúdo inferior ou igual a 10 g
+XVII;PRODUTOS ALIMENTÍCIOS;281;1702801;1516.20.00;Gorduras e óleos vegetais e respectivas frações, parcial ou totalmente hidrogenados, interesterificados, reesterificados ou elaidinizados, mesmo refinados, mas não preparados de outro modo, em recipiente de conteúdo superior a 1 kg, exceto as embalagens individuais de conteúdo inferior ou igual a 10 g
+XVII;PRODUTOS ALIMENTÍCIOS;290;1702900;1901.90.20;Doces de leite
+XVII;PRODUTOS ALIMENTÍCIOS;300;1703000;"1904.10.001904.90.00";Produtos à base de cereais, obtidos por expansão ou torrefação
+XVII;PRODUTOS ALIMENTÍCIOS;310;1703100;1905.90.90;Salgadinhos diversos, exceto os classificados no CEST 17.031.01
+XVII;PRODUTOS ALIMENTÍCIOS;311;1703101;1905.90.90;Salgadinhos diversos, derivados de farinha de trigo
+XVII;PRODUTOS ALIMENTÍCIOS;320;1703200;"2005.20.002005.9";Batata frita, inhame e mandioca fritos
+XVII;PRODUTOS ALIMENTÍCIOS;330;1703300;2008.1;Amendoim e castanhas tipo aperitivo, em embalagem de conteúdo inferior ou igual a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;331;1703301;2008.1;Amendoim e castanhas tipo aperitivo, em embalagem de conteúdo superior a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;340;1703400;2103.20.10;Catchup em embalagens imediatas de conteúdo inferior ou igual a 650 g, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo inferior ou igual a 10 g
+XVII;PRODUTOS ALIMENTÍCIOS;350;1703500;"2103.90.212103.90.91";Condimentos e temperos compostos, incluindo molho de pimenta e outros molhos, em embalagens imediatas de conteúdo inferior ou igual a 1 kg, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo inferior ou igual a 3 g
+XVII;PRODUTOS ALIMENTÍCIOS;360;1703600;2103.10.10;Molhos de soja preparados em embalagens imediatas de conteúdo inferior ou igual a 650 g, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo inferior ou igual a 10 g
+XVII;PRODUTOS ALIMENTÍCIOS;370;1703700;2103.30.10;Farinha de mostarda em embalagens de conteúdo inferior ou igual a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;380;1703800;2103.30.21;Mostarda preparada em embalagens imediatas de conteúdo inferior ou igual a 650 g, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo inferior ou igual a 10 g
+XVII;PRODUTOS ALIMENTÍCIOS;390;1703900;2103.90.11;Maionese em embalagens imediatas de conteúdo inferior ou igual a 650 g, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo inferior ou igual a 10 g
+XVII;PRODUTOS ALIMENTÍCIOS;400;1704000;2002;Tomates preparados ou conservados, exceto em vinagre ou em ácido acético, em embalagens de conteúdo inferior ou igual a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;410;1704100;2103.20.10;Molhos de tomate em embalagens imediatas de conteúdo inferior ou igual a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;420;1704200;"1704.90.901904.20.001904.90.00";Barra de cereais
+XVII;PRODUTOS ALIMENTÍCIOS;430;1704300;"1806.31.201806.32.201806.90.00";Barra de cereais contendo cacau
+XVII;PRODUTOS ALIMENTÍCIOS;440;1704400;1101.00.10;Farinha de trigo especial, em embalagem inferior ou igual a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;441;1704401;1101.00.10;Farinha de trigo especial, em embalagem superior a 1 kg e inferior a 5 kg
+XVII;PRODUTOS ALIMENTÍCIOS;442;1704402;1101.00.10;Farinha de trigo especial, em embalagem igual a 5 kg
+XVII;PRODUTOS ALIMENTÍCIOS;443;1704403;1101.00.10;Farinha de trigo especial, em embalagem superior a 5 kg e inferior ou igual a 25 kg
+XVII;PRODUTOS ALIMENTÍCIOS;444;1704404;1101.00.10;Farinha de trigo especial, em embalagem superior a 25 kg e inferior ou igual a 50 kg
+XVII;PRODUTOS ALIMENTÍCIOS;445;1704405;1101.00.10;Farinha de trigo comum, em embalagem igual a 5 kg
+XVII;PRODUTOS ALIMENTÍCIOS;446;1704406;1101.00.10;Farinha de trigo comum, em embalagem superior a 5 kg e inferior ou igual a 25 kg
+XVII;PRODUTOS ALIMENTÍCIOS;447;1704407;1101.00.10;Farinha de trigo comum, em embalagem superior a 25 kg e inferior ou igual a 50 kg
+XVII;PRODUTOS ALIMENTÍCIOS;448;1704408;1101.00.10;Farinha de trigo doméstica especial, em embalagem superior a 5 kg e inferior e igual a 10 kg
+XVII;PRODUTOS ALIMENTÍCIOS;449;1704409;1101.00.10;Farinha de trigo doméstica com fermento, em embalagem superior a 5 kg e inferior e igual a 10 kg
+XVII;PRODUTOS ALIMENTÍCIOS;4410;1704410;1101.00.10;Farinha de trigo especial, em embalagem superior a 50 Kg
+XVII;PRODUTOS ALIMENTÍCIOS;4411;1704411;1101.00.10;Farinha de trigo comum, em embalagem inferior ou igual a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;4412;1704412;1101.00.10;Farinha de trigo comum, em embalagem superior a 1 kg e inferior a 5 Kg
+XVII;PRODUTOS ALIMENTÍCIOS;4413;1704413;1101.00.10;Farinha de trigo comum, em embalagem superior a 50 kg
+XVII;PRODUTOS ALIMENTÍCIOS;4414;1704414;1101.00.10;Farinha de trigo doméstica especial, em embalagem inferior ou igual a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;4415;1704415;1101.00.10;Farinha de trigo doméstica especial, em embalagem superior a 1 kg e inferior a 5 Kg
+XVII;PRODUTOS ALIMENTÍCIOS;4416;1704416;1101.00.10;Farinha de trigo doméstica especial, em embalagem igual a 5 Kg
+XVII;PRODUTOS ALIMENTÍCIOS;4417;1704417;1101.00.10;Farinha de trigo doméstica especial, em embalagem superior a 10 Kg
+XVII;PRODUTOS ALIMENTÍCIOS;4418;1704418;1101.00.10;Farinha de trigo doméstica com fermento, em embalagem inferior ou igual a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;4419;1704419;1101.00.10;Farinha de trigo doméstica com fermento, em embalagem superior a 1 kg e inferior a 5 Kg
+XVII;PRODUTOS ALIMENTÍCIOS;4420;1704420;1101.00.10;Farinha de trigo doméstica com fermento, em embalagem igual a 5 Kg
+XVII;PRODUTOS ALIMENTÍCIOS;4421;1704421;1101.00.10;Farinha de trigo doméstica com fermento, em embalagem superior a 10 Kg
+XVII;PRODUTOS ALIMENTÍCIOS;4422;1704422;1101.00.10;Outras farinhas de trigo, em embalagem inferior ou igual a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;4423;1704423;1101.00.10;Outras farinhas de trigo, em embalagem superior a 1 kg e inferior a 5 Kg
+XVII;PRODUTOS ALIMENTÍCIOS;4424;1704424;1101.00.10;Outras farinhas de trigo, em embalagem igual a 5 Kg
+XVII;PRODUTOS ALIMENTÍCIOS;4425;1704425;1101.00.10;Outras farinhas de trigo, em embalagem superior a 5 Kg e inferior ou igual a 25 kg
+XVII;PRODUTOS ALIMENTÍCIOS;4426;1704426;1101.00.10;Outras farinhas de trigo, em embalagem superior a 25 Kg e inferior ou igual a 50 kg
+XVII;PRODUTOS ALIMENTÍCIOS;4427;1704427;1101.00.10;Outras farinhas de trigo, em embalagem superior a 50 Kg
+XVII;PRODUTOS ALIMENTÍCIOS;450;1704500;1101.00.20;Farinha de mistura de trigo com centeio (méteil)
+XVII;PRODUTOS ALIMENTÍCIOS;460;1704600;"1901.20.001901.90.90";Misturas e preparações para bolos, em embalagem inferior 5 kg
+XVII;PRODUTOS ALIMENTÍCIOS;461;1704601;"1901.20.001901.90.90";Misturas e preparações para bolos, em embalagem igual a 5 kg
+XVII;PRODUTOS ALIMENTÍCIOS;462;1704602;"1901.20.001901.90.90";Misturas e preparações para bolos, em embalagem superior a 5 kg e inferior ou igual a 25 Kg
+XVII;PRODUTOS ALIMENTÍCIOS;463;1704603;1901.20.00 1901.90.90;Misturas e preparações para bolos, em embalagem superior a 25 kg e inferior ou igual a 50 Kg
+XVII;PRODUTOS ALIMENTÍCIOS;464;1704604;"1901.20.001901.90.90";Misturas e preparações para bolos, em embalagem superior a 50 Kg
+XVII;PRODUTOS ALIMENTÍCIOS;465;1704605;"1901.20.001901.90.90";Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem inferior a 5 kg
+XVII;PRODUTOS ALIMENTÍCIOS;466;1704606;"1901.20.001901.90.90";Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem igual a 5 kg
+XVII;PRODUTOS ALIMENTÍCIOS;467;1704607;"1901.20.001901.90.90";Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem superior a 5 kg e inferior ou igual a 25 Kg
+XVII;PRODUTOS ALIMENTÍCIOS;468;1704608;"1901.20.001901.90.90";Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem superior a 25 kg e inferior ou igual a 50 Kg
+XVII;PRODUTOS ALIMENTÍCIOS;469;1704609;"1901.20.001901.90.90";Misturas e preparações para pães com menos de 80% de farinha de trigo na sua composição final, em embalagem superior a 50 Kg
+XVII;PRODUTOS ALIMENTÍCIOS;4610;1704610;"1901.20.001901.90.90";Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem inferior a 5 kg
+XVII;PRODUTOS ALIMENTÍCIOS;4611;1704611;"1901.20.001901.90.90";Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem igual a 5 kg
+XVII;PRODUTOS ALIMENTÍCIOS;4612;1704612;"1901.20.001901.90.90";Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem superior a 5 kg e inferior ou igual a 25 Kg
+XVII;PRODUTOS ALIMENTÍCIOS;4613;1704613;"1901.20.001901.90.90";Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem superior a 25 kg e inferior ou igual a 50 Kg
+XVII;PRODUTOS ALIMENTÍCIOS;4614;1704614;"1901.20.001901.90.90";Misturas e preparações para pães com, no mínimo, 80% de farinha de trigo na sua composição final, em embalagem superior a 50 Kg
+XVII;PRODUTOS ALIMENTÍCIOS;4615;1704615;1901.20.00 1901.90.90;Misturas e pastas para a preparação de produtos de padaria, pastelaria e da indústria de bolachas e biscoitos, da posição 19.05, exceto os previstos nos CEST 17.046.00 a 17.046.14 e 17.046.16.
+XVII;PRODUTOS ALIMENTÍCIOS;4616;1704616;1901.20.00 1901.90.90;Misturas e preparações com, no mínimo, 80% de farinha de trigo na sua composição final, exceto as descritas nos CEST 17.046.10 a 17.046.15. 
+XVII;PRODUTOS ALIMENTÍCIOS;470;1704700;1902.30.00;Massas alimentícias tipo instantânea
+XVII;PRODUTOS ALIMENTÍCIOS;480;1704800;1902;Massas alimentícias, cozidas ou recheadas (de carne ou de outras substâncias) ou preparadas de outro modo, exceto as descritas nos CEST 17.047.00, 17.048.01, e 17.048.02
+XVII;PRODUTOS ALIMENTÍCIOS;481;1704801;1902.40.00;Cuscuz
+XVII;PRODUTOS ALIMENTÍCIOS;482;1704802;1902.20.00;Massas alimentícias recheadas (mesmo cozidas ou preparadas de outro modo)
+XVII;PRODUTOS ALIMENTÍCIOS;490;1704900;1902.1;Massas alimentícias do tipo comum, não cozidas, nem recheadas, nem preparadas de outro modo, exceto a descrita no CEST 17.049.03
+XVII;PRODUTOS ALIMENTÍCIOS;491;1704901;1902.1;Massas alimentícias do tipo sêmola, não cozidas, nem recheadas, nem preparadas de outro modo, exceto a descrita no CEST 17.049.04
+XVII;PRODUTOS ALIMENTÍCIOS;492;1704902;1902.1;Massas alimentícias do tipo granoduro, não cozidas, nem recheadas, nem preparadas de outro modo, exceto a descrita no CEST 17.049.05
+XVII;PRODUTOS ALIMENTÍCIOS;493;1704903;1902.19.00;Massas alimentícias do tipo comum, não cozidas, nem recheadas, nem preparadas de outro modo, que não contenham ovos
+XVII;PRODUTOS ALIMENTÍCIOS;494;1704904;1902.19.00;Massas alimentícias do tipo sêmola, não cozidas, nem recheadas, nem preparadas de outro modo, que não contenham ovos
+XVII;PRODUTOS ALIMENTÍCIOS;495;1704905;1902.19.00;Massas alimentícias do tipo granoduro, não cozidas, nem recheadas, nem preparadas de outro modo, que não contenham ovos
+XVII;PRODUTOS ALIMENTÍCIOS;500;1705000;1905.20;Pães industrializados, inclusive de especiarias, exceto panetones e bolo de forma
+XVII;PRODUTOS ALIMENTÍCIOS;510;1705100;1905.20.90;Bolo de forma, inclusive de especiarias
+XVII;PRODUTOS ALIMENTÍCIOS;520;1705200;1905.20.10;Panetones
+XVII;PRODUTOS ALIMENTÍCIOS;530;1705300;1905.31.00;Biscoitos e bolachas derivados de farinha de trigo (exceto dos tipos “cream cracker”, “água e sal”, “maisena”, “maria” e outros de consumo popular que não sejam adicionados de cacau, nem recheados, cobertos ou amanteigados, independentemente de sua denominação comercial)
+XVII;PRODUTOS ALIMENTÍCIOS;531;1705301;1905.31.00;Biscoitos e bolachas derivados de farinha de trigo dos tipos “maisena” e “maria” e outros de consumo popular que não sejam adicionados de cacau, nem recheados, cobertos ou amanteigados, independentemente de sua denominação comercial, exceto o CEST 17.053.02
+XVII;PRODUTOS ALIMENTÍCIOS;532;1705302;1905.31.00;"Biscoitos e bolachas derivados de farinha de trigo dos tipos ""cream cracker"" e ""água e sal"" de consumo popular"
+XVII;PRODUTOS ALIMENTÍCIOS;540;1705400;1905.31.00;"Biscoitos e bolachas não derivados de farinha de trigo (exceto dos tipos ""cream cracker"", ""água e sal"", ""maisena"" e ""maria"" e outros de consumo popular que não sejam adicionados de cacau, nem recheados, cobertos ou amanteigados, independentemente de sua denominação comercial)"
+XVII;PRODUTOS ALIMENTÍCIOS;541;1705401;1905.31.00;"Biscoitos e bolachas não derivados de farinha de trigo dos tipos ""maisena"" e ""maria"" e outros de consumo popular que não sejam adicionados de cacau, nem recheados, cobertos ou amanteigados, independentemente de sua denominação comercial, exceto o CEST 17.054.02"
+XVII;PRODUTOS ALIMENTÍCIOS;542;1705402;1905.31.00;"Biscoitos e bolachas não derivados de farinha de trigo dos tipos ""cream cracker"" e ""água e sal"" de consumo popular"
+XVII;PRODUTOS ALIMENTÍCIOS;560;1705600;1905.90.20;Biscoitos e bolachas derivados de farinha de trigo dos tipos “cream cracker” e “água e sal”
+XVII;PRODUTOS ALIMENTÍCIOS;561;1705601;1905.90.20;Biscoitos e bolachas não derivados de farinha de trigo dos tipos “cream cracker” e “água e sal”
+XVII;PRODUTOS ALIMENTÍCIOS;562;1705602;1905.90.20;Outras bolachas, exceto casquinhas para sorvete e os biscoitos e bolachas relacionados nos CEST 17.056.00 e 17.056.01
+XVII;PRODUTOS ALIMENTÍCIOS;570;1705700;1905.32.00;“Waffles” e “wafers” - sem cobertura
+XVII;PRODUTOS ALIMENTÍCIOS;580;1705800;1905.32.00;“Waffles” e “wafers” - com cobertura
+XVII;PRODUTOS ALIMENTÍCIOS;590;1705900;1905.40.00;Torradas, pão torrado e produtos semelhantes torrados
+XVII;PRODUTOS ALIMENTÍCIOS;600;1706000;1905.90.10;Outros pães de forma
+XVII;PRODUTOS ALIMENTÍCIOS;620;1706200;1905.90.90;Outros pães, exceto o classificado no CEST 17.062.03
+XVII;PRODUTOS ALIMENTÍCIOS;621;1706201;1905.90.90;Outros bolos industrializados e produtos de panificação não especificados anteriormente, incluindo as pizzas exceto os classificados nos CEST 17.062.02 e 17.062.03
+XVII;PRODUTOS ALIMENTÍCIOS;622;1706202;1905.90.20 1905.90.90;Casquinhas para sorvete
+XVII;PRODUTOS ALIMENTÍCIOS;623;1706203;1905.90.90;Pão francês até 200g
+XVII;PRODUTOS ALIMENTÍCIOS;630;1706300;1905.10.00;Pão denominado knackebrot
+XVII;PRODUTOS ALIMENTÍCIOS;640;1706400;1905.90;Demais pães industrializados
+XVII;PRODUTOS ALIMENTÍCIOS;650;1706500;1507.90.11;Óleo de soja refinado, em recipientes com capacidade inferior ou igual a 5 litros, exceto as embalagens individuais de conteúdo inferior ou igual a 15 mililitros
+XVII;PRODUTOS ALIMENTÍCIOS;660;1706600;1508;Óleo de amendoim refinado, em recipientes com capacidade inferior ou igual a 5 litros, exceto as embalagens individuais de conteúdo inferior ou igual a 15 mililitros
+XVII;PRODUTOS ALIMENTÍCIOS;670;1706700;1509;Azeites de oliva, em recipientes com capacidade inferior a 2 litros, exceto as embalagens individuais de conteúdo inferior ou igual a 20 mililitros
+XVII;PRODUTOS ALIMENTÍCIOS;671;1706701;1509;Azeites de oliva, em recipientes com capacidade igual ou superior a 2 litros e inferior ou igual a 5 litros
+XVII;PRODUTOS ALIMENTÍCIOS;672;1706702;1509;Azeites de oliva, em recipientes com capacidade superior a 5 litros
+XVII;PRODUTOS ALIMENTÍCIOS;680;1706800;1510.00.00;Outros óleos e respectivas frações, obtidos exclusivamente a partir de azeitonas, mesmo refinados, mas não quimicamente modificados, e misturas desses óleos ou frações com óleos ou frações da posição 15.09, em recipientes com capacidade inferior ou igual a 5 litros, exceto as embalagens individuais de conteúdo inferior ou igual a 15 mililitros
+XVII;PRODUTOS ALIMENTÍCIOS;690;1706900;1512.19.11;Óleo de girassol em recipientes com capacidade inferior ou igual a 5 litros, exceto as embalagens individuais de conteúdo inferior ou igual a 15 mililitros
+XVII;PRODUTOS ALIMENTÍCIOS;691;1706901;1512.29.10;Óleo de algodão refinado em recipientes com capacidade inferior ou igual a 5 litros, exceto as embalagens individuais de conteúdo inferior ou igual a 15 mililitros
+XVII;PRODUTOS ALIMENTÍCIOS;700;1707000;1514.1;Óleo de canola, em recipientes com capacidade inferior ou igual a 5 litros, exceto as embalagens individuais de conteúdo inferior ou igual a 15 mililitros
+XVII;PRODUTOS ALIMENTÍCIOS;710;1707100;1515.19.00;Óleo de linhaça refinado, em recipientes com capacidade inferior ou igual a 5 litros, exceto as embalagens individuais de conteúdo inferior ou igual a 15 mililitros
+XVII;PRODUTOS ALIMENTÍCIOS;720;1707200;1515.29.10;Óleo de milho refinado, em recipientes com capacidade inferior ou igual a 5 litros, exceto as embalagens individuais de conteúdo inferior ou igual a 15 mililitros
+XVII;PRODUTOS ALIMENTÍCIOS;730;1707300;1512.29.90;Outros óleos refinados, em recipientes com capacidade inferior ou igual a 5 litros, exceto as embalagens individuais de conteúdo inferior ou igual a 15 mililitros
+XVII;PRODUTOS ALIMENTÍCIOS;740;1707400;1517.90.10;Misturas de óleos refinados, para consumo humano, em recipientes com capacidade inferior ou igual a 5 litros, exceto as embalagens individuais de conteúdo inferior ou igual a 15 mililitros
+XVII;PRODUTOS ALIMENTÍCIOS;750;1707500;"151115131514151515161518";Outros óleos vegetais comestíveis não especificados anteriormente
+XVII;PRODUTOS ALIMENTÍCIOS;760;1707600;1601.00.00;Enchidos (embutidos) e produtos semelhantes, de carne, miudezas ou sangue exceto salsicha, linguiça e mortadela
+XVII;PRODUTOS ALIMENTÍCIOS;770;1707700;1601.00.00;Salsicha e linguiça, exceto as descritas nos CEST 17.077.01
+XVII;PRODUTOS ALIMENTÍCIOS;771;1707701;1601.00.00;Salsicha em lata
+XVII;PRODUTOS ALIMENTÍCIOS;780;1707800;1601.00.00;Mortadela
+XVII;PRODUTOS ALIMENTÍCIOS;790;1707900;16.02;Outras preparações e conservas de carne, miudezas ou de sangue, exceto as descritas nos CEST 17.079.01, 17.079.02, 17.079.03, 17.079.04, 17.079.05, 17.079.06 e 17.079.07
+XVII;PRODUTOS ALIMENTÍCIOS;791;1707901;1602.31.00;Outras preparações e conservas de carne, de miudezas ou de sangue, de aves da posição 01.05: de peruas e de perus.
+XVII;PRODUTOS ALIMENTÍCIOS;792;1707902;1602.32.10;Outras preparações e conservas de carne, de miudezas ou de sangue, de aves da posição 01.05: de galos e de galinhas, com conteúdo de carne ou de miudezas superior ou igual a 57 %, em peso, não cozidas
+XVII;PRODUTOS ALIMENTÍCIOS;793;1707903;1602.32.20;Outras preparações e conservas de carne, de miudezas ou de sangue, todas de aves da posição 01.05: de galos e de galinhas, com conteúdo de carne ou de miudezas superior ou igual a 57 %, em peso, cozidas
+XVII;PRODUTOS ALIMENTÍCIOS;794;1707904;1602.41.00;Outras preparações e conservas de carne, de miudezas ou de sangue, da espécie suína: pernas e respectivos pedaços
+XVII;PRODUTOS ALIMENTÍCIOS;795;1707905;1602.49.00;Outras preparações e conservas de carne, de miudezas ou de sangue, da espécie suína: outras, incluindo as misturas, exceto os descritos no CEST 17.079.07
+XVII;PRODUTOS ALIMENTÍCIOS;796;1707906;1602.50.00;Outras preparações e conservas de carne, de miudezas ou de sangue, da espécie bovina
+XVII;PRODUTOS ALIMENTÍCIOS;797;1707907;1602.49.00;Apresuntado
+XVII;PRODUTOS ALIMENTÍCIOS;800;1708000;1604;Preparações e conservas de peixes caviar e seus sucedâneos preparados a partir de ovas de peixe exceto os descritos nos CEST 17.080.01 e 17.081.00
+XVII;PRODUTOS ALIMENTÍCIOS;801;1708001;1604.20.10;Outras preparações e conservas de atuns
+XVII;PRODUTOS ALIMENTÍCIOS;810;1708100;1604;Sardinha em conserva
+XVII;PRODUTOS ALIMENTÍCIOS;820;1708200;1605;Crustáceos, moluscos e outros invertebrados aquáticos, preparados ou em conservas
+XVII;PRODUTOS ALIMENTÍCIOS;830;1708300;"0210.20.000210.99.001502";Carne de gado bovino, ovino e bufalino e produtos comestíveis resultantes da matança desse gado submetidos à salga, secagem ou desidratação, exceto os descritos no CEST 17.083.01
+XVII;PRODUTOS ALIMENTÍCIOS;831;1708301;0210.20.00;Charque e jerkedbeef
+XVII;PRODUTOS ALIMENTÍCIOS;840;1708400;"0201020202040206";Carne de gado bovino, ovino e bufalino e demais produtos comestíveis resultantes da matança desse gado frescos, refrigerados ou congelados
+XVII;PRODUTOS ALIMENTÍCIOS;850;1708500;0204;Carnes de animais das espécies caprina, frescas, refrigeradas ou congeladas
+XVII;PRODUTOS ALIMENTÍCIOS;860;1708600;"0210.99.001502.10.191502.90.00";Carnes e demais produtos comestíveis frescos, resfriados, congelados, salgados ou salmourados resultantes do abate de caprinos
+XVII;PRODUTOS ALIMENTÍCIOS;870;1708700;"020702090210.99.001501";Carnes e demais produtos comestíveis frescos, resfriados, congelados, salgados, em salmoura, simplesmente temperados, secos ou defumados, resultantes do abate de aves, exceto os descritos no CEST 17.087.02
+XVII;PRODUTOS ALIMENTÍCIOS;871;1708701;"0203020602090210.1 0210.99.001501";Carnes e demais produtos comestíveis frescos, resfriados, congelados, salgados, em salmoura, simplesmente temperados, secos ou defumados, resultantes do abate de suínos
+XVII;PRODUTOS ALIMENTÍCIOS;872;1708702;"0207.10207.2";Carnes de aves inteiras e com peso unitário superior a 3 kg, temperadas
+XVII;PRODUTOS ALIMENTÍCIOS;880;1708800;0710;Produtos hortícolas, cozidos em água ou vapor, congelados, em embalagens de conteúdo inferior ou igual a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;881;1708801;0710;Produtos hortícolas, cozidos em água ou vapor, congelados, em embalagens de conteúdo superior a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;890;1708900;0811;Frutas, não cozidas ou cozidas em água ou vapor, congeladas, mesmo adicionadas de açúcar ou de outros edulcorantes, em embalagens de conteúdo inferior ou igual a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;891;1708901;0811;Frutas, não cozidas ou cozidas em água ou vapor, congeladas, mesmo adicionadas de açúcar ou de outros edulcorantes, em embalagens de conteúdo superior a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;900;1709000;2001;Produtos hortícolas, frutas e outras partes comestíveis de plantas, preparados ou conservados em vinagre ou em ácido acético, em embalagens de conteúdo inferior ou igual a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;901;1709001;2001;Produtos hortícolas, frutas e outras partes comestíveis de plantas, preparados ou conservados em vinagre ou em ácido acético, em embalagens de conteúdo superior a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;910;1709100;2004;Outros produtos hortícolas preparados ou conservados, exceto em vinagre ou em ácido acético, congelados, com exceção dos produtos da posição 20.06, em embalagens de conteúdo inferior ou igual a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;911;1709101;2004;Outros produtos hortícolas preparados ou conservados, exceto em vinagre ou em ácido acético, congelados, com exceção dos produtos da posição 20.06, em embalagens de conteúdo superior a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;920;1709200;2005;Outros produtos hortícolas preparados ou conservados, exceto em vinagre ou em ácido acético, não congelados, com exceção dos produtos da posição 20.06, excluídos batata, inhame e mandioca fritos, em embalagens de conteúdo inferior ou igual a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;921;1709201;2005;Outros produtos hortícolas preparados ou conservados, exceto em vinagre ou em ácido acético, não congelados, com exceção dos produtos da posição 20.06, excluídos batata, inhame e mandioca fritos, em embalagens de conteúdo superior a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;930;1709300;2006.00.00;Produtos hortícolas, frutas, cascas de frutas e outras partes de plantas, conservados com açúcar (passados por calda, glaceados ou cristalizados), em embalagens de conteúdo inferior ou igual a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;931;1709301;2006.00.00;Produtos hortícolas, frutas, cascas de frutas e outras partes de plantas, conservados com açúcar (passados por calda, glaceados ou cristalizados), em embalagens de conteúdo superior a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;940;1709400;2007;Doces, geleias, “marmelades”, purês e pastas de frutas, obtidos por cozimento, com ou sem adição de açúcar ou de outros edulcorantes, em embalagens de conteúdo inferior ou igual a 1 kg, exceto as embalagens individuais de conteúdo inferior ou igual a 10 g
+XVII;PRODUTOS ALIMENTÍCIOS;941;1709401;2007;Doces, geleias, “marmelades”, purês e pastas de frutas, obtidos por cozimento, com ou sem adição de açúcar ou de outros edulcorantes, em embalagens de conteúdo superior a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;950;1709500;2008;Frutas e outras partes comestíveis de plantas, preparadas ou conservadas de outro modo, com ou sem adição de açúcar ou de outros edulcorantes ou de álcool, não especificadas nem compreendidas em outras posições, excluídos os amendoins e castanhas tipo aperitivo, da posição 2008.1, em embalagens de conteúdo inferior ou igual a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;951;1709501;2008;Frutas e outras partes comestíveis de plantas, preparadas ou conservadas de outro modo, com ou sem adição de açúcar ou de outros edulcorantes ou de álcool, não especificadas nem compreendidas em outras posições, excluídos os amendoins e castanhas tipo aperitivo, da posição 2008.1, em embalagens superior a 1 kg
+XVII;PRODUTOS ALIMENTÍCIOS;960;1709600;0901;Café torrado e moído, em embalagens de conteúdo inferior ou igual a 2 kg, exceto os classificados nos CEST 17.096.04 e 17.096.05
+XVII;PRODUTOS ALIMENTÍCIOS;961;1709601;0901;Café torrado e moído, em embalagens de conteúdo superior a 2 kg
+XVII;PRODUTOS ALIMENTÍCIOS;962;1709602;0901;Café torrado em grão, em embalagens de conteúdo inferior ou igual a 2 kg
+XVII;PRODUTOS ALIMENTÍCIOS;963;1709603;0901;Café torrado em grão, em embalagens de conteúdo superior a 2 kg
+XVII;PRODUTOS ALIMENTÍCIOS;964;1709604;0901;Café torrado e moído, em cápsulas, exceto os descritos no CEST 17.096.05
+XVII;PRODUTOS ALIMENTÍCIOS;965;1709605;0901;Café descafeinado torrado e moído, em cápsulas
+XVII;PRODUTOS ALIMENTÍCIOS;970;1709700;"09021211.90.902106.90.90";Chá, mesmo aromatizado
+XVII;PRODUTOS ALIMENTÍCIOS;980;1709800;0903.00;Mate
+XVII;PRODUTOS ALIMENTÍCIOS;990;1709900;"1701.11701.99.00";Açúcar refinado, em embalagens de conteúdo inferior ou igual a 2 kg, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo inferior ou igual a 10 g
+XVII;PRODUTOS ALIMENTÍCIOS;991;1709901;"1701.11701.99.00";Açúcar refinado, em embalagens de conteúdo superior a 2 kg e inferior ou igual a 5 kg
+XVII;PRODUTOS ALIMENTÍCIOS;992;1709902;"1701.11701.99.00";Açúcar refinado, em embalagens de conteúdo superior a 5 kg
+XVII;PRODUTOS ALIMENTÍCIOS;1000;1710000;1701.91.00;Açúcar refinado adicionado de aromatizante ou de corante em embalagens de conteúdo inferior ou igual a 2 kg, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo inferior ou igual a 10 g
+XVII;PRODUTOS ALIMENTÍCIOS;1001;1710001;1701.91.00;Açúcar refinado adicionado de aromatizante ou de corante em embalagens de conteúdo superior a 2 kg e inferior ou igual a 5 kg
+XVII;PRODUTOS ALIMENTÍCIOS;1002;1710002;1701.91.00;Açúcar refinado adicionado de aromatizante ou de corante em embalagens de conteúdo superior a 5 kg
+XVII;PRODUTOS ALIMENTÍCIOS;1010;1710100;"1701.11701.99.00";Açúcar cristal, em embalagens de conteúdo inferior ou igual a 2 kg, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo inferior ou igual a 10 g
+XVII;PRODUTOS ALIMENTÍCIOS;1011;1710101;"1701.11701.99.00";Açúcar cristal, em embalagens de conteúdo superior a 2 kg e inferior ou igual a 5 kg
+XVII;PRODUTOS ALIMENTÍCIOS;1012;1710102;"1701.11701.99.00";Açúcar cristal, em embalagens de conteúdo superior a 5 kg
+XVII;PRODUTOS ALIMENTÍCIOS;1020;1710200;1701.91.00;Açúcar cristal adicionado de aromatizante ou de corante, em embalagens de conteúdo inferior ou igual a 2 kg, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo inferior ou igual a 10 g
+XVII;PRODUTOS ALIMENTÍCIOS;1021;1710201;1701.91.00;Açúcar cristal adicionado de aromatizante ou de corante, em embalagens de conteúdo superior a 2 kg e inferior ou igual a 5 kg
+XVII;PRODUTOS ALIMENTÍCIOS;1022;1710202;1701.91;Açúcar cristal adicionado de aromatizante ou de corante, em embalagens de conteúdo superior a 5 kg
+XVII;PRODUTOS ALIMENTÍCIOS;1030;1710300;"1701.11701.99.00";Outros tipos de açúcar, em embalagens de conteúdo inferior ou igual a 2 kg, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo inferior ou igual a 10 g
+XVII;PRODUTOS ALIMENTÍCIOS;1031;1710301;"1701.11701.99.00";Outros tipos de açúcar, em embalagens de conteúdo superior a 2 kg e inferior ou igual a 5 kg
+XVII;PRODUTOS ALIMENTÍCIOS;1032;1710302;"1701.11701.99.00";Outros tipos de açúcar, em embalagens de conteúdo superior a 5 kg
+XVII;PRODUTOS ALIMENTÍCIOS;1040;1710400;1701.91.00;Outros tipos de açúcar adicionado de aromatizante ou de corante, em embalagens de conteúdo inferior ou igual a 2 kg, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo inferior ou igual a 10 g
+XVII;PRODUTOS ALIMENTÍCIOS;1041;1710401;1701.91.00;Outros tipos de açúcar adicionado de aromatizante ou de corante, em embalagens de conteúdo superior a 2 kg e inferior ou igual a 5 kg
+XVII;PRODUTOS ALIMENTÍCIOS;1042;1710402;1701.91.00;Outros tipos de açúcar adicionado de aromatizante ou de corante, em embalagens de conteúdo superior a 5 kg
+XVII;PRODUTOS ALIMENTÍCIOS;1050;1710500;1702;Outros açúcares em embalagens de conteúdo inferior ou igual a 2 kg, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo inferior ou igual a 10 g
+XVII;PRODUTOS ALIMENTÍCIOS;1051;1710501;1702;Outros açúcares, em embalagens de conteúdo superior a 2 kg e inferior ou igual a 5 kg
+XVII;PRODUTOS ALIMENTÍCIOS;1052;1710502;1702;Outros açúcares, em embalagens de conteúdo superior a 5 kg
+XVII;PRODUTOS ALIMENTÍCIOS;1060;1710600;2008.19.00;Milho para pipoca (micro-ondas)
+XVII;PRODUTOS ALIMENTÍCIOS;1070;1710700;2101.1;Extratos, essências e concentrados de café e preparações à base destes extratos, essências ou concentrados ou à base de café, em embalagens de conteúdo inferior ou igual a 500 g, exceto os classificados no CEST 17.107.01
+XVII;PRODUTOS ALIMENTÍCIOS;1071;1710701;2101.1;Extratos, essências e concentrados de café e preparações à base destes extratos, essências ou concentrados ou à base de café, em cápsulas
+XVII;PRODUTOS ALIMENTÍCIOS;1080;1710800;2101.20;Extratos, essências e concentrados de chá ou de mate e preparações à base destes extratos, essências ou concentrados ou à base de chá ou de mate, em embalagens de conteúdo inferior ou igual a 500 g, exceto as bebidas prontas à base de mate ou chá e os itens classificados no CEST 17.108.01
+XVII;PRODUTOS ALIMENTÍCIOS;1081;1710801;2101.20;Extratos, essências e concentrados de chá ou de mate e preparações à base destes extratos, essências ou concentrados ou à base de chá ou de mate, em cápsulas
+XVII;PRODUTOS ALIMENTÍCIOS;1090;1710900;"1901.90.902101.11.902101.12.00";Preparações em pó para cappuccino e similares, em embalagens de conteúdo inferior ou igual a 500 g
+XVII;PRODUTOS ALIMENTÍCIOS;1100;1711000;2202.10.00;Refrescos e outras bebidas prontas para beber, à base de chá e mate
+XVII;PRODUTOS ALIMENTÍCIOS;1110;1711100;2202.10.00;Refrescos e outras bebidas não alcoólicas, exceto os refrigerantes e as demais bebidas nos CEST 03.007.00 e 17.110.00
+XVII;PRODUTOS ALIMENTÍCIOS;1120;1711200;2202.99.00;Néctares de frutas e outras bebidas não alcoólicas prontas para beber, exceto isotônicos e energéticos
+XVII;PRODUTOS ALIMENTÍCIOS;1130;1711300;"2101.202202.99.00";Bebidas prontas à base de mate ou chá
+XVII;PRODUTOS ALIMENTÍCIOS;1140;1711400;2202.99.00;Bebidas prontas à base de café
+XVII;PRODUTOS ALIMENTÍCIOS;1150;1711500;2202.99.00;"Bebidas alimentares prontas à base de soja, leite ou cacau, inclusive os produtos denominados bebidas lácteas "
+XVIII;PRODUTOS DE PAPELARIA;10;1900100;3213.10.00;Tinta guache
+XVIII;PRODUTOS DE PAPELARIA;20;1900200;3916.20.00;Espiral - perfil para encadernação, de plástico e outros materiais classificados nas posições 3901 a 3914
+XVIII;PRODUTOS DE PAPELARIA;30;1900300;"3916.10.003916.90";Outros espirais - perfil para encadernação, de plástico e outros materiais classificados nas posições 3901 a 3914
+XVIII;PRODUTOS DE PAPELARIA;40;1900400;3926.10.00;Artigos de escritório e artigos escolares de plástico e outros materiais classificados nas posições 3901 a 3914, exceto estojos
+XVIII;PRODUTOS DE PAPELARIA;50;1900500;"4202.14202.9";Maletas e pastas para documentos e de estudante, e artefatos semelhantes
+XVIII;PRODUTOS DE PAPELARIA;51;1900501;"4202.14202.9";Baús, malas e maletas para viagem
+XVIII;PRODUTOS DE PAPELARIA;60;1900600;3926.90.90;Prancheta de plástico
+XVIII;PRODUTOS DE PAPELARIA;70;1900700;"4802.20.904811.90.90";Bobina para fax
+XVIII;PRODUTOS DE PAPELARIA;80;1900800;4802.54.9;Papel seda
+XVIII;PRODUTOS DE PAPELARIA;90;1900900;"4802.54.994802.57.994816.20.00";Bobina para máquina de calcular, PDV ou equipamentos similares
+XVIII;PRODUTOS DE PAPELARIA;100;1901000;"4802.56.94802.57.94802.58.9";Cartolina escolar e papel cartão, brancos e coloridos, cortados em folhas em que um lado seja inferior ou igual a 500 mm e o outro inferior ou igual a 700 mm, quando não dobradas, e peso igual ou superior a 120g/m² recados autoadesivos (LP note) papéis de presente todos cortados em tamanho pronto para uso escolar e doméstico
+XVIII;PRODUTOS DE PAPELARIA;110;1901100;"3703.10.103703.10.293703.20.003703.90.103704.00.004802.20.00";Papel fotográfico, exceto: (i) os papéis fotográficos emulsionados com haleto de prata tipo brilhante, matte ou lustre, em rolo e, com largura igual ou superior a 102 mm e comprimento inferior ou igual a 350 m, (ii) os papéis fotográficos emulsionados com haleto de prata tipo brilhante ou fosco, em folha e com largura igual ou superior a 152 mm e comprimento inferior ou igual a 307 mm, (iii) papel de qualidade fotográfica com tecnologia “Thermo-autochrome”, que submetido a um processo de aquecimento seja capaz de formar imagens por reação química e combinação das camadas cyan, magenta e amarela
+XVIII;PRODUTOS DE PAPELARIA;120;1901200;4810.13.90;Papel almaço
+XVIII;PRODUTOS DE PAPELARIA;130;1901300;4816.90.10;Papel hectográfico
+XVIII;PRODUTOS DE PAPELARIA;140;1901400;3920.20.19;Papel celofane e tipo celofane
+XVIII;PRODUTOS DE PAPELARIA;150;1901500;4806.20.00;Papel impermeável
+XVIII;PRODUTOS DE PAPELARIA;160;1901600;4808.10.00;Papel crepon
+XVIII;PRODUTOS DE PAPELARIA;170;1901700;4810.22.90;Papel fantasia
+XVIII;PRODUTOS DE PAPELARIA;180;1901800;"48094816";Papel-carbono, papel autocopiativo (exceto os vendidos em rolos de diâmetro igual ou superior a 60 cm e os vendidos em folhas de formato igual ou superior a 60 cm de altura e igual ou superior a 90 cm de largura) e outros papéis para cópia ou duplicação (incluídos os papéis para estênceis ou para chapas ofsete), estênceis completos e chapas ofsete, de papel, em folhas, mesmo acondicionados em caixas
+XVIII;PRODUTOS DE PAPELARIA;190;1901900;4817;Envelopes, aerogramas, bilhetes-postais não ilustrados e cartões para correspondência, de papel ou cartão, caixas, sacos e semelhantes, de papel ou cartão, contendo um sortido de artigos para correspondência
+XVIII;PRODUTOS DE PAPELARIA;200;1902000;4820.10.00;Livros de registro e de contabilidade, blocos de notas, de encomendas, de recibos, de apontamentos, de papel para cartas, agendas e artigos semelhantes
+XVIII;PRODUTOS DE PAPELARIA;210;1902100;4820.20.00;Cadernos
+XVIII;PRODUTOS DE PAPELARIA;220;1902200;4820.30.00;Classificadores, capas para encadernação (exceto as capas para livros) e capas de processos
+XVIII;PRODUTOS DE PAPELARIA;230;1902300;4820.40.00;Formulários em blocos tipo “manifold”, mesmo com folhas intercaladas de papel-carbono
+XVIII;PRODUTOS DE PAPELARIA;240;1902400;4820.50.00;Álbuns para amostras ou para coleções
+XVIII;PRODUTOS DE PAPELARIA;250;1902500;4820.90.00;Pastas para documentos, outros artigos escolares, de escritório ou de papelaria, de papel ou cartão e capas para livros, de papel ou cartão
+XVIII;PRODUTOS DE PAPELARIA;260;1902600;4909.00.00;Cartões postais impressos ou ilustrados, cartões impressos com votos ou mensagens pessoais, mesmo ilustrados, com ou sem envelopes, guarnições ou aplicações (conhecidos como cartões de expressão social - de época/sentimento)
+XVIII;PRODUTOS DE PAPELARIA;270;1902700;9608.10.00;Canetas esferográficas
+XVIII;PRODUTOS DE PAPELARIA;280;1902800;9608.20.00;Canetas e marcadores, com ponta de feltro ou com outras pontas porosas
+XVIII;PRODUTOS DE PAPELARIA;290;1902900;9608.30.00;Canetas tinteiro
+XVIII;PRODUTOS DE PAPELARIA;300;1903000;9608;Outras canetas sortidos de canetas
+XVIII;PRODUTOS DE PAPELARIA;310;1903100;4802.56;Papel cortado “cutsize” (tipo A3, A4, ofício I e II, carta e outros)
+XVIII;PRODUTOS DE PAPELARIA;320;1903200;5210.59.90;Papel camurça
+XVIII;PRODUTOS DE PAPELARIA;330;1903300;7607.11.90;"Papel laminado e papel espelho "
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;10;2000100;1211.90.90;Henna (embalagens de conteúdo inferior ou igual a 200 g)
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;11;2000101;1211.90.90;Henna (embalagens de conteúdo superior a 200 g)
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;20;2000200;2712.10.00;Vaselina
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;30;2000300;2814.20.00;Amoníaco em solução aquosa (amônia)
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;40;2000400;2847.00.00;Peróxido de hidrogênio, em embalagens de conteúdo inferior ou igual a 500 ml
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;50;2000500;3006.70.00;Lubrificação íntima
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;60;2000600;3301;Óleos essenciais (desterpenados ou não), incluídos os chamados “concretos” ou “absolutos” resinoides oleorresinas de extração soluções concentradas de óleos essenciais em gorduras, em óleos fixos, em ceras ou em matérias análogas, obtidas por tratamento de flores através de substâncias gordas ou por maceração subprodutos terpênicos residuais da desterpenação dos óleos essenciais águas destiladas aromáticas e soluções aquosas de óleos essenciais, em embalagens de conteúdo inferior ou igual a 500 ml
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;70;2000700;3303.00.10;Perfumes (extratos)
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;80;2000800;3303.00.20;Águas-de-colônia
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;90;2000900;3304.10.00;Produtos de maquilagem para os lábios
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;100;2001000;3304.20.10;Sombra, delineador, lápis para sobrancelhas e rímel
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;110;2001100;3304.20.90;Outros produtos de maquilagem para os olhos
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;120;2001200;3304.30.00;Preparações para manicuros e pedicuros, incluindo removedores de esmalte à base de acetona
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;130;2001300;3304.91.00;Pós, incluídos os compactos
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;140;2001400;3304.99.10;Cremes de beleza, cremes nutritivos e loções tônicas
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;150;2001500;3304.99.90;Outros produtos de beleza ou de maquilagem preparados e preparações para conservação ou cuidados da pele, exceto as preparações solares e antissolares
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;160;2001600;3304.99.90;Preparações solares e antissolares
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;170;2001700;3305.10.00;Xampus para o cabelo
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;180;2001800;3305.20.00;Preparações para ondulação ou alisamento, permanentes, dos cabelos
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;190;2001900;3305.30.00;Laquês para o cabelo
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;200;2002000;3305.90.00;Outras preparações capilares, incluindo máscaras e finalizadores
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;210;2002100;3305.90.00;Condicionadores
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;220;2002200;3305.90.00;Tintura para o cabelo
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;230;2002300;3306.10.00;Dentifrícios
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;240;2002400;3306.20.00;Fios utilizados para limpar os espaços interdentais (fios dentais)
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;250;2002500;3306.90.00;Outras preparações para higiene bucal ou dentária
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;260;2002600;3307.10.00;Preparações para barbear (antes, durante ou após)
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;270;2002700;3307.20.10;Desodorantes (desodorizantes) corporais líquidos, exceto os classificados no CEST 20.027.01
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;271;2002701;3307.20.10;Loções e óleos desodorantes hidratantes líquidos
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;280;2002800;3307.20.10;Antiperspirantes líquidos
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;290;2002900;3307.20.90;Outros desodorantes (desodorizantes) corporais, exceto os classificados no CEST 20.029.01
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;291;2002901;3307.20.90;Outras loções e óleos desodorantes hidratantes
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;300;2003000;3307.20.90;Outros antiperspirantes
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;310;2003100;3307.30.00;Sais perfumados e outras preparações para banhos
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;320;2003200;3307.90.00;Outros produtos de perfumaria preparados
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;321;2003201;3307.90.00;Outros produtos de toucador preparados
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;330;2003300;3307.90.00;Soluções para lentes de contato ou para olhos artificiais
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;340;2003400;3401.11.90;Sabões de toucador em barras, pedaços ou figuras moldados, exceto CEST 20.034.01
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;341;2003401;3401.11.90;Lenços umedecidos
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;350;2003500;3401.19.00;Outros sabões, produtos e preparações, em barras, pedaços ou figuras moldados
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;351;;;
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;360;2003600;3401.20.10;Sabões de toucador sob outras formas
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;370;2003700;3401.30.00;Produtos e preparações orgânicos tensoativos para lavagem da pele, na forma de líquido ou de creme, acondicionados para venda a retalho, mesmo contendo sabão
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;380;2003800;4014.90.10;Bolsa para gelo ou para água quente
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;390;2003900;4014.90.90;Chupetas e bicos para mamadeiras e para chupetas, de borracha
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;400;2004000;"3924.90.003926.90.40926.90.90";Chupetas e bicos para mamadeiras e para chupetas, de silicone
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;410;2004100;4202.1;Malas e maletas de toucador
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;420;2004200;4818.10.00;Papel higiênico - folha simples
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;430;2004300;4818.10.00;Papel higiênico - folha dupla e tripla
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;440;2004400;4818.20.00;Lenços (incluídos os de maquilagem) e toalhas de mão
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;450;2004500;4818.20.00;Papel toalha de uso institucional do tipo comercializado em rolos igual ou superior a 80 metros e do tipo comercializado em folhas intercaladas
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;460;2004600;4818.30.00;Toalhas e guardanapos de mesa
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;470;2004700;4818.90.90;Toalhas de cozinha (papel toalha de uso doméstico)
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;480;2004800;9619.00.00;Fraldas, exceto os descritos no CEST 20.048.01
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;481;2004801;9619.00.00;Fraldas de fibras têxteis
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;490;2004900;9619.00.00;Tampões higiênicos
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;500;2005000;9619.00.00;Absorventes higiênicos externos
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;510;2005100;5601.21.90;Hastes flexíveis (uso não medicinal)
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;520;2005200;5603.92.90;Sutiã descartável, assemelhados e papel para depilação
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;530;2005300;8203.20.90;Pinças para sobrancelhas
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;540;2005400;8214.10.00;Espátulas (artigos de cutelaria)
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;550;2005500;8214.20.00;Utensílios e sortidos de utensílios de manicuros ou de pedicuros (incluídas as limas para unhas)
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;560;2005600;"9025.11.109025.19.90";Termômetros, inclusive o digital
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;570;2005700;9603.2;Escovas e pincéis de barba, escovas para cabelos, para cílios ou para unhas e outras escovas de toucador de pessoas, incluídas as que sejam partes de aparelhos, exceto escovas de dentes
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;580;2005800;9603.21.00;Escovas de dentes, incluídas as escovas para dentaduras
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;590;2005900;9603.30.00;Pincéis para aplicação de produtos cosméticos
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;600;2006000;9605.00.00;Sortidos de viagem, para toucador de pessoas para costura ou para limpeza de calçado ou de roupas
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;610;2006100;9615;Pentes, travessas para cabelo e artigos semelhantes grampos (alfinetes) para cabelo pinças (pinceguiches), onduladores, bobes (rolos) e artefatos semelhantes para penteados, e suas partes, exceto os classificados na posição 8516 e suas partes
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;620;2006200;9616.20.00;Borlas ou esponjas para pós ou para aplicação de outros cosméticos ou de produtos de toucador
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;630;2006300;"3923.30.003924.90.003924.10.004014.90.907010.20.00";Mamadeiras
+XIX;PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS;640;2006400;"8212.10.208212.20.10";"Aparelhos e lâminas de barbear "
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;10;2100100;"7321.11.007321.81.007321.90.00";Fogões de cozinha de uso doméstico e suas partes
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;20;2100200;8418.10.00;Combinações de refrigeradores e congeladores (“freezers”), munidos de portas exteriores separadas
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;30;2100300;8418.21.00;Refrigeradores do tipo doméstico, de compressão
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;40;2100400;8418.29.00;Outros refrigeradores do tipo doméstico
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;50;2100500;8418.30.00;Congeladores (“freezers”) horizontais tipo arca, de capacidade não superior a 800 litros
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;60;2100600;8418.40.00;Congeladores (“freezers”) verticais tipo armário, de capacidade não superior a 900 litros
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;70;2100700;8418.50;Outros móveis (arcas, armários, vitrines, balcões e móveis semelhantes) para a conservação e exposição de produtos, que incorporem um equipamento para a produção de frio
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;80;2100800;8418.69.9;Mini adega e similares
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;90;2100900;8418.69.99;Máquinas para produção de gelo
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;100;2101000;8418.99.00;Partes dos refrigeradores, congeladores, mini adegas e similares, máquinas para produção de gelo e bebedouros descritos nos CEST 21.002.00, 21.003.00, 21.004.00, 21.005.00, 21.006.00, 21.007.00, 21.008.00, 21.009.00 e 21.013.00
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;110;2101100;8421.12;Secadoras de roupa de uso doméstico
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;120;2101200;8421.19.90;Outras secadoras de roupas e centrífugas de uso doméstico
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;130;2101300;8418.69.31;Bebedouros refrigerados para água
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;140;2101400;8421.9;Partes das secadoras de roupas e centrífugas de uso doméstico e dos aparelhos para filtrar ou depurar água, descritos nos CEST 21.011.00 e 21.012.00 e 21.098.00
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;150;2101500;"8422.11.008422.90.10";Máquinas de lavar louça do tipo doméstico e suas partes
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;160;2101600;8443.31;Máquinas que executem pelo menos duas das seguintes funções: impressão, cópia ou transmissão de telecópia (fax), capazes de ser conectadas a uma máquina automática para processamento de dados ou a uma rede
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;170;2101700;8443.32;Outras impressoras, máquinas copiadoras e telecopiadores (fax), mesmo combinados entre si, capazes de ser conectados a uma máquina automática para processamento de dados ou a uma rede
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;180;2101800;8443.9;Partes e acessórios de máquinas e aparelhos de impressão por meio de blocos, cilindros e outros elementos de impressão da posição 8442 e de outras impressoras, máquinas copiadoras e telecopiadores (fax), mesmo combinados entre si
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;190;2101900;8450.11.00;Máquinas de lavar roupa, mesmo com dispositivos de secagem, de uso doméstico, de capacidade não superior a 10 kg, em peso de roupa seca, inteiramente automáticas
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;200;2102000;8450.12.00;Outras máquinas de lavar roupa, mesmo com dispositivos de secagem, de uso doméstico, com secador centrífugo incorporado
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;210;2102100;8450.19.00;Outras máquinas de lavar roupa, mesmo com dispositivos de secagem, de uso doméstico
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;220;2102200;8450.20;Máquinas de lavar roupa, mesmo com dispositivos de secagem, de uso doméstico, de capacidade superior a 10 kg, em peso de roupa seca
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;230;2102300;8450.90;Partes de máquinas de lavar roupa, mesmo com dispositivos de secagem, de uso doméstico
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;240;2102400;8451.21.00;Máquinas de secar de uso doméstico de capacidade não superior a 10 kg, em peso de roupa seca
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;250;2102500;8451.29.90;Outras máquinas de secar de uso doméstico
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;260;2102600;8451.90;Partes de máquinas de secar de uso doméstico
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;270;2102700;8452.10.00;Máquinas de costura de uso doméstico
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;280;2102800;8471.30;Máquinas automáticas para processamento de dados, portáteis, de peso não superior a 10 kg, contendo pelo menos uma unidade central de processamento, um teclado e uma tela
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;290;2102900;8471.4;Outras máquinas automáticas para processamento de dados
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;300;2103000;8471.50.10;Unidades de processamento, de pequena capacidade, exceto as das subposições 8471.41 ou 8471.49, podendo conter, no mesmo corpo, um ou dois dos seguintes tipos de unidades: unidade de memória, unidade de entrada e unidade de saída baseadas em microprocessadores, com capacidade de instalação, dentro do mesmo gabinete, de unidades de memória da subposição 8471.70, podendo conter múltiplos conectores de expansão (“slots”), e valor FOB inferior ou igual a US$ 12.500,00, por unidade
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;310;2103100;8471.60.5;Unidades de entrada, exceto as classificadas no código 8471.60.54
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;320;2103200;8471.60.90;Outras unidades de entrada ou de saída, podendo conter, no mesmo corpo, unidades de memória
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;330;2103300;8471.70;Unidades de memória
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;340;2103400;8471.90;Outras máquinas automáticas para processamento de dados e suas unidades leitores magnéticos ou ópticos, máquinas para registrar dados em suporte sob forma codificada, e máquinas para processamento desses dados, não especificadas nem compreendidas em outras posições
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;350;2103500;8473.30;Partes e acessórios das máquinas da posição 84.71
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;360;2103600;8504.3;Outros transformadores, exceto os classificados nos códigos 8504.33.00 e 8504.34.00
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;370;2103700;8504.40.10;Carregadores de acumuladores
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;380;2103800;8504.40.40;Equipamentos de alimentação ininterrupta de energia (UPS ou “no break”)
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;390;2103900;8507.80.00;Outros acumuladores
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;400;2104000;8508;Aspiradores
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;410;2104100;8509;Aparelhos eletromecânicos de motor elétrico incorporado, de uso doméstico e suas partes
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;420;2104200;8509.80.10;Enceradeiras
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;430;2104300;8516.10.00;Chaleiras elétricas
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;440;2104400;8516.40.00;Ferros elétricos de passar
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;450;2104500;8516.50.00;Fornos de micro-ondas
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;460;2104600;8516.60.00;Outros fornos fogareiros (incluídas as chapas de cocção), grelhas e assadeiras, exceto os portáteis
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;470;2104700;8516.60.00;Outros fornos fogareiros (incluídas as chapas de cocção), grelhas e assadeiras, portáteis
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;480;2104800;8516.71.00;Outros aparelhos eletrotérmicos de uso doméstico - Cafeteiras
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;490;2104900;8516.72.00;Outros aparelhos eletrotérmicos de uso doméstico - Torradeiras
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;500;2105000;8516.79;Outros aparelhos eletrotérmicos de uso doméstico
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;510;2105100;8516.90.00;Partes das chaleiras, ferros, fornos e outros aparelhos eletrotérmicos da posição 85.16, descritos nos CEST 21.043.00, 21.044.00, 21.045.00, 21.046.00, 21.047.00, 21.048.00, 21.049.00 e 21.050.00
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;520;2105200;8517.11.00;Aparelhos telefônicos por fio com unidade auscultador - microfone sem fio
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;530;2105300;8517.12.3;Telefones para redes celulares, exceto por satélite, os de uso automotivo e os classificados no CEST 21.053.01
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;531;2105301;8517.12.31;Telefones para redes celulares portáteis, exceto por satélite
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;540;2105400;8517.12;Outros telefones para outras redes sem fio, exceto para redes de celulares e os de uso automotivo
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;550;2105500;8517.18.91;Outros aparelhos telefônicos não combinados com outros aparelhos
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;551;2105501;8517.18.99;Outros aparelhos telefônicos
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;560;2105600;8517.62.5;Aparelhos para transmissão ou recepção de voz, imagem ou outros dados em rede com fio, exceto os classificados nos códigos 8517.62.51, 8517.62.52 e 8517.62.53
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;570;2105700;8518;Microfones e seus suportes alto-falantes, mesmo montados nos seus receptáculos, fones de ouvido (auscultadores), mesmo combinados com microfone e conjuntos ou sortidos constituídos por um microfone e um ou mais alto-falantes, amplificadores elétricos de audiofrequência, aparelhos elétricos de amplificação de som suas partes e acessórios exceto os de uso automotivo
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;580;2105800;"851985228527.1";Aparelhos de radiodifusão suscetíveis de funcionarem sem fonte externa de energia. Aparelhos de gravação de som aparelhos de reprodução de som aparelhos de gravação e de reprodução de som partes e acessórios exceto os de uso automotivo
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;590;2105900;8519.81.90;Outros aparelhos de gravação de som aparelhos de reprodução de som aparelhos de gravação e de reprodução de som partes e acessórios exceto os de uso automotivo
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;600;2106000;8521.90.10;Gravador-reprodutor e editor de imagem e som, em discos, por meio magnético, óptico ou optomagnético, exceto de uso automotivo
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;610;2106100;8521.90.90;Outros aparelhos videofônicos de gravação ou reprodução, mesmo incorporando um receptor de sinais videofônicos, exceto os de uso automotivo
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;620;2106200;8523.51.10;"Cartões de memória (""memorycards"")"
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;630;2106300;8523.52.00;"Cartões inteligentes (""smartcards""), exceto o item classificado no CEST 21.064.00"
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;640;2106400;8523.52.00;"Cartões inteligentes (""sim cards"")"
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;650;2106500;8525.80.2;Câmeras fotográficas digitais e câmeras de vídeo e suas partes
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;660;2106600;8527.9;Outros aparelhos receptores para radiodifusão, mesmo combinados num invólucro, com um aparelho de gravação ou de reprodução de som, ou com um relógio, inclusive caixa acústica para Home Theaters classificados na posição 8518
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;670;2106700;"8528.49.298528.59.208528.69";Monitores e projetores que não incorporem aparelhos receptores de televisão, policromáticos
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;671;2106701;8528.62.00;Projetores capazes de serem conectados diretamente a uma máquina automática para processamento de dados da posição 84.71 e concebidos para serem utilizados com esta máquina
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;680;2106800;8528.52.20;Outros monitores capazes de serem conectados diretamente a uma máquina automática para processamento de dados da posição 84.71 e concebidos para serem utilizados com esta máquina, policromáticos
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;690;2106900;8528.7;Aparelhos receptores de televisão, mesmo que incorporem um aparelho receptor de radiodifusão ou um aparelho de gravação ou reprodução de som ou de imagens - Televisores de CRT (tubo de raios catódicos)
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;700;2107000;8528.7;Aparelhos receptores de televisão, mesmo que incorporem um aparelho receptor de radiodifusão ou um aparelho de gravação ou reprodução de som ou de imagens - Televisores de LCD (Display de Cristal Líquido)
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;710;2107100;8528.7;Aparelhos receptores de televisão, mesmo que incorporem um aparelho receptor de radiodifusão ou um aparelho de gravação ou reprodução de som ou de imagens - Televisores de Plasma
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;720;2107200;8528.7;Outros aparelhos receptores de televisão não dotados de monitores ou display de vídeo
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;730;2107300;8528.7;Outros aparelhos receptores de televisão não relacionados nos CEST 21.069.00, 21.070.00, 21.071.00 e 21.072.00
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;740;2107400;9006.59;Câmeras fotográficas dos tipos utilizadas para preparação de clichês ou cilindros de impressão
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;750;2107500;9006.40.00;Câmeras fotográficas para filmes de revelação e copiagem instantâneas
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;760;2107600;9018.90.50;Aparelhos de diatermia
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;770;2107700;9019.10.00;Aparelhos de massagem
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;780;2107800;9032.89.11;Reguladores de voltagem eletrônicos
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;790;2107900;9504.50.00;Consoles e máquinas de jogos de vídeo, exceto os classificados na subposição 9504.30
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;800;2108000;8517.62.1;Multiplexadores e concentradores
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;810;2108100;8517.62.22;Centrais automáticas privadas, de capacidade inferior ou igual a 25 ramais
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;820;2108200;8517.62.39;Outros aparelhos para comutação
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;830;2108300;8517.62.4;Roteadores digitais, em redes com ou sem fio
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;840;2108400;8517.62.62;Aparelhos emissores com receptor incorporado de sistema troncalizado (“trunking”), de tecnologia celular
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;850;2108500;8517.62.9;Outros aparelhos de recepção, conversão e transmissão ou regeneração de voz, imagens ou outros dados, incluindo os aparelhos de comutação e roteamento
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;860;2108600;8517.70.21;Antenas próprias para telefones celulares portáteis, exceto as telescópicas
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;870;2108700;"8214.908510";Aparelhos ou máquinas de barbear, máquinas de cortar o cabelo ou de tosquiar e aparelhos de depilar, e suas partes
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;880;2108800;8414.5;Ventiladores, exceto os de uso agrícola
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;890;2108900;8414.59.90;Ventiladores de uso agrícola
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;900;2109000;8414.60.00;Coifas com dimensão horizontal máxima não superior a 120 cm
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;910;2109100;8414.90.20;Partes de ventiladores ou coifas aspirantes
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;920;2109200;"8415.108415.8";Máquinas e aparelhos de ar condicionado contendo um ventilador motorizado e dispositivos próprios para modificar a temperatura e a umidade, incluídos as máquinas e aparelhos em que a umidade não seja regulável separadamente
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;930;2109300;8415.10.11;Aparelhos de ar-condicionado tipo Split System (sistema com elementos separados) com unidade externa e interna
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;940;2109400;8415.10.19;Aparelhos de ar-condicionado com capacidade inferior ou igual a 30.000 frigorias/hora
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;950;2109500;8415.10.90;Aparelhos de ar-condicionado com capacidade acima de 30.000 frigorias/hora
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;960;2109600;8415.90.10;Unidades evaporadoras (internas) de aparelho de ar-condicionado do tipo Split System (sistema com elementos separados), com capacidade inferior ou igual a 30.000 frigorias/hora
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;970;2109700;8415.90.20;Unidades condensadoras (externas) de aparelho de ar-condicionado do tipo Split System (sistema com elementos separados), com capacidade inferior ou igual a 30.000 frigorias/hora
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;980;2109800;8421.21.00;Aparelhos elétricos para filtrar ou depurar água (purificadores de água refrigerados), exceto os itens classificados no CEST 21.098.01
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;981;2109801;8421.21.00;Outros aparelhos elétricos para filtrar ou depurar água
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;990;2109900;"8424.30.108424.30.908424.90.90";Lavadora de alta pressão e suas partes
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;1000;2110000;8467.21.00;Furadeiras elétricas
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;1010;2110100;8516.2;Aparelhos elétricos para aquecimento de ambientes
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;1020;2110200;8516.31.00;Secadores de cabelo
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;1030;2110300;8516.32.00;Outros aparelhos para arranjos do cabelo
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;1040;2110400;8527;Aparelhos receptores para radiodifusão, mesmo combinados num mesmo invólucro, com um aparelho de gravação ou de reprodução de som, ou com um relógio, exceto os classificados na posição 8527.1, 8527.2 e 8527.9 que sejam de uso automotivo
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;1050;2110500;8479.60.00;Climatizadores de ar
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;1060;2110600;8415.90.90;Outras partes para máquinas e aparelhos de ar-condicionado que contenham um ventilador motorizado e dispositivos próprios para modificar a temperatura e a umidade, incluindo as máquinas e aparelhos em que a umidade não seja regulável separadamente
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;1070;2110700;8525.80.19;Câmeras de televisão e suas partes
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;1080;2110800;8423.10.00;Balanças de uso doméstico
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;1090;2110900;8540;Tubos e válvulas, eletrônicos, de cátodo quente, cátodo frio ou fotocátodo (por exemplo, tubos e válvulas, de vácuo, de vapor ou de gás, ampolas retificadoras de vapor de mercúrio, tubos catódicos, tubos e válvulas para câmeras de televisão)
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;1100;2111000;8517;Aparelhos elétricos para telefonia outros aparelhos para transmissão ou recepção de voz, imagens ou outros dados, incluídos os aparelhos para comunicação em redes por fio ou redes sem fio (tal como uma rede local (LAN) ou uma rede de área estendida (WAN), incluídas suas partes, exceto os de uso automotivo e os classificados nos códigos 8517.62.51, 8517.62.52 e 8517.62.53
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;1110;2111100;8517;Interfones, seus acessórios, tomadas e “plugs”
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;1120;2111200;8529;Partes reconhecíveis como exclusiva ou principalmente destinadas aos aparelhos das posições 8525 a 8528 exceto as de uso automotivo
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;1130;2111300;8531;Aparelhos elétricos de sinalização acústica ou visual (por exemplo, campainhas, sirenes, quadros indicadores, aparelhos de alarme para proteção contra roubo ou incêndio) exceto os de uso automotivo e os classificados nas posições 8531.10 e 8531.80.00.
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;1140;2111400;8531.10;Aparelhos elétricos de alarme, para proteção contra roubo ou incêndio e aparelhos semelhantes, exceto os de uso automotivo
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;1150;2111500;8531.80.00;Outros aparelhos de sinalização acústica ou visual, exceto os de uso automotivo
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;1160;2111600;8534.00;Circuitos impressos, exceto os de uso automotivo
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;1170;2111700;"8541.40.118541.40.218541.40.22";Diodos emissores de luz (LED), exceto diodos “laser”
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;1180;2111800;8543.70.92;Eletrificadores de cercas eletrônicos
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;1190;2111900;9030.3;Aparelhos e instrumentos para medida ou controle da tensão, intensidade, resistência ou da potência, sem dispositivo registrador exceto os de uso automotivo
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;1200;2112000;9030.89;Analisadores lógicos de circuitos digitais, de espectro de frequência, frequencímetros, fasímetros, e outros instrumentos e aparelhos de controle de grandezas elétricas e detecção
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;1210;2112100;9107.00;Interruptores horários e outros aparelhos que permitam acionar um mecanismo em tempo determinado, munidos de maquinismo de aparelhos de relojoaria ou de motor síncrono
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;1220;2112200;9405;Aparelhos de iluminação (incluídos os projetores) e suas partes, não especificados nem compreendidos em outras posições anúncios, cartazes ou tabuletas e placas indicadoras luminosos, e artigos semelhantes, contendo uma fonte luminosa fixa permanente, e suas partes não especificadas nem compreendidas em outras posições, com exceção dos itens classificados nos CEST 21.123.00, 21.124.00 e 21.125.00
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;123;2112300;"9405.109405.9";Lustres e outros aparelhos elétricos de iluminação, próprios para serem suspensos ou fixados no teto ou na parede, exceto os dos tipos utilizados na iluminação pública e suas partes
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;124;2112400;"9405.20.009405.9";Abajures de cabeceiras, de escritório e lampadários de interior, elétricos e suas partes
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;125;2112500;"9405.409405.9";Outros aparelhos elétricos de iluminação e suas partes
+XX;PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS;126;2112600;8542.31.90;"Microprocessador"
+XXI;RAÇÕES PARA ANIMAIS DOMÉSTICOS;10;2200100;2309;"Ração tipo “pet” para animais domésticos "
+XXII;SORVETES E PREPARADOS PARA FABRICAÇÃO DE SORVETES EM MÁQUINAS;10;2300100;2105.00;Sorvetes de qualquer espécie
+XXII;SORVETES E PREPARADOS PARA FABRICAÇÃO DE SORVETES EM MÁQUINAS;20;2300200;"180619012106";"Preparados para fabricação de sorvete em máquina "
+XXIII;TINTAS E VERNIZES;10;2400100;"320832093210.00";Tintas, vernizes
+XXIII;TINTAS E VERNIZES;20;2400200;"28213204.17.003206";Xadrez e pós assemelhados, exceto pigmentos à base de dióxido de titânio classificados no código 3206.11.19
+XXIII;TINTAS E VERNIZES;30;2400300;"32043205.00.0032063212";"Corantes para aplicação em bases, tintas e vernizes "
+XXIV;VEÍCULOS AUTOMOTORES;10;2500100;8702.10.00;Veículos automóveis para transporte de 10 pessoas ou mais, incluindo o motorista, unicamente com motor de pistão, de ignição por compressão (diesel ou semidiesel), com volume interno de habitáculo, destinado a passageiros e motorista, superior a 6 m³, mas inferior a 9 m³
+XXIV;VEÍCULOS AUTOMOTORES;20;2500200;8702.40.90;Veículos automóveis para transporte de 10 pessoas ou mais, incluindo o motorista, unicamente com motor elétrico para propulsão, com volume interno de habitáculo, destinado a passageiros e motorista, superior a 6 m³, mas inferior a 9 m³
+XXIV;VEÍCULOS AUTOMOTORES;30;2500300;8703.21.00;Automóveis unicamente com motor de pistão alternativo de ignição por centelha (faísca*), de cilindrada não superior a 1000 cm³
+XXIV;VEÍCULOS AUTOMOTORES;40;2500400;8703.22.10;Automóveis unicamente com motor de pistão alternativo de ignição por centelha (faísca*), de cilindrada superior a 1000 cm³, mas não superior a 1500 cm³, com capacidade de transporte de pessoas sentadas inferior ou igual a 6, incluído o condutor, exceto carro celular
+XXIV;VEÍCULOS AUTOMOTORES;50;2500500;8703.22.90;Outros automóveis unicamente com motor de pistão alternativo de ignição por centelha (faísca*), de cilindrada superior a 1000 cm³, mas não superior a 1500 cm³, exceto carro celular
+XXIV;VEÍCULOS AUTOMOTORES;60;2500600;8703.23.10;Automóveis unicamente com motor de pistão alternativo de ignição por centelha (faísca*), de cilindrada superior a 1500 cm³, mas não superior a 3000 cm³, com capacidade de transporte de pessoas sentadas inferior ou igual a 6, incluído o condutor, exceto carro celular, carro funerário e automóveis de corrida
+XXIV;VEÍCULOS AUTOMOTORES;70;2500700;8703.23.90;Outros automóveis unicamente com motor de pistão alternativo de ignição por centelha (faísca*), de cilindrada superior a 1500 cm³, mas não superior a 3000 cm³, exceto carro celular, carro funerário e automóveis de corrida
+XXIV;VEÍCULOS AUTOMOTORES;80;2500800;8703.24.10;Automóveis unicamente com motor de pistão alternativo de ignição por centelha (faísca*), de cilindrada superior a 3000 cm³, com capacidade de transporte de pessoas sentadas inferior ou igual a 6, incluído o condutor, exceto carro celular, carro funerário e automóveis de corrida
+XXIV;VEÍCULOS AUTOMOTORES;90;2500900;8703.24.90;Outros automóveis unicamente com motor de pistão alternativo de ignição por centelha (faísca*), de cilindrada superior a 3000 cm³, exceto carro celular, carro funerário e automóveis de corrida
+XXIV;VEÍCULOS AUTOMOTORES;100;2501000;8703.32.10;Automóveis unicamente com motor diesel ou semidiesel, de cilindrada superior a 1500 cm³, mas não superior a 2500 cm³, com capacidade de transporte de pessoas sentadas inferior ou igual a 6, incluído o condutor, exceto ambulância, carro celular e carro funerário
+XXIV;VEÍCULOS AUTOMOTORES;110;2501100;8703.32.90;Outros automóveis unicamente com motor diesel ou semidiesel, de cilindrada superior a 1500 cm³, mas não superior a 2500 cm³, exceto ambulância, carro celular e carro funerário
+XXIV;VEÍCULOS AUTOMOTORES;120;2501200;8703.33.10;Automóveis unicamente com motor diesel ou semidiesel, de cilindrada superior a 2500 cm³, com capacidade de transporte de pessoas sentadas inferior ou igual a 6, incluído o condutor, exceto carro celular e carro funerário
+XXIV;VEÍCULOS AUTOMOTORES;130;2501300;8703.33.90;Outros automóveis unicamente com motor diesel ou semidiesel, de cilindrada superior a 2500 cm³, exceto carro celular e carro funerário
+XXIV;VEÍCULOS AUTOMOTORES;140;2501400;8704.21.10;Veículos automóveis para transporte de mercadorias, de peso em carga máxima não superior a 5 toneladas, chassis com motor diesel ou semidiesel e cabina, exceto caminhão de peso em carga máxima superior a 3,9 toneladas
+XXIV;VEÍCULOS AUTOMOTORES;150;2501500;8704.21.20;Veículos automóveis para transporte de mercadorias, de peso em carga máxima não superior a 5 toneladas, com motor diesel ou semidiesel, com caixa basculante, exceto caminhão de peso em carga máxima superior a 3,9 toneladas
+XXIV;VEÍCULOS AUTOMOTORES;160;2501600;8704.21.30;Veículos automóveis para transporte de mercadorias, de peso em carga máxima não superior a 5 toneladas, frigoríficos ou isotérmicos, com motor diesel ou semidiesel, exceto caminhão de peso em carga máxima superior a 3,9 toneladas
+XXIV;VEÍCULOS AUTOMOTORES;170;2501700;8704.21.90;Outros veículos automóveis para transporte de mercadorias, de peso em carga máxima não superior a 5 toneladas, com motor diesel ou semidiesel, exceto carro-forte para transporte de valores e caminhão de peso em carga máxima superior a 3,9 toneladas
+XXIV;VEÍCULOS AUTOMOTORES;180;2501800;8704.31.10;Veículos automóveis para transporte de mercadorias, de peso em carga máxima não superior a 5 toneladas, com motor a explosão, chassis e cabina, exceto caminhão de peso em carga máxima superior a 3,9 toneladas
+XXIV;VEÍCULOS AUTOMOTORES;190;2501900;8704.31.20;Veículos automóveis para transporte de mercadorias, de peso em carga máxima não superior a 5 toneladas, com motor explosão com caixa basculante, exceto caminhão de peso em carga máxima superior a 3,9 toneladas
+XXIV;VEÍCULOS AUTOMOTORES;200;2502000;8704.31.30,;Veículos automóveis para transporte de mercadorias, de peso em carga máxima não superior a 5 toneladas, frigoríficos ou isotérmicos com motor explosão, exceto caminhão de peso em carga máxima superior a 3,9 toneladas
+XXIV;VEÍCULOS AUTOMOTORES;210;2502100;8704.31.90,;Outros veículos automóveis para transporte de mercadorias, de peso em carga máxima não superior a 5 toneladas, com motor a explosão, exceto carro-forte para transporte de valores e caminhão de peso em carga máxima superior a 3,9 toneladas
+XXIV;VEÍCULOS AUTOMOTORES;220;2502200;8702.20.00;Veículos automóveis para transporte de 10 pessoas ou mais, incluindo o motorista, com motor de pistão, de ignição por compressão (diesel ou semidiesel) e um motor elétrico, com volume interno de habitáculo, destinado a passageiros e motorista, superior a 6 m³, mas inferior a 9 m³
+XXIV;VEÍCULOS AUTOMOTORES;230;2502300;8702.30.00;Veículos automóveis para transporte de 10 pessoas ou mais, incluindo o motorista, com motor de pistão alternativo, de ignição por centelha (faísca) e um motor elétrico, com volume interno de habitáculo, destinado a passageiros e motorista, superior a 6 m³, mas inferior a 9 m³
+XXIV;VEÍCULOS AUTOMOTORES;240;2502400;8702.90.00; Outros veículos automóveis para transporte de 10 pessoas ou mais, incluindo o motorista, com volume interno de habitáculo, destinado a passageiros e motorista, superior a 6 m³, mas inferior a 9 m³
+XXIV;VEÍCULOS AUTOMOTORES;250;2502500;8703.40.00;Automóveis equipados para propulsão, simultaneamente, com um motor de pistão alternativo de ignição por centelha (faísca*) e um motor elétrico, exceto os suscetíveis de serem carregados por conexão a uma fonte externa de energia elétrica, o carro celular e o carro funerário
+XXIV;VEÍCULOS AUTOMOTORES;260;2502600;8703.50.00;Automóveis equipados para propulsão, simultaneamente, com um motor de pistão por compressão (diesel ou semidiesel) e um motor elétrico, exceto os suscetíveis de serem carregados por conexão a uma fonte externa de energia elétrica, exceto o carro celular e o carro funerário
+XXIV;VEÍCULOS AUTOMOTORES;270;2502700;8703.60.00;Automóveis equipados para propulsão, simultaneamente, com um motor de pistão alternativo de ignição por centelha (faísca*) e um motor elétrico, suscetíveis de serem carregados por conexão a uma fonte externa de energia elétrica, exceto o carro celular e o carro funerário
+XXIV;VEÍCULOS AUTOMOTORES;280;2502800;8703.70.00;Automóveis equipados para propulsão, simultaneamente, com um motor de pistão por compressão (diesel ou semidiesel) e um motor elétrico, suscetíveis de serem carregados por conexão a uma fonte externa de energia elétrica, exceto o carro celular e o carro funerário
+XXIV;VEÍCULOS AUTOMOTORES;290;2502900;8703.80.00;"Outros veículos, equipados unicamente com motor elétrico para propulsão "
+XXV;VEÍCULOS DE DUAS E TRÊS RODAS MOTORIZADOS;10;2600100;8711;"Motocicletas (incluídos os ciclomotores) e outros ciclos equipados com motor auxiliar, mesmo com carro lateral carros laterais "
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;10;2800100;3303.00.10;Perfumes (extratos)
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;20;2800200;3303.00.20;Águas-de-colônia
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;30;2800300;3304.10.00;Produtos de maquiagem para os lábios
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;40;2800400;3304.20.10;Sombra, delineador, lápis para sobrancelhas e rímel
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;50;2800500;3304.20.90;Outros produtos de maquiagem para os olhos
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;60;2800600;3304.30.00;Preparações para manicuros e pedicuros
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;70;2800700;3304.91.00;Pós para maquiagem, incluindo os compactos
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;80;2800800;3304.99.10;Cremes de beleza, cremes nutritivos e loções tônicas
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;90;2800900;3304.99.90;Outros produtos de beleza ou de maquiagem preparados e preparações para conservação ou cuidados da pele, exceto as preparações antissolares e os bronzeadores
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;100;2801000;3304.99.90;Preparações antissolares e os bronzeadores
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;110;2801100;3305.10.00;Xampus para o cabelo
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;120;2801200;3305.20.00;Preparações para ondulação ou alisamento, permanentes, dos cabelos
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;130;2801300;3305.90.00;Outras preparações capilares
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;140;2801400;3305.90.00;Tintura para o cabelo
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;150;2801500;3307.10.00;Preparações para barbear (antes, durante ou após)
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;160;2801600;3307.20.10;Desodorantes (desodorizantes) corporais líquidos, exceto os classificados no CEST 28.016.01
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;161;2801601;3307.20.10;Loções e óleos desodorantes hidratantes líquidos
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;162;2801602;3307.20.10;Antiperspirantes líquidos
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;170;2801700;3307.20.90 ;Outros desodorantes (desodorizantes) corporais, exceto os classificados no CEST 28.017.01
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;171;2801701;3307.20.90;Outras loções e óleos desodorantes hidratantes
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;172;2801702;3307.20.90;Outros antiperspirantes
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;180;2801800;3307.90.00;Outros produtos de perfumaria ou de toucador preparados
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;190;2801900;3307.90.00;Outras preparações cosméticas
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;200;2802000;3401.11.90;Sabões de toucador em barras, pedaços ou figuras moldados, exceto CEST 28.020.01
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;201;2802001;3401.11.90;Lenços umedecidos
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;210;2802100;3401.19.00;Outros sabões, produtos e preparações orgânicos tensoativos, inclusive papel, pastas (ouates), feltros e falsos tecidos, impregnados, revestidos ou recobertos de sabão ou de detergentes
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;220;2802200;3401.20.10;Sabões de toucador sob outras formas
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;230;2802300;3401.30.00;Produtos e preparações orgânicos tensoativos para lavagem da pele, em forma de líquido ou de creme, acondicionados para venda a retalho, mesmo contendo sabão
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;240;2802400;4818.20.00;Lenços de papel, incluindo os de desmaquiar
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;241;2802401;4818.20.00;Toalhas de mão
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;250;2802500;8214.10.00;Apontadores de lápis para maquiagem
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;251;2802501;8214.10.00;Espátulas, abre-cartas e raspadeiras
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;252;2802502;8214.10.00;Lâminas de espátulas, de abre-cartas, de raspadeiras e de apontadores de lápis
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;260;2802600;8214.20.00;Utensílios e sortidos de utensílios de manicuros ou de pedicuros (incluindo as limas para unhas)
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;270;2802700;9603.29.00;Escovas e pincéis de barba, escovas para cabelos, para cílios ou para unhas e outras escovas de toucador de pessoas
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;271;2802701;9603.29.00;Vassouras e escovas, mesmo constituindo partes de máquinas, de aparelhos ou de veículos, vassouras mecânicas de uso manual não motorizadas, pincéis e espanadores cabeças preparadas para escovas, pincéis e artigos semelhantes bonecas e rolos para pintura rodos de borracha ou de matérias flexíveis semelhantes, outros
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;280;2802800;9603.30.00;Pincéis para aplicação de produtos cosméticos
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;281;2802801;9603.30.00;Pincéis e escovas, para artistas e pincéis de escrever
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;290;2802900;9616.10.00;Vaporizadores de toucador, suas armações e cabeças de armações
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;300;2803000;9616.20.00;Borlas ou esponjas para pós ou para aplicação de outros cosméticos ou de produtos de toucador
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;310;2803100;4202.1;Malas e maletas de toucador
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;320;2803200;9615;Pentes, travessas para cabelo e artigos semelhantes grampos (alfinetes) para cabelo pinças (“pinceguiches”), onduladores, bobs (rolos) e artefatos semelhantes para penteados, e suas partes
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;330;2803300;"3923.30.003924.90.003924.10.004014.90.907010.20.00";Mamadeiras
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;340;2803400;4014.90.90;Chupetas e bicos para mamadeiras e para chupetas
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;350;2803500;1211.90.90;Outras plantas e partes, para perfumaria, medicina e semelhantes
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;360;2803600;3926.20.00;Vestuário e seus acessórios, de plásticos, inclusive luvas
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;370;2803700;3926.40.00;Estatuetas e outros objetos de ornamentação, de plásticos
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;380;2803800;3926.90.90;Outras obras de plásticos
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;390;2803900;4202.22.10;Bolsas de folhas de plástico
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;400;2804000;4202.22.20;Bolsas de matérias têxteis
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;410;2804100;4202.29.00;Bolsas de outras matérias
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;420;2804200;4202.39.00;Artigos de bolsos/bolsas, de outras matérias
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;430;2804300;4202.92.00;Outros artefatos, de folhas de plásticos ou matérias têxteis
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;440;2804400;4202.99.00;Outros artefatos, de outras matérias
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;450;2804500;4819.20.00;Caixas e cartonagens, dobráveis, de papel/cartão, não ondulados
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;460;2804600;4819.40.00;Outros sacos, bolsas e cartuchos, de papel ou cartão
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;470;2804700;4821.10.00;Etiquetas de papel ou cartão, impressas
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;480;2804800;4911.10.90;Outros impressos publicitários, catálogos comerciais e semelhantes
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;490;2804900;6115.99.00;Outras meias de malha de outras matérias têxteis
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;500;2805000;6217.10.00;Outros acessórios confeccionados, de vestuário
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;510;2805100;6302.60.00;Roupas de toucador/cozinha, de tecidos atoalhados de algodão
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;520;2805200;6307.90.90;Outros artefatos têxteis confeccionados
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;530;2805300;6506.99.00;Chapéus e outros artefatos de outras matérias, exceto de malha
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;540;2805400;9505.90.00;Artigos para outras festas, carnaval ou outros divertimentos
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;550;2805500;Capítulo 33;Produtos destinados à higiene bucal
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;560;2805600;Capítulos 33 e 34;Outros produtos cosméticos e de higiene pessoal não relacionados em outros itens deste anexo
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;570;2805700;Capítulos 14, 39, 40, 44, 48, 63, 64, 65, 67, 70, 82, 90 e 96;Outros artigos destinados a cuidados pessoais não relacionados em outros itens deste anexo
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;580;2805800;Capítulos 39, 42, 48, 52, 61, 71, 83, 90 e 91;Acessórios (por exemplo, bijuterias, relógios, óculos de sol, bolsas, mochilas, frasqueiras, carteiras, porta-cartões, porta-documentos, porta-celulares e embalagens presenteáveis (por exemplo, caixinhas de papel), entre outros itens assemelhados)
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;590;2805900;Capítulos 61, 62 e 64;Vestuário e seus acessórios calçados, polainas e artefatos semelhantes, e suas partes
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;600;2806000;Capítulos 42, 52, 55, 58, 63 e 65;Outros artigos de vestuário em geral, exceto os relacionados no item anterior
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;610;2806100;Capítulos 39, 40, 52, 56, 62, 63, 66, 69, 70, 73, 76, 82, 83, 84, 91, 94 e 96;Artigos de casa
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;620;2806200;Capítulos 13 e 15 a 23;Produtos das indústrias alimentares e bebidas
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;630;2806300;Capítulos 22, 27, 28, 29, 33, 34, 35, 38, 39, 63, 68, 73, 84, 85 e 96;Produtos de limpeza e conservação doméstica
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;640;2806400;Capítulos 39, 49, 95, 96;Artigos infantis
+XXVI;VENDA DE MERCADORIAS PELO SISTEMA PORTA A PORTA;9990;2899900; ;"Outros produtos comercializados pelo sistema de marketing direto porta-a-porta a consumidor final não relacionados em outros itens deste anexo "

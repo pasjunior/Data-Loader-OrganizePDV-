@@ -1,0 +1,11 @@
+02/02/2023 19:37:50: SALDO	Warning: DROP COLUMN:	INDKEY_001	(1091) Can't DROP 'indkey_001'; check that column/key exists - Can't DROP 'indkey_001'; check that column/key exists	
+02/02/2023 19:37:50: PRECOS	Warning: DROP COLUMN:	INDKEY_001	(1091) Can't DROP 'indkey_001'; check that column/key exists - Can't DROP 'indkey_001'; check that column/key exists	
+02/02/2023 19:37:51: INDICADORDEPRECO	Warning: DROP COLUMN:	INDKEY_001	(1091) Can't DROP 'indkey_001'; check that column/key exists - Can't DROP 'indkey_001'; check that column/key exists	
+02/02/2023 19:37:51: TEFREQ	Warning: DROP COLUMN:	INDKEY_001	(1091) Can't DROP 'indkey_001'; check that column/key exists - Can't DROP 'indkey_001'; check that column/key exists	
+02/02/2023 19:37:51: TEFRESP	Warning: DROP COLUMN:	INDKEY_001	(1091) Can't DROP 'indkey_001'; check that column/key exists - Can't DROP 'indkey_001'; check that column/key exists	
+02/02/2023 19:37:52: ITEMPEDIDO	Warning: DROP COLUMN:	INDKEY_001	(1091) Can't DROP 'indkey_001'; check that column/key exists - Can't DROP 'indkey_001'; check that column/key exists	
+02/02/2023 19:37:54: PRODUTOSNOFORNECEDOR	Warning: DROP COLUMN:	INDKEY_001	(1091) Can't DROP 'indkey_001'; check that column/key exists - Can't DROP 'indkey_001'; check that column/key exists	
+02/02/2023 19:37:54: NOTA	Warning: DROP COLUMN:	INDKEY_001	(1091) Can't DROP 'indkey_001'; check that column/key exists - Can't DROP 'indkey_001'; check that column/key exists	
+02/02/2023 19:37:56: ITEMNOTA	Warning: DROP COLUMN:	INDKEY_001	(1091) Can't DROP 'indkey_001'; check that column/key exists - Can't DROP 'indkey_001'; check that column/key exists	
+02/02/2023 19:37:57: NUMERACAO	Warning: DROP COLUMN:	INDKEY_001	(1091) Can't DROP 'indkey_001'; check that column/key exists - Can't DROP 'indkey_001'; check that column/key exists	
+14/02/2023 19:57:45: CSTDEICMS	Warning: DROP COLUMN:	INDKEY_001	(1091) Can't DROP 'indkey_001'; check that column/key exists - Can't DROP 'indkey_001'; check that column/key exists	

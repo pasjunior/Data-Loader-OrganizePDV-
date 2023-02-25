@@ -1,0 +1,28 @@
+- Repositório
+https://github.com/OrganizeSoft/OrganizePDV
+
+
+- Endereço exemplo:Pessoa
+http://127.0.0.1:8090/api/ControllerPessoa?page=1&pageSize=10
+
+
+- Videos explicação
+https://www.loom.com/share/b6177e579b4c4389b11b9f7b74c7e4e7
+https://www.loom.com/share/7938d93a8dcc494c87c55005538ab442
+https://www.loom.com/share/6e61f746cedb4ad3aab3362f24d89b3a
+
+
+- Scrip importação exemplo: cadastro (tipo de pessoa)
+import requests
+
+url = "http://127.0.0.1:8090/api/ControllerTipoDePessoa"
+
+payload = {
+            "CDESCRICAO": "benchmark",
+            "LBLOQUEADO": False,
+        }
+
+response = requests.post(url, json=payload)
+
+print(response.status_code)
+print(response.json())

@@ -1,0 +1,76 @@
+	FrPrn:=frReportManager():new()
+
+    FrPrn:NewReport("Page1")
+    PropriedadesFR("Page1","Height=1000;Left=0;Top=0;Width=1000;Name=Page1;PaperWidth=72;PaperHeight=3276;PaperSize=256;LeftMargin=0;RightMargin=0;TopMargin=0,5;BottomMargin=0;ColumnWidth=0;ColumnPositions.Text=;EndlessHeight=True;LargeDesignHeight=True;PrintIfEmpty=False;HGuides.Text=;VGuides.Text=;OnBeforePrint=Page1OnBeforePrint")
+
+	HSet(hVariaveis,"contadorDadosProdutos", 1)
+	HSet(hVariaveis,"aItensDadosProdutos", {})
+	HSet(hVariaveis,"nItemProduto", 1)
+	HSet(hVariaveis,"cCamposDadosProdutos", "")
+	HSet(hVariaveis,"aCamposDadosProdutos", {})
+
+	aEval(oPedido:aItem, {|ip| aadd(hVariaveis["aItensDadosProdutos"], { alltrim(ip:oProduto:cCdVe),alltrim(ip:oProduto:cDescricao),Str(ip:nQtd,12,4),alltrim(ip:oProduto:o1UM:cSigla),Str(ip:nPreco,12,4),Str(ip:nTotal,12,4) }) }) 
+
+	hVariaveis["cCamposDadosProdutos"] := "Cod;Nome;Qtd;UN;VLUni;VLRTotal"
+	hVariaveis["aCamposDadosProdutos"] := HB_ATokens(hVariaveis["cCamposDadosProdutos"],";")
+	FrPrn:SetUserDataSet( "DadosProdutos",hVariaveis["cCamposDadosProdutos"],{||hVariaveis["contadorDadosProdutos"] := 1},{||hVariaveis["contadorDadosProdutos"] := hVariaveis["contadorDadosProdutos"] + 1},{||hVariaveis["contadorDadosProdutos"] := hVariaveis["contadorDadosProdutos"] - 1},{||hVariaveis["contadorDadosProdutos"] > Len(hVariaveis["aItensDadosProdutos"])},{|cField| cCampo:=cField, X:= hVariaveis["aItensDadosProdutos"][hVariaveis["contadorDadosProdutos"]][Ascan(hVariaveis["aCamposDadosProdutos"],{|valor| valor == cCampo},1,len(hVariaveis["aCamposDadosProdutos"]))] ,X  })
+
+	HSet(hVariaveis,"contadorDadosPgto", 1)
+	HSet(hVariaveis,"aItensDadosPgto", {})
+	HSet(hVariaveis,"nItemProduto", 1)
+	HSet(hVariaveis,"cCamposDadosPgto", "")
+	HSet(hVariaveis,"aCamposDadosPgto", {})
+
+	aadd(hVariaveis["aItensDadosPgto"], { "Total Bruto",Str(oPedido:nTotalBruto,12,2) })
+	aadd(hVariaveis["aItensDadosPgto"], { "Desconto",Str(oPedido:nTotalDesco,12,2) })
+	aadd(hVariaveis["aItensDadosPgto"], { "Acrescimo",Str(oPedido:nTotalAcrec,12,2) })
+	aadd(hVariaveis["aItensDadosPgto"], { "Total Liqui.",Str(oPedido:nTotalLiqui,12,2) })
+    
+	hVariaveis["cCamposDadosPgto"] := "Descricao;Valor"
+	hVariaveis["aCamposDadosPgto"] := HB_ATokens(hVariaveis["cCamposDadosPgto"],";")
+	FrPrn:SetUserDataSet( "DadosPgto",hVariaveis["cCamposDadosPgto"],{||hVariaveis["contadorDadosPgto"] := 1},{||hVariaveis["contadorDadosPgto"] := hVariaveis["contadorDadosPgto"] + 1},{||hVariaveis["contadorDadosPgto"] := hVariaveis["contadorDadosPgto"] - 1},{||hVariaveis["contadorDadosPgto"] > Len(hVariaveis["aItensDadosPgto"])},{|cField| cCampo:=cField, X:= hVariaveis["aItensDadosPgto"][hVariaveis["contadorDadosPgto"]][Ascan(hVariaveis["aCamposDadosPgto"],{|valor| valor == cCampo},1,len(hVariaveis["aCamposDadosPgto"]))] ,X  })
+
+    FrPrn:AddBand("ReportTitle1","Page1",hVariaveis["frxReportTitle"])
+    PropriedadesFR("ReportTitle1","Height=56,69295N*;Left=0N*;Top=18,89765N*;Width=272,12616N*")
+
+    FrPrn:AddMemo("ReportTitle1","Memo1",Alltrim(oEmpresa:cRF) + " " + Alltrim(oEmpresa:cRazao) + " " + Alltrim(oEmpresa:cEnd) + " " + Alltrim(oEmpresa:cBairro) + " " + Alltrim(oEmpresa:cCidade) + " " + oEmpresa:cUF + " " + Alltrim(oEmpresa:cTel1) + " " + Alltrim(oEmpresa:cTel2) ,0,0,272.12616,56.69295)
+    PropriedadesFR("Memo1","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-13;Font.Name=calibri;Font.Style=0;HAlign=haCenter;ParentFont=False")
+
+    FrPrn:AddBand("PageHeader1","Page1",hVariaveis["frxPageHeader"])
+    PropriedadesFR("PageHeader1","Height=52,91342N*;Left=0N*;Top=98,26778N*;Width=272,12616N*")
+
+    FrPrn:AddMemo("PageHeader1","Memo2",'Pedido:' + cValToChar(oPedido:nID) + " Emissão:" + DtoC(oPedido:dEmissao) + CHR(13) + CHR(10) + "Cliente:" + Alltrim(oPedido:oPessoa:cRF) +" - " + oPedido:oPessoa:cRazao,0,0,272.12616,52.91342)
+    PropriedadesFR("Memo2","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-13;Font.Name=calibri;Font.Style=0;HAlign=haBlock;ParentFont=False")
+
+    FrPrn:AddBand("Header1","Page1",hVariaveis["frxHeader"])
+    PropriedadesFR("Header1","Height=18,89765N*;Left=0N*;Top=211,65368N*;Width=272,12616N*")
+
+    FrPrn:AddMemo("Header1","Memo3",'Cód | Nome | Qtd | UN | VL Uni | VL Total',0,0,272.12616,18.89765)
+    PropriedadesFR("Memo3","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-12;Font.Name=calibri;Font.Style=0;HAlign=haBlock;ParentFont=False")
+
+    FrPrn:AddBand("MasterData1","Page1",hVariaveis["frxMasterData"])
+    PropriedadesFR("MasterData1","Height=37,7953N*;Left=0N*;Top=253,22851N*;Width=272,12616N*;ColumnWidth=0;ColumnGap=0;RowCount=0;DataSetName=DadosProdutos")
+
+    FrPrn:AddMemo("MasterData1","Memo4",'[DadosProdutos."Cod"] [DadosProdutos."Nome"]',0,0,272.12616,18.89765)
+    PropriedadesFR("Memo4","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-12;Font.Name=calibri;Font.Style=0;ParentFont=False")
+
+    FrPrn:AddMemo("MasterData1","Memo5",'[DadosProdutos."Qtd"] [DadosProdutos."UN"] x [DadosProdutos."VLUni"] = [DadosProdutos."VLRTotal"]',0,18.89765,272.12616,18.89765)
+    PropriedadesFR("Memo5","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-12;Font.Name=calibri;Font.Style=0;HAlign=haRight;ParentFont=False")
+
+    FrPrn:AddBand("MasterData2","Page1",hVariaveis["frxMasterData"])
+    PropriedadesFR("MasterData2","Height=18,89765N*;Left=0N*;Top=313,70099N*;Width=272,12616N*;ColumnWidth=0;ColumnGap=0;RowCount=0;DataSetName=DadosPgto")
+
+    FrPrn:AddMemo("MasterData2","Memo6",'[DadosPgto."Descricao"]',0,0,177.63791,18.89765)
+    PropriedadesFR("Memo6","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-12;Font.Name=calibri;Font.Style=0;ParentFont=False")
+
+    FrPrn:AddMemo("MasterData2","Memo7",'[DadosPgto."Valor"]',177.63791,0,94.48825,18.89765)
+    PropriedadesFR("Memo7","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-12;Font.Name=calibri;Font.Style=0;HAlign=haRight;ParentFont=False")
+
+    FrPrn:AddBand("Footer1","Page1",hVariaveis["frxFooter"])
+    PropriedadesFR("Footer1","Height=18,89765N*;Left=0N*;Top=355,27582N*;Width=272,12616N*")
+
+    FrPrn:AddMemo("Footer1","Memo8",'Observação:'+Alltrim(oPedido:cObs),0,0,272.12616,18.89765)
+    PropriedadesFR("Memo8","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-12;Font.Name=calibri;Font.Style=0;ParentFont=False")
+
+	PadraoFastReport(.f., "", .f.)
+

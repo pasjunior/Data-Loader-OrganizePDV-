@@ -1,0 +1,3381 @@
+02/02/2023 19:37:50: SQLExecDirect Error
+(1822) Failed to add the foreign key constraint. Missing index for constraint 'OINDICADORFK_PRECOSINDICADOS' in the referenced table 'indicadordepreco' - Failed to add the foreign key constraint. Missing index for constraint 'OINDICADORFK_PRECOSINDICADOS' in the referenced table 'indicadordepreco'
+Command sent to database : 
+ALTER TABLE `precosindicados` ADD CONSTRAINT OINDICADORFK_PRECOSINDICADOS FOREIGN KEY (`nid_oindicador`) REFERENCES `indicadordepreco` (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1822
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 355
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:37:52: SQLExecDirect Error
+(1822) Failed to add the foreign key constraint. Missing index for constraint 'ONOTAFK_NFEPEDIDO' in the referenced table 'nota' - Failed to add the foreign key constraint. Missing index for constraint 'ONOTAFK_NFEPEDIDO' in the referenced table 'nota'
+Command sent to database : 
+ALTER TABLE `nfepedido` ADD CONSTRAINT ONOTAFK_NFEPEDIDO FOREIGN KEY (`nid_onota`) REFERENCES `nota` (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1822
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 355
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:37:57: SQLExecDirect Error
+(1822) Failed to add the foreign key constraint. Missing index for constraint 'OINVENTARIOFK_ICMSMESTRE' in the referenced table 'inventario' - Failed to add the foreign key constraint. Missing index for constraint 'OINVENTARIOFK_ICMSMESTRE' in the referenced table 'inventario'
+Command sent to database : 
+ALTER TABLE `icmsmestre` ADD CONSTRAINT OINVENTARIOFK_ICMSMESTRE FOREIGN KEY (`nid_oinventario`) REFERENCES `inventario` (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1822
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 355
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:37:57: SQLExecDirect Error
+(1822) Failed to add the foreign key constraint. Missing index for constraint 'OSPEDFK_ICMSMESTRE' in the referenced table 'sped1mestre' - Failed to add the foreign key constraint. Missing index for constraint 'OSPEDFK_ICMSMESTRE' in the referenced table 'sped1mestre'
+Command sent to database : 
+ALTER TABLE `icmsmestre` ADD CONSTRAINT OSPEDFK_ICMSMESTRE FOREIGN KEY (`nid_osped`) REFERENCES `sped1mestre` (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1822
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 355
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:38:03: SQLExecDirect Error
+(1452) Cannot add or update a child row: a foreign key constraint fails (`pdv`.`formadepagamento`, CONSTRAINT `OPAGADORFK_FORMADEPAGAMENTO` FOREIGN KEY (`nid_opagador`) REFERENCES `pessoa` (`NID`)) - Cannot add or update a child row: a foreign key constraint fails (`pdv`.`formadepagamento`, CONSTRAINT `OPAGADORFK_FORMADEPAGAMENTO` FOREIGN KEY (`nid_opagador`) REFERENCES `pessoa` (`NID`))
+Command : UPDATE `formadepagamento` SET `cdescricao` = 'A VISTA' , `ctipo` = '01' , `ddataatu` = '20230202' , `ddatareg` = '20230202' , `hhoraatu` = '19:38:03' , `hhorareg` = '19:38:03' , `nid_opagador` = 11111111111111110000  WHERE `sr_recno` = 1
+hStmt   :
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1452
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXECUTE     Linha : 618
+SR_WORKAREA:WRITEBUFFER     Linha : 2220
+SR_WORKAREA:SQLGOCOLD     Linha : 3232
+SR_WORKAREA:SQLUNLOCK     Linha : 7428
+DBUNLOCKALL     Linha : 0
+TABELA:MANTER     Linha : 650
+TABELA:INCLUIR     Linha : 662
+CONTROLLERFORMAPGTO:INCLUIR     Linha : 179
+INCLUIRFORMAPGTO     Linha : 828
+(b)SERVER_METER     Linha : 65
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:32: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `usuario` ADD CONSTRAINT USUARIOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:32: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `armazem` ADD CONSTRAINT ARMAZEMPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:32: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `municipio` ADD CONSTRAINT MUNICIPIOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:32: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tipodepessoa` ADD CONSTRAINT TIPODEPESSOAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:32: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `pessoa` ADD CONSTRAINT PESSOAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:33: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `pessoaxtipopessoa` ADD CONSTRAINT PESSOAXTIPOPESSOAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:33: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tipodematerial` ADD CONSTRAINT TIPODEMATERIALPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:33: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `parametro` ADD CONSTRAINT PARAMETROPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:33: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `cstdeicms` ADD CONSTRAINT CSTDEICMSPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:33: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `cstdepis` ADD CONSTRAINT CSTDEPISPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:33: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `cstdecofins` ADD CONSTRAINT CSTDECOFINSPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:33: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `cstdeipi` ADD CONSTRAINT CSTDEIPIPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:33: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `cfop` ADD CONSTRAINT CFOPPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:34: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `cest` ADD CONSTRAINT CESTPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:34: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `ncm` ADD CONSTRAINT NCMPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:35: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tabeladepreco` ADD CONSTRAINT TABELADEPRECOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:35: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `unidadedemedida` ADD CONSTRAINT UNIDADEDEMEDIDAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:36: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tes` ADD CONSTRAINT TESPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:36: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tipodeproduto` ADD CONSTRAINT TIPODEPRODUTOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:37: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `produto` ADD CONSTRAINT PRODUTOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:37: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `produtoxtipoproduto` ADD CONSTRAINT PRODUTOXTIPOPRODUTOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:37: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `saldo` ADD CONSTRAINT SALDOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:38: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `movimentacao` ADD CONSTRAINT MOVIMENTACAOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:38: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `uf` ADD CONSTRAINT UFPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:38: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `formadepagamento` ADD CONSTRAINT FORMADEPAGAMENTOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:38: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `caixa` ADD CONSTRAINT CAIXAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:38: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `naturezaoperacao` ADD CONSTRAINT NATUREZAOPERACAOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:38: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `precos` ADD CONSTRAINT PRECOSPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:39: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `precosindicados` ADD CONSTRAINT PRECOSINDICADOSPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:39: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `indicadordepreco` ADD CONSTRAINT INDICADORDEPRECOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:39: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tef` ADD CONSTRAINT TEFPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:39: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tefreq` ADD CONSTRAINT TEFREQPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:40: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tefresp` ADD CONSTRAINT TEFRESPPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:40: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `veiculo` ADD CONSTRAINT VEICULOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:41: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `pedido` ADD CONSTRAINT PEDIDOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:41: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `faturapedido` ADD CONSTRAINT FATURAPEDIDOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:41: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `itempedido` ADD CONSTRAINT ITEMPEDIDOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:42: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `nfepedido` ADD CONSTRAINT NFEPEDIDOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:42: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `pgtopedido` ADD CONSTRAINT PGTOPEDIDOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:42: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tefpedido` ADD CONSTRAINT TEFPEDIDOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:42: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `mnfce` ADD CONSTRAINT MNFCEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:42: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `dnfce` ADD CONSTRAINT DNFCEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:43: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `pnfce` ADD CONSTRAINT PNFCEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:43: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `mnfe` ADD CONSTRAINT MNFEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:43: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `dnfe` ADD CONSTRAINT DNFEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:43: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `pnfe` ADD CONSTRAINT PNFEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:44: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `produtosnofornecedor` ADD CONSTRAINT PRODUTOSNOFORNECEDORPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:44: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `nota` ADD CONSTRAINT NOTAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:45: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `faturanota` ADD CONSTRAINT FATURANOTAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:45: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `itemnota` ADD CONSTRAINT ITEMNOTAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:46: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `vendedor` ADD CONSTRAINT VENDEDORPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:46: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `numeracao` ADD CONSTRAINT NUMERACAOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:46: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `transferencia` ADD CONSTRAINT TRANSFERENCIAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:47: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `icmsmestre` ADD CONSTRAINT ICMSMESTREPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:47: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `icmse111` ADD CONSTRAINT ICMSE111PK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:47: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `icmse112` ADD CONSTRAINT ICMSE112PK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:47: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `icmse115` ADD CONSTRAINT ICMSE115PK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:47: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `icmse116` ADD CONSTRAINT ICMSE116PK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:47: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `sped1mestre` ADD CONSTRAINT SPED1MESTREPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:47: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `sped1linha` ADD CONSTRAINT SPED1LINHAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:47: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `sped1detalhe` ADD CONSTRAINT SPED1DETALHEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:48: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `it` ADD CONSTRAINT ITPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:48: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `inventario` ADD CONSTRAINT INVENTARIOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+02/02/2023 19:53:48: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `inventariodetalhe` ADD CONSTRAINT INVENTARIODETALHEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 375
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:43: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `usuario` ADD CONSTRAINT USUARIOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:43: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `armazem` ADD CONSTRAINT ARMAZEMPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:43: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `municipio` ADD CONSTRAINT MUNICIPIOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:44: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tipodepessoa` ADD CONSTRAINT TIPODEPESSOAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:44: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `pessoa` ADD CONSTRAINT PESSOAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:44: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `pessoaxtipopessoa` ADD CONSTRAINT PESSOAXTIPOPESSOAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:44: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tipodematerial` ADD CONSTRAINT TIPODEMATERIALPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:44: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `parametro` ADD CONSTRAINT PARAMETROPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:45: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `cstdeicms` ADD CONSTRAINT CSTDEICMSPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:45: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `cstdepis` ADD CONSTRAINT CSTDEPISPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:45: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `cstdecofins` ADD CONSTRAINT CSTDECOFINSPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:45: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `cstdeipi` ADD CONSTRAINT CSTDEIPIPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:46: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `cfop` ADD CONSTRAINT CFOPPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:46: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `cest` ADD CONSTRAINT CESTPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:47: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `ncm` ADD CONSTRAINT NCMPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:48: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tabeladepreco` ADD CONSTRAINT TABELADEPRECOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:48: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `unidadedemedida` ADD CONSTRAINT UNIDADEDEMEDIDAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:49: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tes` ADD CONSTRAINT TESPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:49: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tipodeproduto` ADD CONSTRAINT TIPODEPRODUTOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:50: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `produto` ADD CONSTRAINT PRODUTOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:50: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `produtoxtipoproduto` ADD CONSTRAINT PRODUTOXTIPOPRODUTOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:51: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `saldo` ADD CONSTRAINT SALDOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:51: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `movimentacao` ADD CONSTRAINT MOVIMENTACAOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:51: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `uf` ADD CONSTRAINT UFPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:51: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `formadepagamento` ADD CONSTRAINT FORMADEPAGAMENTOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:51: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `caixa` ADD CONSTRAINT CAIXAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:51: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `naturezaoperacao` ADD CONSTRAINT NATUREZAOPERACAOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:52: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `precos` ADD CONSTRAINT PRECOSPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:52: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `precosindicados` ADD CONSTRAINT PRECOSINDICADOSPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:53: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `indicadordepreco` ADD CONSTRAINT INDICADORDEPRECOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:53: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tef` ADD CONSTRAINT TEFPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:53: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tefreq` ADD CONSTRAINT TEFREQPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:54: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tefresp` ADD CONSTRAINT TEFRESPPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:55: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `veiculo` ADD CONSTRAINT VEICULOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:55: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `pedido` ADD CONSTRAINT PEDIDOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:56: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `faturapedido` ADD CONSTRAINT FATURAPEDIDOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:56: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `itempedido` ADD CONSTRAINT ITEMPEDIDOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:57: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `nfepedido` ADD CONSTRAINT NFEPEDIDOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:57: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `pgtopedido` ADD CONSTRAINT PGTOPEDIDOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:57: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `tefpedido` ADD CONSTRAINT TEFPEDIDOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:58: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `mnfce` ADD CONSTRAINT MNFCEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:58: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `dnfce` ADD CONSTRAINT DNFCEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:58: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `pnfce` ADD CONSTRAINT PNFCEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:58: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `mnfe` ADD CONSTRAINT MNFEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:59: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `dnfe` ADD CONSTRAINT DNFEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:59: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `pnfe` ADD CONSTRAINT PNFEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:57:59: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `produtosnofornecedor` ADD CONSTRAINT PRODUTOSNOFORNECEDORPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:58:00: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `nota` ADD CONSTRAINT NOTAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:58:01: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `faturanota` ADD CONSTRAINT FATURANOTAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:58:02: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `itemnota` ADD CONSTRAINT ITEMNOTAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:58:03: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `vendedor` ADD CONSTRAINT VENDEDORPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:58:03: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `numeracao` ADD CONSTRAINT NUMERACAOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:58:04: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `transferencia` ADD CONSTRAINT TRANSFERENCIAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:58:04: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `icmsmestre` ADD CONSTRAINT ICMSMESTREPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:58:05: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `icmse111` ADD CONSTRAINT ICMSE111PK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:58:05: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `icmse112` ADD CONSTRAINT ICMSE112PK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:58:05: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `icmse115` ADD CONSTRAINT ICMSE115PK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:58:05: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `icmse116` ADD CONSTRAINT ICMSE116PK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:58:05: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `sped1mestre` ADD CONSTRAINT SPED1MESTREPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:58:05: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `sped1linha` ADD CONSTRAINT SPED1LINHAPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:58:05: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `sped1detalhe` ADD CONSTRAINT SPED1DETALHEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:58:06: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `it` ADD CONSTRAINT ITPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:58:06: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `inventario` ADD CONSTRAINT INVENTARIOPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	
+14/02/2023 19:58:06: SQLExecDirect Error
+(1068) Multiple primary key defined - Multiple primary key defined
+Command sent to database : 
+ALTER TABLE `inventariodetalhe` ADD CONSTRAINT INVENTARIODETALHEPK PRIMARY KEY (`nid`) /* Create constraint */
+Steatment handle  : 
+Connection handle : 
+RetCode           :       1068
+	SR_MYSQL:RUNTIMEERR     Linha : 859
+SR_MYSQL:EXEC     Linha : 367
+SR_WORKAREA:CREATECONSTRAINT     Linha : 9308
+SR_CREATECONSTRAINT     Linha : 146
+TABELA:MANTERINDICE     Linha : 343
+TABELA:MANTERINDICE     Linha : 373
+TABELAS     Linha : 377
+(b)SERVER_METER     Linha : 45
+SERVER_METER     Linha : 71
+(b)SERVER     Linha : 27
+(b)MSGMETER     Linha : 28
+(b)TDIALOG:TDIALOG     Linha : 97
+TDIALOG:DISPLAY     Linha : 0
+TDIALOG:HANDLEEVENT     Linha : 1207
+DIALOGBOXINDIRECTW     Linha : 0
+TDIALOG:ACTIVATE     Linha : 307
+MSGMETER     Linha : 31
+SERVER     Linha : 27
+MAIN     Linha : 31	

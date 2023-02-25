@@ -1,0 +1,151 @@
+	FrPrn:=frReportManager():new()
+
+    FrPrn:NewReport("Page1")
+    PropriedadesFR("Page1","Height=1000;Left=0;Top=0;Width=1000;Name=Page1;PaperWidth=210;PaperHeight=297;PaperSize=9;LeftMargin=0,5;RightMargin=0,5;TopMargin=0,5;BottomMargin=0,5;ColumnWidth=0;ColumnPositions.Text=;EndlessHeight=True;LargeDesignHeight=True;PrintIfEmpty=False;HGuides.Text=;VGuides.Text=;OnBeforePrint=Page1OnBeforePrint")
+
+	HSet(hVariaveis,"contadorDadosProdutos", 1)
+	HSet(hVariaveis,"aItensDadosProdutos", {})
+	HSet(hVariaveis,"nItemProduto", 1)
+	HSet(hVariaveis,"cCamposDadosProdutos", "")
+	HSet(hVariaveis,"aCamposDadosProdutos", {})
+
+	aEval(oPedido:aItem, {|ip| aadd(hVariaveis["aItensDadosProdutos"], { alltrim(ip:oProduto:cCdVe),alltrim(ip:oProduto:cDescricao),Str(ip:nQtd,12,4),alltrim(ip:oProduto:o1UM:cSigla),Str(ip:nPreco,12,4),Str(ip:nTotal,12,2),Str(ip:nVlrDesc,12,4) }) }) 
+
+	hVariaveis["cCamposDadosProdutos"] := "Cod;Nome;Qtd;UN;VLUni;VLRTotal;VDescont"
+	hVariaveis["aCamposDadosProdutos"] := HB_ATokens(hVariaveis["cCamposDadosProdutos"],";")
+	FrPrn:SetUserDataSet( "DadosProdutos",hVariaveis["cCamposDadosProdutos"],{||hVariaveis["contadorDadosProdutos"] := 1},{||hVariaveis["contadorDadosProdutos"] := hVariaveis["contadorDadosProdutos"] + 1},{||hVariaveis["contadorDadosProdutos"] := hVariaveis["contadorDadosProdutos"] - 1},{||hVariaveis["contadorDadosProdutos"] > Len(hVariaveis["aItensDadosProdutos"])},{|cField| cCampo:=cField, X:= hVariaveis["aItensDadosProdutos"][hVariaveis["contadorDadosProdutos"]][Ascan(hVariaveis["aCamposDadosProdutos"],{|valor| valor == cCampo},1,len(hVariaveis["aCamposDadosProdutos"]))] ,X  })
+
+	HSet(hVariaveis,"contadorDadosPgto", 1)
+	HSet(hVariaveis,"aItensDadosPgto", {})
+	HSet(hVariaveis,"nItemProduto", 1)
+	HSet(hVariaveis,"cCamposDadosPgto", "")
+	HSet(hVariaveis,"aCamposDadosPgto", {})
+
+    HSet(hVariaveis,"cFormaPgto", "")
+
+    aEval(oPedido:aPgto, {|oPgtoPedido| hVariaveis["cFormaPgto"] += Alltrim(oPgtoPedido:oPgto:cDescricao)+" ("+Str(oPgtoPedido:nValor,12,2,.t.)+") /" })
+    
+	hVariaveis["cCamposDadosPgto"] := "Descricao;Valor"
+	hVariaveis["aCamposDadosPgto"] := HB_ATokens(hVariaveis["cCamposDadosPgto"],";")
+	FrPrn:SetUserDataSet( "DadosPgto",hVariaveis["cCamposDadosPgto"],{||hVariaveis["contadorDadosPgto"] := 1},{||hVariaveis["contadorDadosPgto"] := hVariaveis["contadorDadosPgto"] + 1},{||hVariaveis["contadorDadosPgto"] := hVariaveis["contadorDadosPgto"] - 1},{||hVariaveis["contadorDadosPgto"] > Len(hVariaveis["aItensDadosPgto"])},{|cField| cCampo:=cField, X:= hVariaveis["aItensDadosPgto"][hVariaveis["contadorDadosPgto"]][Ascan(hVariaveis["aCamposDadosPgto"],{|valor| valor == cCampo},1,len(hVariaveis["aCamposDadosPgto"]))] ,X  })
+
+    FrPrn:AddBand("ReportTitle1","Page1",hVariaveis["frxReportTitle"])
+    PropriedadesFR("ReportTitle1","Height=204,09462N*;Left=0N*;Top=18,89765N*;Width=789,92177N*")
+
+    FrPrn:AddMemo("ReportTitle1","Memo1",Alltrim(oEmpresa:FormatRF()) + " " + Alltrim(oEmpresa:cRazao),0,0,487.55937,18.89765)
+    PropriedadesFR("Memo1","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-16;Font.Name=Calibri;Font.Style=[fsBold];ParentFont=False")
+
+    FrPrn:AddMemo("ReportTitle1","Memo2",'Pedido',699.21305,0,86.92919,34.01577)
+    PropriedadesFR("Memo2","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-27;Font.Name=Calibri;Font.Style=[fsBold];HAlign=haCenter;ParentFont=False")
+
+    FrPrn:AddMemo("ReportTitle1","Memo3",oControllerParametro:Pegar("SLOGAN"),0,18.89765,487.55937,18.89765)
+    PropriedadesFR("Memo3","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-15;Font.Name=Calibri;Font.Style=[fsItalic];ParentFont=False")
+
+    FrPrn:AddMemo("ReportTitle1","Memo4",Alltrim(oEmpresa:cEnd) + " - " + Alltrim(oEmpresa:cBairro) + " - " + Alltrim(oEmpresa:cCidade) + " - " + oEmpresa:cUF,0,56.69295,699.21305,18.89765)
+    PropriedadesFR("Memo4","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-16;Font.Name=Calibri;Font.Style=0;ParentFont=False")
+
+    FrPrn:AddMemo("ReportTitle1","Memo5",'Telefone(s):'+Alltrim(oEmpresa:cTel1) + " " + Alltrim(oEmpresa:cTel2),0,75.5906,699.21305,18.89765)
+    PropriedadesFR("Memo5","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-16;Font.Name=Calibri;Font.Style=0;ParentFont=False")
+
+    FrPrn:AddMemo("ReportTitle1","Memo6",'Nº '+ cValToChar(oPedido:nID),699.21305,56.69295,86.92919,18.89765)
+    PropriedadesFR("Memo6","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-16;Font.Name=Calibri;Font.Style=0;HAlign=haCenter;ParentFont=False")
+
+    FrPrn:AddMemo("ReportTitle1","Memo7",DtoC(oPedido:dEmissao),699.21305,75.5906,86.92919,18.89765)
+    PropriedadesFR("Memo7","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-16;Font.Name=Calibri;Font.Style=0;HAlign=haCenter;ParentFont=False")
+
+    FrPrn:AddMemo("ReportTitle1","Memo8",'Cliente:',0,109.60637,487.55937,18.89765)
+    PropriedadesFR("Memo8","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-16;Font.Name=Calibri;Font.Style=[fsBold];ParentFont=False")
+
+    FrPrn:AddMemo("ReportTitle1","Memo9", oPedido:oPessoa:FormatRF() + ' ' + Alltrim(oPedido:oPessoa:cRazao),0,128.50402,487.55937,18.89765)
+    PropriedadesFR("Memo9","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-16;Font.Name=Calibri;Font.Style=0;ParentFont=False")
+
+    FrPrn:AddMemo("ReportTitle1","Memo10",Alltrim(oPedido:oPessoa:cEnd),0,147.40167,487.55937,18.89765)
+    PropriedadesFR("Memo10","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-16;Font.Name=Calibri;Font.Style=0;ParentFont=False")
+
+    FrPrn:AddMemo("ReportTitle1","Memo11",Alltrim(oPedido:oPessoa:cBairro)+", "+Alltrim(oPedido:oPessoa:cCidade)+" "+Alltrim(oPedido:oPessoa:cUF)+" - "+Alltrim(oPedido:oPessoa:cCEP),0,166.29932,487.55937,18.89765)
+    PropriedadesFR("Memo11","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-16;Font.Name=Calibri;Font.Style=0;ParentFont=False")
+
+    FrPrn:AddMemo("ReportTitle1","Memo12",'Telefone(s): '+Alltrim(oPedido:oPessoa:cTel1) + " " + Alltrim(oPedido:oPessoa:cTel2),0,185.19697,487.55937,18.89765)
+    PropriedadesFR("Memo12","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-16;Font.Name=Calibri;Font.Style=0;ParentFont=False")
+
+    FrPrn:AddMemo("ReportTitle1","Memo13",'Observação:',487.55937,109.60637,298.58287,18.89765)
+    PropriedadesFR("Memo13","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-16;Font.Name=Calibri;Font.Style=[fsBold];ParentFont=False")
+
+    FrPrn:AddMemo("ReportTitle1","Memo14",Alltrim(oPedido:cObs),487.55937,128.50402,298.58287,75.5906)
+    PropriedadesFR("Memo14","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-13;Font.Name=Calibri;Font.Style=0;ParentFont=False;AllowHTMLTags=True")
+
+    FrPrn:AddBand("Header1","Page1",hVariaveis["frxHeader"])
+    PropriedadesFR("Header1","Height=30,23624N*;Left=0N*;Top=283,46475N*;Width=789,92177N*")
+
+    FrPrn:AddMemo("Header1","Memo15",'Quantidade',0,7.55906,75.5906,22.67718)
+    PropriedadesFR("Memo15","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-15;Font.Name=Calibri;Font.Style=[fsBold];Frame.Typ=[ftLeft,ftRight,ftBottom,ftTop];ParentFont=False;VAlign=vaCenter")
+
+    FrPrn:AddMemo("Header1","Memo16",'Descrição',75.5906,7.55906,343.93723,22.67718)
+    PropriedadesFR("Memo16","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-15;Font.Name=Calibri;Font.Style=[fsBold];Frame.Typ=[ftLeft,ftRight,ftBottom,ftTop];ParentFont=False;VAlign=vaCenter")
+
+    FrPrn:AddMemo("Header1","Memo17",'Preço Unit.',419.52783,7.55906,109.60637,22.67718)
+    PropriedadesFR("Memo17","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-15;Font.Name=Calibri;Font.Style=[fsBold];Frame.Typ=[ftLeft,ftRight,ftBottom,ftTop];HAlign=haCenter;ParentFont=False;VAlign=vaCenter")
+
+    FrPrn:AddMemo("Header1","Memo18",'(-)Desconto',529.1342,7.55906,117.16543,22.67718)
+    PropriedadesFR("Memo18","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-15;Font.Name=Calibri;Font.Style=[fsBold];Frame.Typ=[ftLeft,ftRight,ftBottom,ftTop];HAlign=haCenter;ParentFont=False;VAlign=vaCenter")
+
+    FrPrn:AddMemo("Header1","Memo19",'Total',646.29963,7.55906,143.62214,22.67718)
+    PropriedadesFR("Memo19","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-15;Font.Name=Calibri;Font.Style=[fsBold];Frame.Typ=[ftLeft,ftRight,ftBottom,ftTop];HAlign=haCenter;ParentFont=False;VAlign=vaCenter")
+
+    FrPrn:AddBand("MasterData1","Page1",hVariaveis["frxMasterData"])
+    PropriedadesFR("MasterData1","Height=22,67718N*;Left=0N*;Top=336,37817N*;Width=789,92177N*;ColumnWidth=0;ColumnGap=0;DataSetName=DadosProdutos;RowCount=0")
+
+    FrPrn:AddMemo("MasterData1","Memo20",'[DadosProdutos."Qtd"]',0,0,75.5906,22.67718)
+    PropriedadesFR("Memo20","ShowHint=False;DataField=Qtd;DataSetName=DadosProdutos;Font.Charset=1;Font.Color=-16777208;Font.Height=-15;Font.Name=Calibri;Font.Style=0;Frame.Typ=[ftLeft,ftRight,ftBottom,ftTop];ParentFont=False;VAlign=vaCenter")
+
+    FrPrn:AddMemo("MasterData1","Memo21",'[DadosProdutos."Nome"]',75.5906,0,343.93723,22.67718)
+    PropriedadesFR("Memo21","ShowHint=False;DataField=Nome;DataSetName=DadosProdutos;Font.Charset=1;Font.Color=-16777208;Font.Height=-13;Font.Name=Calibri;Font.Style=0;Frame.Typ=[ftLeft,ftRight,ftBottom,ftTop];ParentFont=False;VAlign=vaCenter")
+
+    FrPrn:AddMemo("MasterData1","Memo22",'[DadosProdutos."VLUni"]',419.52783,0,109.60637,22.67718)
+    PropriedadesFR("Memo22","ShowHint=False;DataField=VLUni;DataSetName=DadosProdutos;Font.Charset=1;Font.Color=-16777208;Font.Height=-15;Font.Name=Calibri;Font.Style=0;Frame.Typ=[ftLeft,ftRight,ftBottom,ftTop];HAlign=haRight;ParentFont=False;VAlign=vaCenter")
+
+    FrPrn:AddMemo("MasterData1","Memo23",'[DadosProdutos."VDescont"]',529.1342,0,117.16543,22.67718)
+    PropriedadesFR("Memo23","ShowHint=False;DataField=VDescont;DataSetName=DadosProdutos;Font.Charset=1;Font.Color=-16777208;Font.Height=-15;Font.Name=Calibri;Font.Style=0;Frame.Typ=[ftLeft,ftRight,ftBottom,ftTop];HAlign=haRight;ParentFont=False;VAlign=vaCenter")
+
+    FrPrn:AddMemo("MasterData1","Memo24",'[DadosProdutos."VLRTotal"]',646.29963,0,143.62214,22.67718)
+    PropriedadesFR("Memo24","ShowHint=False;DataField=VLRTotal;DataSetName=DadosProdutos;Font.Charset=1;Font.Color=-16777208;Font.Height=-15;Font.Name=Calibri;Font.Style=0;Frame.Typ=[ftLeft,ftRight,ftBottom,ftTop];HAlign=haRight;ParentFont=False;VAlign=vaCenter")
+
+    FrPrn:AddBand("Footer1","Page1",hVariaveis["frxFooter"])
+    PropriedadesFR("Footer1","Height=128,50402N*;Left=0N*;Top=381,73253N*;Width=789,92177N*")
+
+    FrPrn:AddMemo("Footer1","Memo25",Str(oPedido:nTotalBruto,12,2),646.29963,0,143.62214,22.67718)
+    PropriedadesFR("Memo25","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-15;Font.Name=Calibri;Font.Style=0;HAlign=haRight;ParentFont=False;VAlign=vaCenter")
+
+    FrPrn:AddMemo("Footer1","Memo26",'Sub-Total',529.1342,0,117.16543,22.67718)
+    PropriedadesFR("Memo26","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-15;Font.Name=Calibri;Font.Style=0;HAlign=haRight;ParentFont=False;VAlign=vaCenter")
+
+    FrPrn:AddMemo("Footer1","Memo27",Str(oPedido:nTotalDesco,12,2),646.29963,22.67718,143.62214,22.67718)
+    PropriedadesFR("Memo27","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-15;Font.Name=Calibri;Font.Style=0;HAlign=haRight;ParentFont=False;VAlign=vaCenter")
+
+    FrPrn:AddMemo("Footer1","Memo28",'(-)Descontos',529.1342,22.67718,117.16543,22.67718)
+    PropriedadesFR("Memo28","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-15;Font.Name=Calibri;Font.Style=0;HAlign=haRight;ParentFont=False;VAlign=vaCenter")
+
+    FrPrn:AddMemo("Footer1","Memo29",Str(oPedido:nTotalAcrec,12,2),646.29963,45.35436,143.62214,22.67718)
+    PropriedadesFR("Memo29","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-15;Font.Name=Calibri;Font.Style=0;HAlign=haRight;ParentFont=False;VAlign=vaCenter")
+
+    FrPrn:AddMemo("Footer1","Memo30",'(+)Acrescimos',529.1342,45.35436,117.16543,22.67718)
+    PropriedadesFR("Memo30","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-15;Font.Name=Calibri;Font.Style=0;HAlign=haRight;ParentFont=False;VAlign=vaCenter")
+
+    FrPrn:AddMemo("Footer1","Memo31",Str(oPedido:nTotalLiqui,12,2),646.29963,68.03154,143.62214,22.67718)
+    PropriedadesFR("Memo31","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-15;Font.Name=Calibri;Font.Style=0;HAlign=haRight;ParentFont=False;VAlign=vaCenter")
+
+    FrPrn:AddMemo("Footer1","Memo32",'Total',529.1342,68.03154,117.16543,22.67718)
+    PropriedadesFR("Memo32","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-15;Font.Name=Calibri;Font.Style=0;HAlign=haRight;ParentFont=False;VAlign=vaCenter")
+
+    FrPrn:AddMemo("Footer1","Memo33",'<b>Forma de Pagamento:</b> '+hVariaveis["cFormaPgto"],0,0,529.1342,90.70872)
+    PropriedadesFR("Memo33","ShowHint=False;AllowHTMLTags=True;Font.Charset=1;Font.Color=-16777208;Font.Height=-15;Font.Name=Calibri;Font.Style=0;Frame.DropShadow=True;ParentFont=False")
+
+    FrPrn:AddMemo("Footer1","Memo34",'Caso tenha dúvidas em relação a esse pedido, entre em contato com: ' + Alltrim(oEmpresa:cContato),3.77953,90.70872,786.14224,18.89765)
+    PropriedadesFR("Memo34","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-15;Font.Name=Calibri;Font.Style=0;HAlign=haCenter;ParentFont=False")
+
+    FrPrn:AddMemo("Footer1","Memo35",'OBRIGADO PELA PREFERÊNCIA!',3.77953,109.60637,786.14224,18.89765)
+    PropriedadesFR("Memo35","ShowHint=False;Font.Charset=1;Font.Color=-16777208;Font.Height=-15;Font.Name=Calibri;Font.Style=[fsBold];HAlign=haCenter;ParentFont=False")
+
+
+	PadraoFastReport(.f., "", .T.)
+

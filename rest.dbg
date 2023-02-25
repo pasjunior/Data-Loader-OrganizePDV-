@@ -1,0 +1,15 @@
+02/02/2023 19:57:11: TWebSever:OnAccept()	Socket closed	oSocket:nSocket = 2040	
+02/02/2023 20:18:12: TWebSever:OnAccept()	Socket closed	oSocket:nSocket = 1344	
+02/02/2023 20:21:12: TWebSever:OnAccept()	Socket closed	oSocket:nSocket = 2016	
+02/02/2023 20:24:12: TWebSever:OnAccept()	Socket closed	oSocket:nSocket = 2044	
+11/02/2023 18:32:45: TWebSever:OnAccept()	Socket closed	oSocket:nSocket = 1928	
+11/02/2023 18:34:35: TWebSever:OnAccept()	Socket closed	oSocket:nSocket = 1396	
+11/02/2023 18:40:05: TWebSever:OnAccept()	Socket closed	oSocket:nSocket = 1988	
+11/02/2023 21:08:05: TWebSever:OnAccept()	Socket closed	oSocket:nSocket = 1376	
+11/02/2023 21:11:03: TWebSever:OnAccept()	Socket closed	oSocket:nSocket = 1976	
+13/02/2023 19:56:34: TWebSever:OnAccept()	Socket closed	oSocket:nSocket = 1912	
+13/02/2023 21:11:30: TWebSever:OnAccept()	Socket closed	oSocket:nSocket = 1284	
+13/02/2023 21:13:57: TWebSever:OnAccept()	Socket closed	oSocket:nSocket = 1280	
+13/02/2023 21:16:09: TWebSever:OnAccept()	Socket closed	oSocket:nSocket = 1284	
+14/02/2023 19:44:35: TWebSever:OnAccept()	Socket closed	oSocket:nSocket = 2000	
+14/02/2023 19:51:28: TWebSever:OnAccept()	Socket closed	oSocket:nSocket = 1588	
