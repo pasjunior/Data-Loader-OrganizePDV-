@@ -171,3 +171,14 @@ Stack =
 2023-02-23 20:52:31 -- OrganizePDV start -- 
 2023-02-23 21:06:14 -- OrganizePDV start -- 
 2023-02-25 18:47:07 -- OrganizePDV start -- 
+2023-02-27 20:14:34 -- OrganizePDV start -- 
+2023-02-27 20:23:04 INFO: Erro ao tentar executar requisi√ß√£o: TWEBSERVICEREST:ONPREREAD
+SubSystem = BASE
+SubCode = 1001
+Severity = 2
+Description = Funá∆o indefinida
+Operation = CONTROLLERSALDOS
+Stack = 
+
+
+2023-03-01 19:16:34 -- OrganizePDV start -- 
