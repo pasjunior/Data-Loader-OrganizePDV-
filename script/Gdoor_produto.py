@@ -47,17 +47,17 @@ rows = cur.fetchall()
 print(rows)
 
 
-# Verificar se o arquivo 'dePara_unidade.xlsx' existe
+# Verificar se o arquivo 'dePara_unidade_Gdoor.xlsx' existe
 
-if not os.path.exists('dePara_unidade.xlsx'):
+if not os.path.exists('dePara_unidade_Gdoor.xlsx'):
     # Se o arquivo não existir, criar um novo arquivo com uma planilha 'UNIDADE'
     dePara = pd.DataFrame({'de': [], 'para': []})
-    writer = pd.ExcelWriter('dePara_unidade.xlsx', engine='xlsxwriter')
+    writer = pd.ExcelWriter('dePara_unidade_Gdoor.xlsx', engine='xlsxwriter')
     dePara.to_excel(writer, sheet_name='UNIDADE', index=False)
     writer.save()
 else:
     # Se o arquivo existir, ler o arquivo e carregar os dados em um DataFrame
-    dePara = pd.read_excel('dePara_unidade.xlsx', sheet_name='UNIDADE')
+    dePara = pd.read_excel('dePara_unidade_Gdoor.xlsx', sheet_name='UNIDADE')
 
 dePara = pd.DataFrame(dePara)
 print(dePara)
@@ -85,7 +85,7 @@ for row in divergencia:
 
 # Escreve no arquivo excel
 
-dePara.to_excel('dePara_unidade.xlsx', sheet_name='UNIDADE', index=False)
+dePara.to_excel('dePara_unidade_Gdoor.xlsx', sheet_name='UNIDADE', index=False)
 
 
 # Procura se existe registros em branco
@@ -105,7 +105,7 @@ cur.execute("SELECT DISTINCT UND_COMPRA FROM ESTOQUE")
 rows = cur.fetchall()
 print(rows)
 
-dePara = pd.read_excel('dePara_unidade.xlsx', sheet_name='UNIDADE')
+dePara = pd.read_excel('dePara_unidade_Gdoor.xlsx', sheet_name='UNIDADE')
 
 dePara = pd.DataFrame(dePara)
 print(dePara)
@@ -133,7 +133,7 @@ for row in divergencia:
 
 # Escreve no arquivo excel
 
-dePara.to_excel('dePara_unidade.xlsx',sheet_name='UNIDADE', index=False)
+dePara.to_excel('dePara_unidade_Gdoor.xlsx',sheet_name='UNIDADE', index=False)
 
 
 # Procura se existe registros em branco
@@ -186,17 +186,17 @@ for row in rows:
 # UND_VENDA
     und_venda = 'EM BRANCO' if row[3] is None else row[3]
     if (dePara['de'] == und_venda).any():
-        sigla_und_compra = dePara.loc[dePara['de'] == und_venda, 'para'].iloc[0]
+        sigla_und_venda = dePara.loc[dePara['de'] == und_venda, 'para'].iloc[0]
     else:
         dfErros.append({'codigo': row[0], 'descrição': row[2], 'divergencia': f'Unidade de venda {und_venda} não existe no dePara'})
         continue
     
-    unidade_compra = {}
+    unidade_venda = {}
     for unidade in itemsJson_unidade:
-        if unidade["CSIGLA"] == sigla_und_compra:
-            unidade_compra = unidade
-    if not unidade_compra:
-        dfErros.append({'codigo': row[0], 'descrição': row[2], 'divergencia': f'Unidade de venda {sigla_und_compra} não existe no PDV'})
+        if unidade["CSIGLA"] == sigla_und_venda:
+            unidade_venda = unidade
+    if not unidade_venda:
+        dfErros.append({'codigo': row[0], 'descrição': row[2], 'divergencia': f'Unidade de venda {sigla_und_venda} não existe no PDV'})
         continue
 
 # UND_COMPRA
@@ -230,7 +230,7 @@ for row in rows:
         #"CCDVE": row[0],
         "CCODBAR": row[1], #OK
         "CDESCRICAO": row[2], #OK
-        "O1UM-NID": unidade_compra['NID'], #OK
+        "O1UM-NID": unidade_venda['NID'], #OK
         "O2UM-NID": unidade_compra['NID'], #OK
         "ONCM-NID": ncm['NID'],
         "CTIPO": row[7], #OK
@@ -246,8 +246,8 @@ for row in rows:
 
 if len(dfErros) > 0:
     dfErros = pd.DataFrame(dfErros)
-    dfErros.to_excel('erros.xlsx', sheet_name='ERROS', index=False)
-    messagebox.showinfo("Atenção", f'Tratar os erros em: erros.xlsx')
+    dfErros.to_excel('erros_Gdoor.xlsx', sheet_name='ERROS', index=False)
+    messagebox.showinfo("Atenção", f'Tratar os erros em: erros_Gdoor.xlsx')
     
 print(dados_payload)
 exit(0)
